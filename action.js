@@ -103,8 +103,8 @@ function keybind(event, object)
 };
 function refresh_TEXT_conj_wordform()
 {
-	var cell = document.getElementById("input_cell").value;
-	var lemma = document.getElementById("input_lemma").value;
+	var cell = pinyin2graph(document.getElementById("input_cell").value);
+	var lemma = pinyin2graph(document.getElementById("input_lemma").value);
 	var if_chn = document.getElementById("cb_chn").checked;
 	document.getElementById("wordforms").innerHTML = conjugate_parad(lemma, cell, parad, if_chn);
 	// console.log(lemma, cell, parad, if_chn);
