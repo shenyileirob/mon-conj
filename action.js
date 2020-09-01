@@ -49,7 +49,7 @@ refresh_LB_deconj_lemma();
 
 function refresh_LB_deconj_lemma()
 {
-	var wordform = document.getElementById("input_wordform").value;
+	var wordform = pinyin2graph(document.getElementById("input_wordform").value);
 	var if_infer_stem_mf = !!document.getElementById("if_infer_mf").checked;
 	var if_dict = !!document.getElementById("if_dict").checked;
 	var if_bare_stem = !!document.getElementById("if_bare_stem").checked;
