@@ -591,7 +591,7 @@ function conjugate(lemma, cell, if_chn) {
 		var stem = re_sub ('ᠪ$', 'ᠪᠪᡆ', stem);
 		var highlight = 2;
 	}
-	else if (stem.slice(-1) == 'ᡘ' && suffix [0] == 'ᡍ' && !(re_search ('^ᡍᡇ‌$|^ᡄᡄᡇ‌$|^ᡘᡆ$', suffix))) {
+	else if (stem.slice(-1) == 'ᡘ' && suffix [0] == 'ᡍ' && !(re_search ('^ᡍᡇ‌$|^ᡍᡆ[ᡅᡄ]$|^ᡄᡄᡇ‌$|^ᡄᡄᡆ[ᡅᡄ]$|^ᡘᡆ[ᡅᡄ]?$', suffix))) {
 		var stem = re_sub ('ᡘ$', 'ᡘᡘᡆ', stem);
 		var highlight = 1;
 	}
