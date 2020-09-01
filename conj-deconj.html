@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+
+<title>A Conjugator/Deconjugator for Hudum Mongolian</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="css.css">
+
+
+<body>
+<h1 id="info_enable_js">Please enable Javascript.<br>请启用Javascript。</h1>
+<div id="content" class="w3-container w3-white" style="max-width:600px;margin:auto;display:none;">
+	<form style="margin:auto;text-align: center;">
+		<input type="radio" id="cb_lan_en" name="radio_lan" onclick="localize_ui('en')" checked="checked">
+		<label id="label_cb_lan_en">EN</label>
+		<span></span>
+		<input type="radio" id="cb_lan_zh" name="radio_lan" onclick="localize_ui('zh')" >
+		<label id="label_cb_lan_zh">汉</label>
+		<span></span>
+		<input type="radio" id="cb_lan_mn" name="radio_lan" onclick="localize_ui('mn')" disabled="disabled">
+		<label id="label_cb_lan_mn"><span class="gmongol" style="font-size:16px;">ᡏᡆᡄᡘᡎᡆᠯ</span></label>
+	</form>
+	<div class="w3-container w3-white w3-cell w3-twothird" style="padding-left:0px;padding-right:32px;">
+		<h1 id="header_conj">Conjugator</h1>
+		<table style="border-collapse: collapse;">
+			<tbody>
+				<tr>
+					<td>
+						<input id="input_cell_pinyin" class="w3-input w3-border" type="text" value="baimoi" placeholder="Cell in pinyin" onkeyup="keybind(event, this)">
+					</td>
+					<td>
+						<input id="input_lemma_pinyin" class="w3-input w3-border" type="text" value="jibhu" placeholder="Lemma in pinyin" onkeyup="keybind(event, this)">
+					</td> 
+				</tr>
+				<tr>
+					<td>
+						<form><input type="checkbox" id="cb_chn" value="1" checked onclick="refresh_TEXT_conj_wordform()"><label id="label_cb_chn">CN</label></form>
+					</td>
+					<td>
+						<input id="input_lemma" class="gmongol w3-input w3-border" type="text" value="ᡅᡅᠪᡘᡆ" placeholder="Lemma" onkeyup="keybind(event, this)">
+					</td> 
+				</tr>
+				<tr class="gmongol">
+					<td>
+						<div><input id="input_cell" class="gmongol w3-input w3-border" type="text" value="ᠪᡄᡅᡅᡏᡆᡅ" placeholder="Cell" style="padding: 0px 8px;" onkeyup="keybind(event, this)"></div>
+						<div class="table_text" style="color:grey;">ᠪᡄᡅᡅᡍᡇ‌<br>ᠪᡄᡅ<br>ᠪᡄᡅᡅᡊᡃ<br>ᠪᡄᡅᡅᠪᡄᠯ<br>ᠪᡄᡅᡅᡍᡄᠷ<br>ᠪᡄᡅᡅᡑᡄᡍ<br>ᠪᡄᡅᡅᡔᡅ</div>
+					</td>
+					<td valign="bottom">
+						<div id="wordforms" class="table_text" valign="bottom">wordforms</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
+	<div class="w3-container w3-white w3-cell w3-third" style="padding:0px;">
+		<h1 id="header_deconj">Deconjugator</h1>
+		<table style="border-collapse: collapse;">
+			<tbody>
+				<tr>
+					<td>
+						<input id="input_wordform_pinyin" class="w3-input w3-border" type="text" value="adhoji" placeholder="Wordform in pinyin" onkeyup="keybind(event, this)">
+						<input id="input_wordform" class="gmongol w3-input w3-border" type="text" value="ᡄᡄᡆᡄᡍᡆᡔᡅ" placeholder="Wordform" onkeyup="keybind(event, this)">
+					</td> 
+				</tr>
+				<tr>
+					<td style="height:50px;padding:auto;">
+						<div>
+							<form><input type="checkbox" id="if_infer_mf" value="1" checked onclick="refresh_LB_deconj_lemma()"><label id="label_cb_infer_gender">infer gender</label></form>
+							<form style="display:none"><input type="checkbox" id="if_dict" value="1" onclick="refresh_LB_deconj_lemma()"><label>dict</label></form>
+							<form><input type="checkbox" id="if_bare_stem" value="1" onclick="refresh_LB_deconj_lemma()"><label id="label_cb_bare_stem">accept bare stems</label></form>
+						</div>
+					</td> 
+				</tr>
+				<tr>
+					<td>
+						<div id="lemmas" class="gmongol table_text" valign="bottom">lemmas</div>
+<!-- 						<select id="lemmas" class="gmongol table_text w3-select w3-border"multiple="false" style="width:200px;">list items go here</select> -->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<script src="function.js"></script>
+<script src="action.js"></script>
+
+</body>
+</html>
