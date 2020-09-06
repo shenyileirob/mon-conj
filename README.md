@@ -4,5 +4,5 @@ A conjugator/deconjugator for Hudum Mongolian (https://shenyileirob.github.io/mo
 # Pending issues
 
 ## Logic uncertainty
-* *xirug*- + -*n_a* -> ???
-* *ög*- + -*xüiče*/-*xüy_e* -> ???
+* *xirug*- (ᠬᠢᠷᠤᠭ᠊) + -*n_a* (᠊ᠨ᠎ᠠ) / -*n* (᠊ᠨ) → ???
+* *ög*- (ᠥᠭ᠊) + -*xüiče* (᠊ᠬᠦᠢᠴᠡ) /-*xüy_e* (᠊ᠬᠦᠶ᠎ᠡ) → ???
