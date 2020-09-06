@@ -907,6 +907,7 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 			}
 		}
 		if (!(search_u)) {
+			var stem_raw = re_sub ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
 			stem_list.push (stem_raw);
 		}
 	}
