@@ -10,6 +10,7 @@ function localize_ui(lan){
 		document.getElementById("header_deconj").innerHTML = "逆屈折器";
 		document.getElementById("label_cb_chn").innerHTML = "中国";
 		document.getElementById("label_cb_infer_gender").innerHTML = "推测阴阳性";
+		document.getElementById("label_cb_dict").innerHTML = "启用词典";
 		document.getElementById("label_cb_bare_stem").innerHTML = "接受秃词干";
 		document.getElementById("input_cell").placeholder = "目标形";
 		document.getElementById("input_lemma").placeholder = "词典形";
@@ -24,6 +25,7 @@ function localize_ui(lan){
 		document.getElementById("header_deconj").innerHTML = "Deconjugator";
 		document.getElementById("label_cb_chn").innerHTML = "CHN";
 		document.getElementById("label_cb_infer_gender").innerHTML = "infer gender";
+		document.getElementById("label_cb_dict").innerHTML = "use dictionary";
 		document.getElementById("label_cb_bare_stem").innerHTML = "accept bare stems";
 		document.getElementById("input_cell").placeholder = "Target";
 		document.getElementById("input_lemma").placeholder = "Lemma";
