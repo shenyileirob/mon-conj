@@ -773,7 +773,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 		else {
 			var stem_raw = re_sub ('(ᡄᡅ|ᡆᡅ)$', '\\1ᡅ', stem_raw);
 			var stem_raw = re_sub ('ᡇ‌$', 'ᡆ', stem_raw);
-			var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
+			var stem_raw = re_sub ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
+//			var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
 			stem_list.push (stem_raw);
 		}
 	}
@@ -781,7 +782,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 		if (jc_form == 1) {
 			// if (re_search ('[ᡅᡆᡉᠯ]$|(?<![ᡄᡆᡅ]ᡆ)ᡄ$', stem_raw)) {
 			if (re_search ('[ᡅᡆᡉᠯ]$|(^|[^ᡄᡆᡅ])ᡆᡄ$|(^|[^ᡆ])ᡄ$', stem_raw)) {
-				var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
+				var stem_raw = re_sub ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
+//				var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
 				stem_list.push (stem_raw);
 			}
 		}
@@ -790,14 +792,16 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 		}
 	}
 	else if (re_search ('^[ᡏᡎ]|^.ᡃ$|^[ᡍᠯᡄᠰᠪᠷ](?![ᡄᡃᡅᡇᡆᡉ])|^ᡆᡄ|^ᡊᡄᡏ$|^ᠰᡅ$|^ᡕᡇ‌$|^ᠯᡆᡎᡃ$|^ᠷᡆᡄ$', suffix)) {
-		if (!(re_search ('[ᡖᡊᠪᠫᡎᡏᠰᠱᡐᡑᠴᡔᡕᠷᠹᡗᠼᠽᠿᡍᡘᠯᡁ]ᡄ$|\\b[ᡄᡅ]ᡄ$|[ᡅᡆᡉ]$', stem_raw))) {
+		if (!(re_search ('[ᡖᡊᠪᠫᡎᡏᠰᠱᡐᡑᠴᡔᡕᠷᠹᡗᠼᠽᠿᡍᡘᠯᡁ]ᡄ$|^[ᡄᡅ]ᡄ$|[ᡅᡆᡉ]$', stem_raw))) { // javascript \b definition is strange
+//		if (!(re_search ('[ᡖᡊᠪᠫᡎᡏᠰᠱᡐᡑᠴᡔᡕᠷᠹᡗᠼᠽᠿᡍᡘᠯᡁ]ᡄ$|\\b[ᡄᡅ]ᡄ$|[ᡅᡆᡉ]$', stem_raw))) {
 			return lemma_list;
 		}
 		var search_u = 0;
 		if (re_search ('[ᠪᡘᡎᡊ]ᡆ$', stem_raw)) {
 			if (re_search ('[ᠪ]ᡆ$', stem_raw)) {
 				if (!(search_u)) {
-					var __left0__ = re_subn ('\\b(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw);
+					var __left0__ = re_subn ('^(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
+//					var __left0__ = re_subn ('\\b(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw);
 					var stem_no_u = __left0__ [0];
 					var search_u = __left0__ [1];
 					if (search_u) {
@@ -807,7 +811,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 					}
 				}
 				if (!(search_u)) {
-					var __left0__ = re_subn ('\\b(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw);
+					var __left0__ = re_subn ('^(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
+//					var __left0__ = re_subn ('\\b(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw);
 					var stem_no_u = __left0__ [0];
 					var search_u = __left0__ [1];
 					if (search_u) {
@@ -816,7 +821,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 					}
 				}
 				if (!(search_u)) {
-					var __left0__ = re_subn ('\\b(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw);
+					var __left0__ = re_subn ('^(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
+//					var __left0__ = re_subn ('\\b(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw);
 					var stem_no_u = __left0__ [0];
 					var search_u = __left0__ [1];
 					if (search_u) {
@@ -826,7 +832,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 				}
 			}
 			if (!(search_u)) {
-				var __left0__ = re_subn ('\\b(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw);
+				var __left0__ = re_subn ('^(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw); // javascript \b definition is strange
+//				var __left0__ = re_subn ('\\b(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw);
 				var stem_no_u = __left0__ [0];
 				var search_u = __left0__ [1];
 				if (search_u) {
@@ -835,7 +842,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 				}
 			}
 			if (!(search_u)) {
-				var __left0__ = re_subn ('\\b(ᡘᡅᠷᡆ)ᡎᡆ$', '\\1ᡍ', stem_raw);
+				var __left0__ = re_subn ('^(ᡘᡅᠷᡆ)ᡎᡆ$', '\\1ᡍ', stem_raw); // javascript \b definition is strange
+//				var __left0__ = re_subn ('\\b(ᡘᡅᠷᡆ)ᡎᡆ$', '\\1ᡍ', stem_raw);
 				var stem_no_u = __left0__ [0];
 				var search_u = __left0__ [1];
 				if (search_u) {
@@ -844,7 +852,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 				}
 			}
 			if (!(search_u)) {
-				var __left0__ = re_subn ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡊᡆ$', '\\1ᡄᡘ', stem_raw);
+				var __left0__ = re_subn ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡊᡆ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
+//				var __left0__ = re_subn ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡊᡆ$', '\\1ᡄᡘ', stem_raw);
 				var stem_no_u = __left0__ [0];
 				var search_u = __left0__ [1];
 				if (search_u) {
@@ -867,7 +876,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 	else if (suffix [0] == 'ᠪ') {
 		var search_u = 0;
 		if (!(search_u)) {
-			var __left0__ = re_subn ('\\b(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw);
+			var __left0__ = re_subn ('^(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
+//			var __left0__ = re_subn ('\\b(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw);
 			var stem_no_u = __left0__ [0];
 			var search_u = __left0__ [1];
 			if (search_u) {
@@ -877,7 +887,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 			}
 		}
 		if (!(search_u)) {
-			var __left0__ = re_subn ('\\b(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw);
+			var __left0__ = re_subn ('^(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
+//			var __left0__ = re_subn ('\\b(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw);
 			var stem_no_u = __left0__ [0];
 			var search_u = __left0__ [1];
 			if (search_u) {
@@ -886,7 +897,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 			}
 		}
 		if (!(search_u)) {
-			var __left0__ = re_subn ('\\b(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw);
+			var __left0__ = re_subn ('^(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
+//			var __left0__ = re_subn ('\\b(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw);
 			var stem_no_u = __left0__ [0];
 			var search_u = __left0__ [1];
 			if (search_u) {
@@ -899,7 +911,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 		}
 	}
 	else if (suffix [0] == 'ᡍ' && suffix != 'ᡍᡇ‌') {
-		var __left0__ = re_subn ('\\b(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw);
+		var __left0__ = re_subn ('^(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw); // javascript \b definition is strange
+//		var __left0__ = re_subn ('\\b(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw);
 		var stem_no_u = __left0__ [0];
 		var search_u = __left0__ [1];
 		if (search_u) {
@@ -911,7 +924,8 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 		}
 	}
 	else {
-		var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
+		var stem_raw = re_sub ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
+//		var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
 		stem_list.push (stem_raw);
 	}
 	var __iterable0__ = stem_list;
