@@ -47,8 +47,8 @@ var suffix_lists = [
 refresh_TEXT_conj_wordform();
 // console.log(['qwertyuiop', 'asdfghjkl']);
 // console.log('finally:',set([1, 2, 3, 4, 3, 3, 4, 2, 1]));
-refresh_LB_deconj_lemma();
 document.getElementById("if_dict").checked = 1;
+refresh_LB_deconj_lemma();
 
 function refresh_LB_deconj_lemma()
 {
