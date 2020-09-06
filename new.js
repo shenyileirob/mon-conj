@@ -126,7 +126,7 @@ request.onsuccess = function() {
     cursor.continue();
   } else {  }
   console.log('716:', innerHTML);
-  document.getElementById("lemmas").innerHTML = innerHTML;
+  //document.getElementById("lemmas").innerHTML = innerHTML;
   return innerHTML;
 };
 
