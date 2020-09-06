@@ -12,7 +12,7 @@ function loadDoc() {
     }
   };
 	console.log('222');
-  xhttp.open("GET", "dict.txt", true);
+  xhttp.open("GET", "dict_full.txt", true);
   xhttp.send();
 	console.log('333');
 }
@@ -32,8 +32,10 @@ function compile_dict(xhttp) {
 
   }
   var entries = text_dict.split(/[\r\n]+/);
+	/*
 	console.log(text_dict);
 	console.log(entries);
+	*/
   /*
   var innerHTML = '';
 	console.log(entries[1]);
