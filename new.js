@@ -127,7 +127,7 @@ request.onsuccess = function() {
   } else {  }
   console.log('716:', innerHTML);
   document.getElementById("lemmas").innerHTML = innerHTML;
-  return innerHTML;
+  //return innerHTML;
 };
 
 }
