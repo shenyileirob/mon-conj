@@ -31,7 +31,6 @@
 ᡄᡄᡆᡅᡐᡆᡏᡄᡐᠴᡅᠯᡄᡍᡇ‌	ʔaü't'omat'čila×+	ɑʊtmɑːtʧɪlɑ̆x
 ᡄᡄᡆᡅᡐᡆᠴᡅᠯᡄᡍᡇ‌	ʔaü't'očila×+	ɑʊtʧɪlɑ̆x
 ᡄᡄᡊᡄᡍᡇ‌	ʔana×+	ɑnɑ̆x
-ᡄᡄᡊᡄᡍᡇ‌	ʔana×+	ɑnɑ̆x
 ᡄᡄᡊᡄᡎᡄᡍᡇ‌	ʔanaga×+	ɑnɡɑːx
 ᡄᡄᡊᡅᡅᡍᡇ‌	ʔanii×+	ænɪːx
 ᡄᡄᡊᡅᡅᠯᡎᡄᡍᡇ‌	ʔaniilga×+	ænɪːlɡɑ̆x
@@ -46,7 +45,6 @@
 ᡄᡄᡊᡅᠯᡘᡅᠯᡄᡍᡇ‌	ʔanilxila×+	ænɪlxiːlə̆x
 ᡄᡄᡊᡅᠯᡑᡆᡍᡇ‌	ʔanildu×+	ænɪldɑ̆x
 ᡄᡄᡊᡅᠯᡔᡄᡍᡇ‌	ʔanilǰa×+	ænɪlʤɪx
-ᡄᡄᡊᡅᠷᠯᡄᡍᡇ‌	ʔanirla×+	ænɪrlɑ̆x
 ᡄᡄᡊᡅᠷᠯᡄᡍᡇ‌	ʔanirla×+	ænɪrlɑ̆x
 ᡄᡄᡊᡅᠷᠰᡅᡍᡇ‌	ʔanirsi×+	ænɪrʃɪx
 ᡄᡄᡊᡅᠷᡑᡆᡍᡇ‌	ʔanirtu×+	ænɪrtɑ̆x
@@ -150,8 +148,6 @@
 ᡄᡄᡎᡄᡘᡅᠯᡄᡍᡇ‌	ʔagaxila×+	æːxlɑ̆x
 ᡄᡄᡎᡄᡘᡅᡍᡇ‌	ʔagagi×+	ɑːɡɪx
 ᡄᡄᡎᡄᡍᠯᡄᡍᡇ‌	ʔagagla×+	ɑːɡlɑ̆x
-ᡄᡄᡎᡄᡍᠯᡄᡍᡇ‌	ʔagagla×+	ɑːɡlɑ̆x
-ᡄᡄᡎᡄᠯᡅᠯᡄᡍᡇ‌	ʔagalila×+	ɑːlʲlɑ̆x
 ᡄᡄᡎᡄᠯᡅᠯᡄᡍᡇ‌	ʔagalila×+	ɑːlʲlɑ̆x
 ᡄᡄᡎᡄᠯᡅᡆᡄᡍᡇ‌	ʔagalid×+	ɑːlʲtɑ̆x
 ᡄᡄᡎᡄᠯᡅᠷᡍᡄᡍᡇ‌	ʔagalirxa×+	ɑːlɪrxɑ̆x
@@ -199,7 +195,6 @@
 ᡄᡄᡎᡆᠷᠰᡅᡎᡆᠯᡍᡇ‌	ʔagursigul×+	ʊːrʃʊːlɑ̆x
 ᡄᡄᡍᠯᡅᡎᡆᡆᡄᡍᡇ‌	ʔagligud×+	ɑɡlɪʊtɑ̆x
 ᡄᡄᡍᠰᡄᡅᡅᡍᡇ‌	ʔagsai×+	ɑɡsɪːx
-ᡄᡄᡍᠰᡄᡍᡇ‌	ʔagsa×+	ɑɡsɑ̆x
 ᡄᡄᡍᠰᡄᡍᡇ‌	ʔagsa×+	ɑɡsɑ̆x
 ᡄᡄᡍᠰᡄᡎᡄᡊᡄᡍᡇ‌	ʔagsagana×+	ɑɡsɡɑ̆nɑ̆x
 ᡄᡄᡍᠰᡄᡎᡄᡑᡄᡍᡇ‌	ʔagsagada×+	ɑɡsɑːdɑ̆x
@@ -335,7 +330,6 @@
 ᡄᡄᠯᡔᡅᡕᡄᡍᡇ‌	ʔalǰiya×+	ɑlʤɑːx
 ᡄᡄᠯᡔᡅᡕᡄᠷᡄᡍᡇ‌	ʔalǰiyara×+	ɑlʤɑːrɑ̆x
 ᡄᡄᠰᡄᡍᡇ‌	ʔasa×+	ɑsɑ̆x
-ᡄᡄᠰᡄᡍᡇ‌	ʔasa×+	ɑsɑ̆x
 ᡄᡄᠰᡄᡎᡄᡍᡇ‌	ʔasaga×+	ɑsɑːx
 ᡄᡄᠰᡄᡎᡆᡍᡇ‌	ʔasagu×+	ɑsʊːx
 ᡄᡄᠰᡄᡍᡑᡆᡍᡇ‌	ʔasagtu×+	ɑsɑ̆ɡtɑ̆x
@@ -372,7 +366,6 @@
 ᡄᡄᡑᡆᠷᡅᡎᡆᠯᡍᡇ‌	ʔaturigul×+	ætrʊːlɑ̆x
 ᡄᡄᡑᡆᠷᡅᡕᡄᡑᡆᡍᡇ‌	ʔaturiyatu×+	ætrɑːtɑ̆x
 ᡄᡄᡑᡄᡅᡅᠷᠯᡄᡍᡇ‌	ʔadairla×+	ɑdæːrlɑ̆x
-ᡄᡄᡑᡄᡅᡅᠷᠯᡄᡍᡇ‌	ʔadairla×+	ɑdæːrlɑ̆x
 ᡄᡄᡑᡄᡄᡘᡎᡄᠯᡄᡍᡇ‌	ʔadaŋgala×+	ɑdɑ̆ŋɡɑ̆lɑ̆x
 ᡄᡄᡑᡄᡍᡇ‌	ʔada×+	ɑdɑ̆x
 ᡄᡄᡑᡄᡎᡄᠷᠯᡄᡍᡇ‌	ʔadagarla×+	ɑdɑːrlɑ̆x
@@ -400,7 +393,6 @@
 ᡄᡄᠴᡄᠯᡄᡍᡇ‌	ʔačala×+	ɑʧlɑ̆x
 ᡄᡄᠴᡄᡑᡄᡍᡇ‌	ʔačada×+	ɑʧdɑ̆x
 ᡄᡄᠴᡅᡍᡇ‌	ʔači×+	ɑʧɪx
-ᡄᡄᠴᡅᡍᡇ‌	ʔači×+	ɑʧɪx
 ᡄᡄᠴᡅᠯᡄᡍᡇ‌	ʔačila×+	ɑʧlɑ̆x
 ᡄᡄᠴᡅᡕᡄᠯᡄᡍᡇ‌	ʔačiyala×+	ɑʧɑːlɑ̆x
 ᡄᡄᠴᡅᠷᡄᡍᡇ‌	ʔačira×+	ɑʧrɑ̆x~æʧrɑ̆x
@@ -426,7 +418,6 @@
 ᡄᡄᡕᡄᠰᡑᡄᡍᡇ‌	ʔayasda×+	ɑjsdɑ̆x
 ᡄᡄᡕᡄᡑᡄᡍᡇ‌	ʔayada×+	ɑjdɑ̆x
 ᡄᡄᡕᡄᡆᡄᡍᡇ‌	ʔayad×+	ɑjdɑ̆x
-ᡄᡄᡕᡄᠷᠯᡄᡍᡇ‌	ʔayarla×+	ɑjɑːrlɑ̆x
 ᡄᡄᡕᡄᠷᠯᡄᡍᡇ‌	ʔayarla×+	ɑjɑːrlɑ̆x
 ᡄᡄᡕᡆᡆᠯᡄᡍᡇ‌	ʔayuula×+	ɑjʊːlɑ̆x
 ᡄᡄᡕᡆᡄᡘᡎᡄᠯᡄᡍᡇ‌	ʔayuŋgala×+	ɑjɪŋɡɑ̆lɑ̆x
@@ -462,7 +453,6 @@
 ᡄᡄᠷᠪᡅᡆᡄᡍᡇ‌	ʔarbid×+	ærɪbtɑ̆x
 ᡄᡄᠷᠪᡅᡔᡅᡍᡇ‌	ʔarbiǰi×+	ærɪbʤɪx
 ᡄᡄᠷᠪᡅᡔᡅᡎᡆᠯᡍᡇ‌	ʔarbiǰigul×+	ærɪbʤʊːlɑ̆x
-ᡄᡄᠷᡍᡄᡅᡅᡍᡇ‌	ʔarxai×+	ɑrxæːx
 ᡄᡄᠷᡍᡄᡅᡅᡍᡇ‌	ʔarxai×+	ɑrxæːx
 ᡄᡄᠷᡍᡄᡍᠯᡄᡍᡇ‌	ʔarxagla×+	ɑrxɑ̆ɡlɑ̆x
 ᡄᡄᠷᡘᡅᠷᡄᡍᡇ‌	ʔarxira×+	ærxrɑ̆x
@@ -521,7 +511,6 @@
 ᡄᠪᡄᠷᡄᡘᡆ	ʔebere×−	əbrə̆x
 ᡄᠪᡄᠷᡄᡘᡄᡘᡆ	ʔeberege×−	əbrəːx
 ᡄᠪᡄᠷᠯᡄᡘᡆ	ʔeberle×−	əbə̆rlə̆x
-ᡄᠪᡄᠷᠯᡄᡘᡆ	ʔeberle×−	əbə̆rlə̆x
 ᡄᠪᡄᠷᠰᡅᡘᡆ	ʔebersi×−	əbə̆rʃix
 ᡄᠪᡄᠷᠰᡅᡕᡄᡘᡆ	ʔebersiye×−	əbə̆rʃəːx
 ᡄᠪᡄᠷᡑᡆᡘᡆ	ʔebertü×−	əbə̆rtə̆x
@@ -568,7 +557,6 @@
 ᡄᡘᡅᠯᡄᡘᡆ	ʔexile×−	əxlə̆x
 ᡄᡘᠰᡄᡅᡅᡘᡆ	ʔegsei×−	əɡsiːx
 ᡄᡘᠰᡅᡘᡆ	ʔegsi×−	əɡʃix
-ᡄᡘᠰᡅᡘᡆ	ʔegsi×−	əɡʃix
 ᡄᡘᠰᡅᡘᡄᡘᡆ	ʔegsige×−	əɡʃəːx
 ᡄᡘᡑᡄᡘᡆᠴᡄᡘᡆ	ʔegdegüče×−	əɡduːʧix
 ᡄᡘᡑᡄᡘᡆᠷᡄᡘᡆ	ʔegdegüre×−	əɡduːrə̆x
@@ -588,7 +576,6 @@
 ᡄᡘᡄᡏᡑᡄᡘᡆ	ʔegemde×−	əɡə̆mdə̆x
 ᡄᡘᡄᠯᡅᠯᡄᡘᡆ	ʔegelile×−	əːllə̆x
 ᡄᡘᡄᠯᡑᡆᠷᡘᡆ	ʔegeldür×−	əɡə̆ldrə̆x
-ᡄᡘᡄᠯᡑᡆᠷᡘᡆ	ʔegeldür×−	əɡə̆ldrə̆x
 ᡄᡘᡄᠯᡑᡆᠷᡘᡄᠯᡄᡘᡆ	ʔegeldürgele×−	əɡə̆ldrə̆ɡlə̆x
 ᡄᡘᡄᠯᡔᡅᡘᡆ	ʔegelǰi×−	əːlʤix
 ᡄᡘᡄᠯᡔᡅᠯᡄᡘᡆ	ʔegelǰile×−	əːlʤlə̆x
@@ -605,10 +592,6 @@
 ᡄᡘᡄᡔᡅᡘᠯᡄᡘᡆ	ʔegeǰigle×−	əɡʤiɡlə̆x
 ᡄᡘᡄᠷᡄᡆᡑᡄᡘᡆ	ʔegereüde×−	əːruːdə̆x
 ᡄᡘᡄᠷᡄᡘᡆ	ʔegere×−	əːrə̆x
-ᡄᡘᡄᠷᡄᡘᡆ	ʔegere×−	əːrə̆x
-ᡄᡘᡄᠷᡄᡘᡆ	ʔegere×−	əːrə̆x
-ᡄᡘᡄᠷᡄᡘᡆ	ʔegere×−	əːrə̆x
-ᡄᡘᡄᠷᡄᡘᡆ	ʔegere×−	əːrə̆x
 ᡄᡘᡅᠷᡄᡘᡆ	ʔegire×−	əɡrə̆x
 ᡄᡘᡆᠯᡄᠰᡅᡘᡆ	ʔegülesi×−	uːlʃix
 ᡄᡘᡆᠯᡄᡑᡆᡘᡆ	ʔegületü×−	uːltə̆x
@@ -623,7 +606,6 @@
 ᡄᡘᡆᠷᡘᡆ	ʔegür×−	uːrə̆x
 ᡄᡘᡆᠷᡘᡄᠯᡄᡘᡆ	ʔegürgele×−	uːrə̆ɡlə̆x
 ᡄᡘᡆᠷᠯᡄᡘᡆ	ʔegürle×−	uːrlə̆x
-ᡄᡘᡆᠷᡑᡆᡘᡆ	ʔegürtü×−	uːrtə̆x
 ᡄᡘᡆᠷᡑᡆᡘᡆ	ʔegürtü×−	uːrtə̆x
 ᡄᡏᡄᡘᡄᠯᠯᡄᡘᡆ	ʔemegelle×−	əməːllə̆x
 ᡄᡏᡄᡘᡄᠯᡑᡄᡘᡆ	ʔemegelde×−	əməːldə̆x
@@ -673,9 +655,7 @@
 ᡄᠯᡅᡘᡄᠰᡅᡕᡄᡘᡆ	ʔeligesiye×−	ələ̆ɡʃəːx
 ᡄᠯᡅᡘᡄᡑᡆᡘᡆ	ʔeligetü×−	ələ̆ɡtə̆x
 ᡄᠯᡅᡘᡄᡑᡄᡘᡆ	ʔeligede×−	ələ̆ɡdə̆x
-ᡄᠯᡅᡘᡄᡑᡄᡘᡆ	ʔeligede×−	ələ̆ɡdə̆x
 ᡄᠯᡅᡘᡄᠷᡄᡘᡆ	ʔeligere×−	ələ̆ɡrə̆x
-ᡄᠯᡅᡕᡄᡑᡆᡘᡆ	ʔeliyetü×−	ələːtə̆x
 ᡄᠯᡅᡕᡄᡑᡆᡘᡆ	ʔeliyetü×−	ələːtə̆x
 ᡄᠯᡆᡘᡆ	ʔelü×−	ələ̆x
 ᡄᠯᠪᡄᡘᡆ	ʔelbe×−	əlbə̆x
@@ -775,7 +755,6 @@
 ᡄᠷᡅᡕᡄᠯᡔᡅᠯᡄᡘᡆ	ʔeriyelǰile×−	ərəːlʤlə̆x
 ᡄᠷᡅᡕᡄᠴᡅᡘᡆ	ʔeriyeči×−	ərəːʧix
 ᡄᠷᡆᡘᡄᠯᡄᡘᡆ	ʔerüxele×−	orxlŏx
-ᡄᠷᡆᡘᡄᠯᡄᡘᡆ	ʔerüxele×−	orxlŏx
 ᡄᠷᡆᡘᡆ	ʔerü×−	ərə̆x
 ᡄᠷᠪᡄᡅᡅᡘᡆ	ʔerbei×−	ərbiːx
 ᡄᠷᠪᡄᡅᡅᠯᡄᡘᡆ	ʔerbeile×−	ərbeːlə̆x
@@ -788,8 +767,6 @@
 ᡄᠷᡘᡄᠯᡄᡘᡆ	ʔerxele×−	ərxlə̆x
 ᡄᠷᡘᡄᠯᡄᡘᡆᠯᡘᡆ	ʔerxelegül×−	ərxluːlə̆x
 ᡄᠷᡘᡄᠰᡅᡘᡆ	ʔerxesi×−	ərxʃix
-ᡄᠷᡘᡄᠰᡅᡘᡆ	ʔerxesi×−	ərxʃix
-ᡄᠷᡘᡄᠰᡅᡕᡄᡘᡆ	ʔerxesiye×−	ərxʃəːx
 ᡄᠷᡘᡄᠰᡅᡕᡄᡘᡆ	ʔerxesiye×−	ərxʃəːx
 ᡄᠷᡘᡅᠪᠴᡅᠯᡄᡘᡆ	ʔerxibčile×−	ərxə̆bʧlə̆x
 ᡄᠷᡘᡅᡏᠯᡄᡘᡆ	ʔerximle×−	ərxə̆mlə̆x
@@ -864,7 +841,6 @@
 ᡄᡅᡏᡄᡎᡄᡔᡅᡍᡇ‌	ʔimagaǰi×+	ɪmɑːʤɪx~jɑmɑːʤɪx
 ᡄᡅᡏᡄᠷᡘᡆ	ʔimer×−	imrə̆x
 ᡄᡅᡏᡊᡄᡘᡆ	ʔimne×−	imnə̆x
-ᡄᡅᡏᡊᡄᡘᡆ	ʔimne×−	imnə̆x
 ᡄᡅᠯᡄᡍᡇ‌	ʔila×+	ɪlɑ̆x
 ᡄᡅᠯᡄᡎᡄᡍᡇ‌	ʔilaga×+	ɪlɑːx
 ᡄᡅᠯᡄᡎᡄᠷᡍᡄᡍᡇ‌	ʔilagarxa×+	ɪlɑːrxɑ̆x
@@ -928,7 +904,6 @@
 ᡄᡅᠰᡘᡆᠯᡘᡆ	ʔisxül×−	oʃiɡlŏx
 ᡄᡅᠰᡘᡆᠴᡄᡘᡆ	ʔisxüče×−	oʃiɡʧix
 ᡄᡅᠰᠯᡄᡘᡆ	ʔisle×−	islə̆x
-ᡄᡅᠰᠯᡄᡘᡆ	ʔisle×−	islə̆x
 ᡄᡅᡑᡄᡘᡄᡘᡆ	ʔitege×−	itɡə̆x
 ᡄᡅᡑᡄᡘᡄᡘᡆᠯᡘᡆ	ʔitegegül×−	itɡuːlə̆x
 ᡄᡅᡑᡄᡘᡄᡏᡔᡅᠯᡄᡘᡆ	ʔitegemǰile×−	itɡə̆mʤlə̆x
@@ -938,10 +913,6 @@
 ᡄᡅᡑᡄᡘᡆ	ʔide×−	idə̆x
 ᡄᡅᡑᡄᡘᡑᡄᡘᡆ	ʔidegde×−	idə̆ɡdə̆x
 ᡄᡅᡑᡄᡘᡄᠯᡄᡘᡆ	ʔidegele×−	idəːlə̆x
-ᡄᡅᡑᡄᡘᡄᠯᡄᡘᡆ	ʔidegele×−	idəːlə̆x
-ᡄᡅᡑᡄᡘᡄᠯᡄᡘᡆ	ʔidegele×−	idəːlə̆x
-ᡄᡅᡑᡄᡘᡄᠰᡅᡘᡆ	ʔidegesi×−	idəːʃix
-ᡄᡅᡑᡄᡘᡄᠰᡅᡘᡆ	ʔidegesi×−	idəːʃix
 ᡄᡅᡑᡄᡘᡄᠰᡅᡘᡆ	ʔidegesi×−	idəːʃix
 ᡄᡅᡑᡄᡘᡄᠷᡘᡄᡘᡆ	ʔidegerxe×−	idəːrxə̆x
 ᡄᡅᡑᡄᡘᡄᠷᠯᡄᡘᡆ	ʔidegerle×−	idəːrlə̆x
@@ -961,7 +932,6 @@
 ᡄᡅᠴᡅᡘᡄᡘᡆ	ʔičige×−	iʧəːx
 ᡄᡅᠴᡅᡘᡄᠯᡄᡘᡆ	ʔičigele×−	iʧɡəːlə̆x
 ᡄᡅᠴᡅᠷᡅᡑᡄᡘᡆ	ʔičiride×−	iʧirdə̆x
-ᡄᡅᡔᡄᡎᡄᡊᡄᡍᡇ‌	ʔiǰagana×+	ɪʤɡɑ̆nɑ̆x
 ᡄᡅᡔᡄᡎᡄᡊᡄᡍᡇ‌	ʔiǰagana×+	ɪʤɡɑ̆nɑ̆x
 ᡄᡅᡔᡄᡏᡄᡍᡑᡆᡍᡇ‌	ʔiǰamagtu×+	ɪʤmɑ̆ɡtɑ̆x
 ᡄᡅᡔᡄᠯᡍᡇ‌	ʔiǰal×+	ɪʤlɑ̆x
@@ -995,7 +965,6 @@
 ᡄᡅᠷᡘᡅᠷᡄᡘᡆ	ʔirxire×−	irxrə̆x
 ᡄᡅᠷᡘᡆ	ʔir×−	irə̆x
 ᡄᡅᠷᡎᡄᡍᡇ‌	ʔirga×+	ɪrɡɑ̆x
-ᡄᡅᠷᡎᡄᡍᡇ‌	ʔirga×+	ɪrɡɑ̆x
 ᡄᡅᠷᡎᡄᡎᡄᠯᡄᡍᡇ‌	ʔirgagala×+	ɪrɡɑːlɑ̆x
 ᡄᡅᠷᡎᡆᡍᡇ‌	ʔirgu×+	ɪrɡɑ̆x~jʊrɡɑ̆x
 ᡄᡅᠷᡏᡄᡘᡆ	ʔirme×−	irmə̆x
@@ -1018,8 +987,6 @@
 ᡄᡅᠷᡔᡅᡅᡘᡆ	ʔirǰii×−	irʤiːx
 ᡄᡅᠽᡅᡑᡄᡘᡆ	ʔizide×−	iːsdə̆x~iːʣdə̆x
 ᡄᡆᡅᡅᡍᡇ‌	ʔoi×+	œːx
-ᡄᡆᡅᡅᡍᡇ‌	ʔoi×+	œːx
-ᡄᡆᡅᡅᠯᡄᡍᡇ‌	ʔoila×+	œːlɔ̆x
 ᡄᡆᡅᡅᠯᡄᡍᡇ‌	ʔoila×+	œːlɔ̆x
 ᡄᡆᡅᡅᠯᡄᡎᡄᡍᡇ‌	ʔoilaga×+	œːlɡɔ̆x
 ᡄᡆᡅᡅᠯᡘᡅᠯᡄᡍᡇ‌	ʔoilxila×+	œːlxiːlə̆x
@@ -1077,7 +1044,6 @@
 ᡄᡆᡄᡘᡘᡅᠷᡄᡎᡄᡑᡆᡍᡇ‌	ʔoŋgiragatu×+	œŋɡɪrɔːtɔ̆x
 ᡄᡆᡄᡘᡘᡅᠷᡄᡎᡄᡑᡄᡍᡇ‌	ʔoŋgiragada×+	œŋɡɪrɔːdɔ̆x
 ᡄᡆᡄᡘᡎᡆᡅᡅᡍᡇ‌	ʔoŋgoi×+	ɔŋɡɔɪx
-ᡄᡆᡄᡘᡎᡆᡍᡇ‌	ʔoŋgo×+	ɔŋɡɔ̆x
 ᡄᡆᡄᡘᡎᡆᡍᡇ‌	ʔoŋgo×+	ɔŋɡɔ̆x
 ᡄᡆᡄᡘᡎᡆᠯᡄᡍᡇ‌	ʔoŋgola×+	ɔŋɡɔ̆lɔ̆x
 ᡄᡆᡄᡘᡎᡆᠯᡅᡍᡇ‌	ʔoŋgoli×+	œŋɡɔ̆lɔ̆x
@@ -1207,7 +1173,6 @@
 ᡄᡆᠷᡅᡕᡄᡑᡄᠰᡆᠯᡄᡍᡇ‌	ʔoriyadasula×+	ɔrɔːdɔ̆slɔ̆x
 ᡄᡆᠷᡅᡕᡄᠴᡄᠯᡑᡆᡍᡇ‌	ʔoriyačaldu×+	ɔrɔːʧɪldɔ̆x
 ᡄᡆᠷᡆᡅᡅᠯᡄᡍᡇ‌	ʔoroila×+	ɔrœːlɔ̆x
-ᡄᡆᠷᡆᡅᡅᠯᡄᡍᡇ‌	ʔoroila×+	ɔrœːlɔ̆x
 ᡄᡆᠷᡆᡅᡅᡑᡄᡍᡇ‌	ʔoroita×+	ɔrœːtɔ̆x
 ᡄᡆᠷᡆᡅᡅᡑᡆᡍᡇ‌	ʔoroito×+	ɔrœːtɔ̆x
 ᡄᡆᠷᡆᡄᠰᡅᡍᡇ‌	ʔoronsi×+	ɔrɔ̆nʃɪx
@@ -1250,7 +1215,6 @@
 ᡄᡆᠷᠴᡅᡎᡆᠯᡍᡇ‌	ʔorčigul×+	ɔrʧʊːlɑ̆x
 ᡄᡆᡅᡅᡎᡆᠷᠯᡄᡍᡇ‌	ʔuigurla×+	ʊɪɡɑ̆rlɑ̆x
 ᡄᡆᡅᡅᡏᡆᡍᡇ‌	ʔuimu×+	ʊɪmɑ̆x
-ᡄᡆᡅᡅᡏᡆᡍᡇ‌	ʔuimu×+	ʊɪmɑ̆x
 ᡄᡆᡅᡅᡏᡆᠷᡄᡍᡇ‌	ʔuimura×+	ʊɪmrɑ̆x
 ᡄᡆᡅᡅᠯᡄᡄᡘᡊᡄᡍᡇ‌	ʔuilaŋna×+	ʊɪlɑ̆ɡnɑ̆x
 ᡄᡆᡅᡅᠯᡄᡄᡘᡍᡄᡅᡅᡑᡆᡍᡇ‌	ʔuilaŋxaitu×+	ʊɪlɑ̆ŋxæːtɑ̆x
@@ -1262,7 +1226,6 @@
 ᡄᡆᡅᡅᡑᡄᡆᡄᡍᡇ‌	ʔuitad×+	ʊɪttɑ̆x
 ᡄᡆᡅᡅᡆᡄᡍᡄᠷᠯᡄᡍᡇ‌	ʔuidxarla×+	ʊɪtɡɑ̆rlɑ̆x
 ᡄᡆᡅᡅᡆᡄᡍᡇ‌	ʔuid×+	ʊɪdɑ̆x
-ᡄᡆᡅᡅᡆᡄᡍᡇ‌	ʔuid×+	ʊɪdɑ̆x
 ᡄᡆᡆᡊᡄᡍᡇ‌	ʔuuna×+	ʊːnɑ̆x
 ᡄᡆᡆᠪᡄᡅᡅᠯᡄᡍᡇ‌	ʔuubaila×+	ʊːbæːlɑ̆x
 ᡄᡆᡆᡍᡄᡅᡅᠯᡄᡍᡇ‌	ʔuuxaila×+	ʊːxæːlɑ̆x
@@ -1273,7 +1236,6 @@
 ᡄᡆᡆᠯᡅᡍᡄᡅᡅᡑᡆᡍᡇ‌	ʔuulixaitu×+	ʊːlxæːtɑ̆x
 ᡄᡆᡆᠯᡍᡇ‌	ʔuul×+	ʊːlɑ̆x
 ᡄᡆᡆᠯᡎᡄᡏᠴᡅᠯᡄᡍᡇ‌	ʔuulgamčila×+	ʊːlɡɑ̆mʧlɑ̆x
-ᡄᡆᡆᠯᡎᡄᠯᡄᡍᡇ‌	ʔuulgala×+	ʊːlɡɑ̆lɑ̆x
 ᡄᡆᡆᠯᡎᡄᠯᡄᡍᡇ‌	ʔuulgala×+	ʊːlɡɑ̆lɑ̆x
 ᡄᡆᡆᠯᡎᡄᠷᠯᡄᡍᡇ‌	ʔuulgarla×+	ʊːlɡɑ̆rlɑ̆x
 ᡄᡆᡊᡄᡍᡇ‌	ʔuna×+	ʊnɑ̆x
@@ -1373,7 +1335,6 @@
 ᡄᡆᡏᡑᡄᡎᡄᠰᡍᡇ‌	ʔumdagas×+	ʊndɑːsɑ̆x
 ᡄᡆᡏᡑᡄᠯᡄᡍᡇ‌	ʔumdala×+	ʊndlɑ̆x
 ᡄᡆᠯᡄᡅᡅᡍᡇ‌	ʔulai×+	ʊlæːx
-ᡄᡆᠯᡄᡅᡅᡍᡇ‌	ʔulai×+	ʊlæːx
 ᡄᡆᠯᡄᡅᡅᠯᡎᡄᡍᡇ‌	ʔulailga×+	ʊlæːlɡɑ̆x
 ᡄᡆᠯᡄᡅᡅᠰᡍᡄᡍᡇ‌	ʔulaisxa×+	ʊlæːsɡɑ̆x
 ᡄᡆᠯᡄᡅᡅᠰᡍᡇ‌	ʔulais×+	ʊlæːsɑ̆x
@@ -1384,7 +1345,6 @@
 ᡄᡆᠯᡄᠪᡄᠯᡔᡄᡍᡇ‌	ʔulabalǰa×+	ʊlbɑ̆lʤɪx
 ᡄᡆᠯᡄᠪᡅᡅᡍᡇ‌	ʔulabii×+	ʊlbɪːx
 ᡄᡆᠯᡄᡎᡄᠯᡄᡍᡇ‌	ʔulagala×+	ʊlɑːlɑ̆x
-ᡄᡆᠯᡄᡎᡄᡑᡄᡍᡇ‌	ʔulagada×+	ʊlɑːdɑ̆x
 ᡄᡆᠯᡄᡎᡄᡑᡄᡍᡇ‌	ʔulagada×+	ʊlɑːdɑ̆x
 ᡄᡆᠯᡄᡎᡄᠴᡅᠯᡄᡍᡇ‌	ʔulagačila×+	ʊlɑːʧlɑ̆x
 ᡄᡆᠯᡄᡏᠯᡄᡍᡇ‌	ʔulamla×+	ʊlɑ̆mlɑ̆x
@@ -1470,7 +1430,6 @@
 ᡄᡆᠷᡄᠯᡅᡍᡔᡅᡍᡇ‌	ʔuraligǰi×+	ʊrlɑ̆ɡʤɪx
 ᡄᡆᠷᡄᠯᡅᡍᡔᡅᡎᡆᠯᡍᡇ‌	ʔuraligǰigul×+	ʊrlɑ̆ɡʤʊːlɑ̆x
 ᡄᡆᠷᡄᠴᡅᠯᡄᡍᡇ‌	ʔuračila×+	ʊrʧlɑ̆x
-ᡄᡆᠷᡅᡍᡇ‌	ʔuri×+	ʏrɪx
 ᡄᡆᠷᡅᡍᡇ‌	ʔuri×+	ʏrɪx
 ᡄᡆᠷᡅᠰᡅᡍᡇ‌	ʔurisi×+	ʏrʃɪx
 ᡄᡆᠷᡅᡑᡄᡍᡇ‌	ʔurita×+	ʏrtɑ̆x~ʏrdɑ̆x
@@ -1569,7 +1528,6 @@
 ᡄᡆᡅᡘᡘᡆᡘᡑᡄᡘᡆ	ʔöggögde×−	oɡŏɡdŏx
 ᡄᡆᡅᡘᠰᡆᡘᡆ	ʔögsö×−	oɡsŏx
 ᡄᡆᡅᡘᡑᡄᡘᡆ	ʔögte×−	oɡtŏx
-ᡄᡆᡅᡘᡑᡄᡘᡆ	ʔögte×−	oɡtŏx
 ᡄᡆᡅᡘᡄᡄᡑᡄᡘᠯᡄᡘᡆ	ʔögentegle×−	oːntŏɡlŏx
 ᡄᡆᡅᡘᡄᡘᡆᠯᡄᡘᡆ	ʔögexüle×−	oːxlŏx
 ᡄᡆᡅᡘᡄᡘᡆᠰᡅᡘᡆ	ʔögexüsi×−	oːxʃix
@@ -1659,7 +1617,6 @@
 ᡄᡆᡅᠴᡆᡘᡆᡑᡄᡘᡆ	ʔöčügüde×−	oʧuːdə̆x
 ᡄᡆᡅᠴᡆᡘᡆᡆᡄᡘᡆ	ʔöčügüd×−	oʧuːtə̆x
 ᡄᡆᡅᡔᡅᡘᡆ	ʔöǰi×−	oʤix
-ᡄᡆᡅᡔᡅᡘᡆ	ʔöǰi×−	oʤix
 ᡄᡆᡅᡔᡅᡘᡆᠷᡘᡄᡘᡆ	ʔöǰigürxe×−	oʤuːrxə̆x
 ᡄᡆᡅᡕᡆᡘᡄᡅᡅᠯᡄᡘᡆ	ʔöyöxeile×−	ojxoilŏx
 ᡄᡆᡅᡕᡆᡘᡄᠯᡄᡘᡆ	ʔöyöxele×−	ojixlŏx
@@ -1676,7 +1633,6 @@
 ᡄᡆᡅᠷᡆᠪᡘᡅᡘᡆ	ʔöröbxi×−	orŏbxiːx
 ᡄᡆᡅᠷᡆᡘᡆ	ʔörö×−	orŏx
 ᡄᡆᡅᠷᡆᡘᡄᠯᡄᡘᡆ	ʔörögele×−	oroːlŏx
-ᡄᡆᡅᠷᡆᡘᡄᠯᡑᡄᡘᡆ	ʔörögelde×−	oroːldŏx
 ᡄᡆᡅᠷᡆᡘᡄᠯᡑᡄᡘᡆ	ʔörögelde×−	oroːldŏx
 ᡄᡆᡅᠷᡆᡘᡄᠰᡆᡘᡄᠯᡑᡄᡘᡆ	ʔörögesügelde×−	oroːsɡŏldŏx
 ᡄᡆᡅᠷᡆᡘᡄᠰᡆᠯᡄᡘᡆ	ʔörögesüle×−	oroːslŏx
@@ -1711,7 +1667,6 @@
 ᡄᡆᡅᠷᡑᡆᡘᡆ	ʔörtö×−	ortŏx
 ᡄᡆᡅᠷᡑᡆᡏᠰᡅᡘᡆ	ʔörtömsi×−	ortŏmʃix
 ᡄᡆᡅᠷᡑᡄᡘᡆ	ʔörde×−	ordŏx
-ᡄᡆᡅᡅᡘᡆ	ʔüi×−	uix
 ᡄᡆᡅᡅᡘᡆ	ʔüi×−	uix
 ᡄᡆᡅᡅᡏᡄᡘᡆ	ʔüime×−	uimə̆x
 ᡄᡆᡅᡅᡏᡄᡘᡆᠯᡘᡆ	ʔüimegül×−	uimuːlə̆x
@@ -1844,7 +1799,6 @@
 ᡄᡆᡅᡑᡆᠷᡘᡆ	ʔütür×−	utrə̆x
 ᡄᡆᡅᡑᡆᠷᡏᡄᡑᡄᡘᡆ	ʔütürmede×−	utrə̆mdə̆x
 ᡄᡆᡅᡑᡄᡘᡆ	ʔüde×−	udə̆x
-ᡄᡆᡅᡑᡄᡘᡆ	ʔüde×−	udə̆x
 ᡄᡆᡅᡑᡄᡘᡄᠰᡆᠯᡄᡘᡆ	ʔüdegesüle×−	udəːslə̆x
 ᡄᡆᡅᡑᡄᡘᡄᠷᡅᠯᡄᡘᡆ	ʔüdegerile×−	udəːrlə̆x
 ᡄᡆᡅᡑᡄᠯᡄᡘᡆ	ʔüdele×−	udlə̆x
@@ -1863,7 +1817,6 @@
 ᡄᡆᡅᡔᡆᡘᡆᠷᡑᡄᡘᡆ	ʔüǰügürde×−	uʤuːrdə̆x
 ᡄᡆᡅᡔᡆᠯᡄᡘᡆ	ʔüǰüle×−	uʤlə̆x
 ᡄᡆᡅᡕᡄᠯᡄᡘᡆ	ʔüyele×−	ujlə̆x
-ᡄᡆᡅᡕᡄᠯᡄᡘᡆ	ʔüyele×−	ujlə̆x
 ᡄᡆᡅᡕᡄᡑᡆᡘᡆ	ʔüyetü×−	ujtə̆x
 ᡄᡆᡅᡕᡄᠴᡅᡘᡆ	ʔüyeči×−	ujʧix
 ᡄᡆᡅᡕᡄᠴᡅᠯᡄᡘᡆ	ʔüyečile×−	ujʧlə̆x
@@ -1878,7 +1831,6 @@
 ᡄᡆᡅᠷᡄᡔᡅᡘᡆ	ʔüreǰi×−	urʤix
 ᡄᡆᡅᠷᡄᡔᡅᡘᡆᠯᡘᡆ	ʔüreǰigül×−	urʤuːlə̆x
 ᡄᡆᡅᠷᡆᠪᡑᡆᠯᡑᡄᡘᡆ	ʔürübtülde×−	urə̆btə̆ldə̆x
-ᡄᡆᡅᠷᡆᡘᡆ	ʔürü×−	urə̆x
 ᡄᡆᡅᠷᡆᡘᡆ	ʔürü×−	urə̆x
 ᡄᡆᡅᠷᠪᡅᠰᡘᡆ	ʔürbis×−	urə̆bsə̆x~orŏbsŏx
 ᡄᡆᡅᠷᡘᡄᠯᡄᡘᡆ	ʔürgele×−	urə̆ɡlə̆x
@@ -1974,7 +1926,6 @@
 ᡊᡄᡏᡅᡕᡄᠷᡍᡄᡍᡇ‌	namiyarxa×+	nɑmjɑːrxɑ̆x
 ᡊᡄᡏᡅᠷᡄᡍᡇ‌	namira×+	næmrɑ̆x
 ᡊᡄᡏᡆᡅᡅᡍᡇ‌	namui×+	nɑmɪːx
-ᡊᡄᡏᡆᡅᡅᡍᡇ‌	namui×+	nɑmɪːx
 ᡊᡄᡏᡆᡎᡄᡊᡄᡍᡇ‌	namugana×+	nɑmɡɑ̆nɑ̆x
 ᡊᡄᡏᡆᡍᠰᡅᡍᡇ‌	namugsi×+	nɑmɑ̆ɡʃɪx
 ᡊᡄᡏᡆᡍᡑᡆᡍᡇ‌	namugtu×+	nɑmɑ̆ɡtɑ̆x
@@ -2061,8 +2012,6 @@
 ᡊᡄᡅᡅᡘᡄᠯᡄᡘᡆ	neigele×−	niːɡlə̆x
 ᡊᡄᡅᡅᡘᡄᡆᡄᡘᡆ	neiged×−	niːɡdə̆x
 ᡊᡄᡅᡅᠯᡄᡘᡆ	neile×−	niːlə̆x
-ᡊᡄᡅᡅᠯᡄᡘᡆ	neile×−	niːlə̆x
-ᡊᡄᡅᡅᠯᡄᡘᡆᠯᡘᡆ	neilegül×−	niːluːlə̆x
 ᡊᡄᡅᡅᠯᡄᡘᡆᠯᡘᡆ	neilegül×−	niːluːlə̆x
 ᡊᡄᡅᡅᠯᡄᠯᡑᡆᡘᡆ	neileldü×−	niːlə̆ldə̆x
 ᡊᡄᡅᡅᠯᡄᠯᠴᡄᡘᡆ	neilelče×−	niːlə̆lʧix
@@ -2092,7 +2041,6 @@
 ᡊᡄᠪᠴᡅᡘᡆ	nebči×−	nəbʧix
 ᡊᡄᠪᠴᡅᡘᡆᠯᡘᡆ	nebčigül×−	nəbʧuːlə̆x
 ᡊᡄᠪᠴᡅᠷᡄᡘᡆ	nebčire×−	nəbʧrə̆x
-ᡊᡄᡘᡄᡘᡆ	nexe×−	nəxə̆x
 ᡊᡄᡘᡄᡘᡆ	nexe×−	nəxə̆x
 ᡊᡄᡘᡄᡏᡔᡅᠯᡄᡘᡆ	nexemǰile×−	nəxə̆mʤlə̆x
 ᡊᡄᡘᡔᡅᡘᡆ	negǰi×−	nəɡʤix
@@ -2213,7 +2161,6 @@
 ᡊᡅᡑᡆᠷᡎᡄᠰᡅᡍᡇ‌	nidurgasi×+	nʊdrɑ̆ɡʃɪx
 ᡊᡅᡑᡆᠷᡎᡄᡑᡄᡍᡇ‌	nidurgada×+	nʊdrɑ̆ɡdɑ̆x
 ᡊᡅᡑᡆᠯᡄᡘᡆ	nidüle×−	nudlə̆x
-ᡊᡅᡑᡆᠯᡄᡘᡆ	nidüle×−	nudlə̆x
 ᡊᡅᡆᡄᡘᡄᠷᡘᡆ	nidxer×−	nitɡə̆rə̆x
 ᡊᡅᠴᡄᠯᡍᡇ‌	ničal×+	nɪʧlɑ̆x
 ᡊᡅᠴᡄᠷᡄᡍᡇ‌	ničara×+	nɪʧrɑ̆x
@@ -2246,7 +2193,6 @@
 ᡊᡆᡆᠯᡍᡇ‌	nool×+	nɔːlɔ̆x
 ᡊᡆᡆᠷᡄᡍᡇ‌	noora×+	nɔːrɔ̆x
 ᡊᡆᡆᠷᡄᡍᠯᡄᡍᡇ‌	nooragla×+	nɔːrɔ̆ɡlɔ̆x
-ᡊᡆᡆᠷᡄᡍᠯᡄᡍᡇ‌	nooragla×+	nɔːrɔ̆ɡlɔ̆x
 ᡊᡆᠪᠰᡅᠯᡄᡍᡇ‌	nobsila×+	nɔbʃlɔ̆x
 ᡊᡆᠪᠰᡅᠷᡄᡍᡇ‌	nobsira×+	nɔbʃrɔ̆x
 ᡊᡆᡍᡄᡅᡅᡑᡆᡍᡇ‌	noxaitu×+	nɔxœːtɔ̆x
@@ -2274,7 +2220,6 @@
 ᡊᡆᡏᠴᡅᠷᡍᡄᡍᡇ‌	nomčirxa×+	nɔmʧɪrxɔ̆x
 ᡊᡆᠯᡅᡍᠯᡄᡍᡇ‌	noligla×+	nœlɪɡlɔ̆x
 ᡊᡆᠯᠴᡅᡎᡄᠷᡑᡄᡍᡇ‌	nolčigarda×+	nɔlʧɡɔ̆rdɔ̆x
-ᡊᡆᠴᡆᡍᡇ‌	nočo×+	nɔʧɪx
 ᡊᡆᠴᡆᡍᡇ‌	nočo×+	nɔʧɪx
 ᡊᡆᠴᡆᡎᡄᡍᡇ‌	nočoga×+	nɔʧɔːx
 ᡊᡆᠴᡆᠯᡑᡆᡍᡇ‌	nočoldu×+	nɔʧɪldɔ̆x
@@ -2305,7 +2250,6 @@
 ᡊᡆᡍᡆᠴᡅᡍᡇ‌	nuxuči×+	nʊxʧɪx
 ᡊᡆᡎᡆᠯᡆᠷᡄᡍᡇ‌	nugulura×+	nʊɡɑ̆lrɑ̆x
 ᡊᡆᡎᡆᠯᡍᡇ‌	nugul×+	nʊɡlɑ̆x
-ᡊᡆᡎᡆᠰᡆᠯᡄᡍᡇ‌	nugusula×+	nʊɡɑ̆slɑ̆x
 ᡊᡆᡎᡆᠰᡆᠯᡄᡍᡇ‌	nugusula×+	nʊɡɑ̆slɑ̆x
 ᡊᡆᡎᡆᠴᡅᡍᡇ‌	nuguči×+	nʊɡʧɪx
 ᡊᡆᡎᡆᠷᡄᡍᡇ‌	nugura×+	nʊɡrɑ̆x
@@ -2371,7 +2315,6 @@
 ᡊᡆᡅᡔᡅᡆᡄᠯᡄᡘᡆ	nöǰidle×−	noʤidlŏx
 ᡊᡆᡅᡔᡅᠷᡄᡘᡆ	nöǰire×−	noʤrŏx
 ᡊᡆᡅᠷᡅᡘᡆ	nöri×−	norŏx
-ᡊᡆᡅᠷᡅᡘᡆ	nöri×−	norŏx
 ᡊᡆᡅᠷᡅᠯᡄᡘᡆ	nörile×−	norlŏx
 ᡊᡆᡅᠷᡆᡘᡄᡑᡆᡘᡆ	nörögetü×−	noroːtŏx
 ᡊᡆᡅᡅᠯᡘᡆ	nüil×−	nuilə̆x
@@ -2389,11 +2332,9 @@
 ᠪᡄᡅᡅᡄᡘᡎᡆᠷᡄᡍᡇ‌	baiŋgura×+	bæːŋɡɑ̆rɑ̆x
 ᠪᡄᡅᡅᠪᡄᡄᡘᡑᡄᡍᡇ‌	baibaŋda×+	bæːbɑ̆ŋdɑ̆x
 ᠪᡄᡅᡅᡍᡇ‌	bai×+	bæːx
-ᠪᡄᡅᡅᡍᡇ‌	bai×+	bæːx
 ᠪᡄᡅᡅᡎᡆᠯᡆᡍᡑᡄᡍᡇ‌	baigulugda×+	bæːɡʊːlɑ̆ɡdɑ̆x
 ᠪᡄᡅᡅᡎᡆᠯᡍᡇ‌	baigul×+	bæːɡʊːlɑ̆x
 ᠪᡄᡅᡅᠯᡄᡍᡇ‌	baila×+	bæːlɑ̆x
-ᠪᡄᡅᡅᠯᡎᡄᡍᡇ‌	bailga×+	bæːlɡɑ̆x
 ᠪᡄᡅᡅᠯᡎᡄᡍᡇ‌	bailga×+	bæːlɡɑ̆x
 ᠪᡄᡅᡅᠯᡑᡆᡍᡇ‌	baildu×+	bæːldɑ̆x
 ᠪᡄᡅᡅᠯᠴᡄᡍᡇ‌	bailča×+	bæːlʧɪx
@@ -2488,7 +2429,6 @@
 ᠪᡄᡍᡑᡄᠯᡍᡇ‌	bagtal×+	bɑɡtlɑ̆x
 ᠪᡄᡍᡑᡄᠯᠴᡄᡍᡇ‌	bagtalča×+	bɑɡtɑ̆lʧɪx
 ᠪᡄᡍᡑᡄᠷᡄᡍᡇ‌	bagtara×+	bɑɡtrɑ̆x
-ᠪᡄᡍᡑᡄᠷᡄᡍᡇ‌	bagtara×+	bɑɡtrɑ̆x
 ᠪᡄᡍᠴᡄᡎᡄᠯᡄᡍᡇ‌	bagčagala×+	bɑɡʧɑːlɑ̆x
 ᠪᡄᡍᠴᡄᠯᡄᡍᡇ‌	bagčala×+	bɑɡʧlɑ̆x
 ᠪᡄᡍᡔᡄᡅᡅᡍᡇ‌	bagǰai×+	bɑɡʤɪːx
@@ -2558,7 +2498,6 @@
 ᠪᡄᡆᡄᡍᡆᡍᡇ‌	badxu×+	bɑtɡɑ̆x
 ᠪᡄᡆᡄᡏᡄᠯᡄᡍᡇ‌	badmala×+	bɑdmɑːlɑ̆x~bɑdɑ̆mlɑ̆x
 ᠪᡄᡆᡄᡏᡄᠷᡄᡍᡇ‌	badmara×+	bɑdmɑːrɑ̆x~bɑdɑ̆mrɑ̆x
-ᠪᡄᡆᡄᡏᡄᠷᡄᡍᡇ‌	badmara×+	bɑdmɑːrɑ̆x~bɑdɑ̆mrɑ̆x
 ᠪᡄᡆᡄᠯᡄᡍᡇ‌	badla×+	bɑdlɑ̆x
 ᠪᡄᠴᡄᡍᠯᡄᡍᡇ‌	bačagla×+	bɑʧɪɡlɑ̆x
 ᠪᡄᠴᡅᡎᡆᡑᡄᡍᡇ‌	bačiguda×+	bɑʧʊːdɑ̆x
@@ -2604,7 +2543,6 @@
 ᠪᡄᠷᡅᡏᡔᡅᡕᡄᠯᡄᡍᡇ‌	barimǰiyala×+	bærɪmʤɑːlɑ̆x
 ᠪᡄᠷᡅᡏᡔᡅᡕᡄᡔᡅᡎᡆᠯᡍᡇ‌	barimǰiyaǰigul×+	bærɪmʤɑːʤʊːlɑ̆x
 ᠪᡄᠷᡅᠯᡄᡍᡇ‌	barila×+	bærlɑ̆x
-ᠪᡄᠷᡅᠯᡑᡆᡍᡇ‌	barildu×+	bærɪldɑ̆x
 ᠪᡄᠷᡅᠯᡑᡆᡍᡇ‌	barildu×+	bærɪldɑ̆x
 ᠪᡄᠷᡅᠯᠴᡄᡍᡇ‌	barilča×+	bærɪlʧɪx
 ᠪᡄᠷᡅᠴᡄᡍᡇ‌	bariča×+	bærʧɪx
@@ -2705,7 +2643,6 @@
 ᠪᡄᡑᡄᠷᡄᡘᡆ	betere×−	bətrə̆x
 ᠪᡄᡑᡄᠷᡅᡘᡆ	bederi×−	bədrə̆x
 ᠪᡄᡕᡄᠯᡄᡘᡆ	beyele×−	bəjlə̆x
-ᠪᡄᡕᡄᠯᡄᡘᡆ	beyele×−	bəjlə̆x
 ᠪᡄᡕᡄᠯᡄᡘᡑᡄᡘᡆ	beyelegde×−	bəjlə̆ɡdə̆x
 ᠪᡄᡕᡄᠯᡄᡘᡆᠯᡘᡆ	beyelegül×−	bəjluːlə̆x
 ᠪᡄᡕᡄᡑᡄᡘᡆ	beyede×−	bəjdə̆x
@@ -2771,7 +2708,6 @@
 ᠪᡅᠰᡘᡅᡘᡆᠷᡑᡄᡘᡆ	bisxigürde×−	biʃɡuːrdə̆x
 ᠪᡅᡑᡄᡘᡆᡏᡔᡅᠯᡄᡘᡆ	bitegümǰile×−	bituːmʤlə̆x
 ᠪᡅᡑᡄᡘᡆᠯᡄᡘᡆ	bitegüle×−	bituːlə̆x
-ᠪᡅᡑᡄᡘᡆᠯᡄᡘᡆ	bitegüle×−	bituːlə̆x
 ᠪᡅᡑᡄᡘᡆᠷᡄᡘᡆ	bitegüre×−	bituːrə̆x
 ᠪᡅᡑᡄᡍᡇ‌	bida×+	bɪdɑ̆x
 ᠪᡅᡑᡄᡎᡆᠷᡄᡍᡇ‌	bidagura×+	bɪdʊːrɑ̆x
@@ -2798,7 +2734,6 @@
 ᠪᡆᡅᡅᠴᡆᡎᡆᠷᡑᡆᡍᡇ‌	boičogorto×+	bœːʧɡɔ̆rtɔ̆x
 ᠪᡆᡅᡅᡔᡅᡍᡇ‌	boiǰi×+	bœːʤɪx
 ᠪᡆᡅᡅᡔᡅᡎᡆᠯᡍᡇ‌	boiǰigul×+	bœːʤʊːlɑ̆x
-ᠪᡆᡅᡅᠷᡄᠯᡄᡍᡇ‌	boirala×+	bœːrlɔ̆x
 ᠪᡆᡅᡅᠷᡄᠯᡄᡍᡇ‌	boirala×+	bœːrlɔ̆x
 ᠪᡆᡆᡑᡆᡆᡑᡄᡍᡇ‌	booduuda×+	bɔːdʊːdɑ̆x
 ᠪᡆᡄᡑᡆᡅᡅᡍᡇ‌	bontoi×+	bɔntɔɪx
@@ -2842,9 +2777,6 @@
 ᠪᡆᡎᡆᡔᡅᠯᡄᡍᡇ‌	bogoǰila×+	bɔːʤlɔ̆x
 ᠪᡆᡎᡆᠷᡘᡅᠯᡄᡍᡇ‌	bogorgila×+	bœːrɔ̆ɡlɔ̆x
 ᠪᡆᡍᠰᡅᡍᡇ‌	bogsi×+	bɔɡʃɪx
-ᠪᡆᡍᠰᡅᡍᡇ‌	bogsi×+	bɔɡʃɪx
-ᠪᡆᡍᠰᡅᡍᡇ‌	bogsi×+	bɔɡʃɪx
-ᠪᡆᡍᠰᡅᡍᡇ‌	bogsi×+	bɔɡʃɪx
 ᠪᡆᡍᠰᡅᡎᡄᡍᡇ‌	bogsiga×+	bɔɡʃɔːx
 ᠪᡆᡍᡑᡆᠯᡄᡍᡇ‌	bogtola×+	bɔɡtlɔ̆x
 ᠪᡆᡍᡑᡆᡅᡅᡍᡇ‌	bogdoi×+	bɔɡdɔɪx
@@ -2863,7 +2795,6 @@
 ᠪᡆᠯᡘᡅᡑᡄᡍᡇ‌	bolxida×+	bœlxdɔ̆x
 ᠪᡆᠯᡘᡅᠴᡅᠯᡄᡍᡇ‌	bolxičila×+	bœlxʧɪlɔ̆x
 ᠪᡆᠯᡍᡇ‌	bol×+	bɔlɔ̆x
-ᠪᡆᠯᡍᡇ‌	bol×+	bɔlɔ̆x
 ᠪᡆᠯᡎᡄᡍᡇ‌	bolga×+	bɔlɡɔ̆x
 ᠪᡆᠯᡘᡅᡍᡇ‌	bolgi×+	bœlɡɪx
 ᠪᡆᠯᡘᡅᠯᡄᡍᡇ‌	bolgila×+	bœlɡɪlɔ̆x
@@ -2878,9 +2809,7 @@
 ᠪᡆᠯᡔᡆᡍᡇ‌	bolǰo×+	bɔlʤɪx
 ᠪᡆᠯᡔᡆᡎᡄᠯᡄᡍᡇ‌	bolǰogala×+	bɔlʤɔːlɔ̆x
 ᠪᡆᠰᡍᡄᡍᡇ‌	bosxa×+	bɔsɡɔ̆x
-ᠪᡆᠰᡍᡄᡍᡇ‌	bosxa×+	bɔsɡɔ̆x
 ᠪᡆᠰᡍᡆᡎᡆᠷᡄᡍᡇ‌	bosxogura×+	bɔsɡʊːrɑ̆x
-ᠪᡆᠰᡍᡇ‌	bos×+	bɔsɔ̆x
 ᠪᡆᠰᡍᡇ‌	bos×+	bɔsɔ̆x
 ᠪᡆᡑᡅᠯᡄᡍᡇ‌	botila×+	bœtlɔ̆x
 ᠪᡆᡑᡆᡎᡆᠯᡄᡍᡇ‌	botogola×+	bɔtɡɔ̆lɔ̆x
@@ -2901,8 +2830,6 @@
 ᠪᡆᠷᡆᡍᡑᡄᡍᡇ‌	borogda×+	bɔrɔ̆ɡdɔ̆x
 ᠪᡆᠷᡆᡍᡔᡅᡍᡇ‌	borogǰi×+	bɔrɔ̆ɡʤɪx
 ᠪᡆᠷᡆᠯᡄᡍᡇ‌	borola×+	bɔrlɔ̆x
-ᠪᡆᠷᡆᠯᡄᡍᡇ‌	borola×+	bɔrlɔ̆x
-ᠪᡆᠷᡆᠯᡄᡎᡆᠯᡍᡇ‌	borolagul×+	bɔrlʊːlɑ̆x
 ᠪᡆᠷᡆᠯᡄᡎᡆᠯᡍᡇ‌	borolagul×+	bɔrlʊːlɑ̆x
 ᠪᡆᠷᡆᠰᡅᡍᡇ‌	borosi×+	bɔrʃɪx
 ᠪᡆᠷᠪᡅᡑᡄᡍᡇ‌	borbida×+	bœrɪbdɔ̆x
@@ -2915,7 +2842,6 @@
 ᠪᡆᠷᡑᡆᠰᡆᠯᡄᡍᡇ‌	bordosola×+	bɔrdɔ̆slɔ̆x
 ᠪᡆᠷᠴᡄᠯᡄᡍᡇ‌	borčala×+	bɔrʧlɔ̆x
 ᠪᡆᠷᠴᡅᡍᡇ‌	borči×+	bɔrʧɪx
-ᠪᡆᡅᡅᠯᡄᡍᡇ‌	buila×+	bʊɪlɑ̆x
 ᠪᡆᡅᡅᠯᡄᡍᡇ‌	buila×+	bʊɪlɑ̆x
 ᠪᡆᡅᡅᠯᡄᠯᡄᡍᡇ‌	builala×+	bʊɪllɑ̆x
 ᠪᡆᡅᡅᡑᡄᡍᡇ‌	buida×+	bʊɪdɑ̆x
@@ -3047,7 +2973,6 @@
 ᠪᡆᠷᠴᡄᡍᠯᡄᡍᡇ‌	burčagla×+	bʊrʧɪɡlɑ̆x
 ᠪᡆᠷᠴᡅᡘᡅᡊᡄᡍᡇ‌	burčigina×+	bʊrʧɪɡnɑ̆x
 ᠪᡆᠷᡔᡄᡄᡘᡊᡄᡍᡇ‌	burǰaŋna×+	bʊrʤɪɡnɑ̆x
-ᠪᡆᠷᡔᡄᡄᡘᡊᡄᡍᡇ‌	burǰaŋna×+	bʊrʤɪɡnɑ̆x
 ᠪᡆᠷᡔᡄᡄᡘᡑᡆᡍᡇ‌	burǰaŋtu×+	bʊrʤɪŋtɑ̆x
 ᠪᡆᠷᡔᡅᡅᡍᡇ‌	burǰii×+	bʊrʤɪːx
 ᠪᡆᠷᡔᡅᡅᠯᡎᡄᡍᡇ‌	burǰiilga×+	bʊrʤɪːlɡɑ̆x
@@ -3057,7 +2982,6 @@
 ᠪᡆᡅᡄᡑᡆᠯᡔᡄᡘᡆ	böntölǰe×−	bontŏlʤix
 ᠪᡆᡅᡄᡘᠰᡅᡘᡆ	böŋsi×−	boŋʃix
 ᠪᡆᡅᡄᡘᡔᡅᡘᡅᡊᡄᡘᡆ	böŋǰigine×−	boŋʤiɡnŏx
-ᠪᡆᡅᡘᡄᠯᡄᡘᡆ	böxele×−	boxlŏx
 ᠪᡆᡅᡘᡄᠯᡄᡘᡆ	böxele×−	boxlŏx
 ᠪᡆᡅᡘᡄᠴᡄᡘᡄᡘᡆ	böxečege×−	boxʧoːx
 ᠪᡆᡅᡘᡄᡔᡅᡘᡆ	böxeǰi×−	boxʤix
@@ -3130,7 +3054,6 @@
 ᠪᡆᡅᡘᡆᠯᡅᡑᡄᡘᡆ	büxülide×−	buxə̆ldə̆x~boxŏldŏx
 ᠪᡆᡅᡘᡘᡆᡘᡆ	bügxü×−	buxə̆x~boxŏx
 ᠪᡆᡅᡘᠰᡅᡘᡆ	bügsi×−	buɡʃix~boɡʃix
-ᠪᡆᡅᡘᠰᡅᡘᡆ	bügsi×−	buɡʃix~boɡʃix
 ᠪᡆᡅᡘᠰᡅᡘᡆᠯᡘᡆ	bügsigül×−	buɡʃuːlə̆x~boɡʃuːlə̆x
 ᠪᡆᡅᡘᡑᡄᠷᡄᡘᡆ	bügtere×−	buɡtrə̆x
 ᠪᡆᡅᡘᠴᡅᡏᡑᡄᡘᡆ	bügčimde×−	buɡʧimdə̆x
@@ -3173,7 +3096,6 @@
 ᠪᡆᡅᡑᡆᡘᡆ	bütü×−	butə̆x~botŏx
 ᠪᡆᡅᡑᡆᡘᡄᡘᡆ	bütüge×−	butəːx~botoːx
 ᠪᡆᡅᡑᡄᡄᡘᡘᡅᠷᡄᡘᡆ	büdeŋgire×−	budə̆ŋɡə̆rə̆x
-ᠪᡆᡅᡑᡄᡄᡘᡘᡅᠷᡄᡘᡆ	büdeŋgire×−	budə̆ŋɡə̆rə̆x
 ᠪᡆᡅᡑᡄᡘᡅᠷᡄᡘᡆ	büdegire×−	budə̆ɡrə̆x
 ᠪᡆᡅᡑᡆᡘᡆᠪᠴᡅᠯᡄᡘᡆ	büdügübčile×−	buduːbʧlə̆x
 ᠪᡆᡅᡑᡆᡘᡆᠯᡅᡘᡑᡄᡘᡆ	büdügüligde×−	buduːlə̆ɡdə̆x
@@ -3210,7 +3132,6 @@
 ᠪᡆᡅᠷᠴᡄᡘᠯᡄᡘᡆ	bürčegle×−	burʧiɡlə̆x
 ᠪᡆᡅᠷᠴᡅᡘᡅᡊᡄᡘᡆ	bürčigine×−	burʧiɡnə̆x
 ᠪᡆᡅᠷᡔᡆᡅᡅᡘᡆ	bürǰüi×−	burʤiːx~borʤiːx
-ᠫᡄᡄᠰᡄᠯᡄᡍᡇ‌	pansala×+	pɑnslɑ̆x
 ᠫᡄᡄᠰᡄᠯᡄᡍᡇ‌	pansala×+	pɑnslɑ̆x
 ᠫᡄᡍᠯᡄᡅᡅᡍᡇ‌	paglai×+	pɑɡlɪːx
 ᠫᡄᡍᠰᡄᡅᡅᡍᡇ‌	pagsai×+	pɑɡsɪːx
@@ -3343,12 +3264,10 @@
 ᡍᡄᡄᡘᡘᡅᠷᠴᡄᡍᡇ‌	xaŋgirča×+	xæŋɡɪrʧɪx
 ᡍᡄᡄᡘᠰᡄᡍᡇ‌	xaŋsa×+	xɑŋsɑ̆x
 ᡍᡄᡄᡘᠰᡅᠯᡄᡍᡇ‌	xaŋsila×+	xɑŋʃlɑ̆x
-ᡍᡄᡄᡘᠰᡅᠯᡄᡍᡇ‌	xaŋsila×+	xɑŋʃlɑ̆x
 ᡍᡄᡄᡘᡑᡄᡍᡇ‌	xaŋda×+	xɑŋdɑ̆x
 ᡍᡄᡄᡘᡔᡄᠯᡍᡇ‌	xaŋǰal×+	xɑɡʤlɑ̆x~xɑŋʤlɑ̆x
 ᡍᡄᡄᡘᡔᡄᠴᡅᡍᡇ‌	xaŋǰači×+	xɑɡʤʧɪx~xɑŋʤʧɪx
 ᡍᡄᡄᡘᡔᡄᠷᡄᡍᡇ‌	xaŋǰara×+	xɑɡʤrɑ̆x~xɑŋʤrɑ̆x
-ᡍᡄᠪᡄᡍᡇ‌	xaba×+	xɑbɑ̆x
 ᡍᡄᠪᡄᡍᡇ‌	xaba×+	xɑbɑ̆x
 ᡍᡄᠪᡅᠰᡆᠯᡄᡍᡇ‌	xabisula×+	xæbslɑ̆x
 ᡍᡄᠪᡅᡑᡄᡍᡇ‌	xabida×+	xæbdɑ̆x
@@ -3375,10 +3294,8 @@
 ᡍᡄᠪᠰᡄᠷᡎᡄᠯᡄᡍᡇ‌	xabsargala×+	xɑbsrɑ̆ɡlɑ̆x
 ᡍᡄᠪᠰᡄᠷᡎᡄᡑᡄᡍᡇ‌	xabsargada×+	xɑbsrɑ̆ɡdɑ̆x
 ᡍᡄᠪᠰᡅᡍᡇ‌	xabsi×+	xɑbʃɪx
-ᡍᡄᠪᠰᡅᡍᡇ‌	xabsi×+	xɑbʃɪx
 ᡍᡄᠪᠰᡆᡍᡇ‌	xabsu×+	xɑbsɑ̆x
 ᡍᡄᠪᠰᡆᠷᡆᠯᠴᡄᡍᡇ‌	xabsurulča×+	xɑbsrɑ̆lʧɪx
-ᡍᡄᠪᠰᡆᠷᡍᡇ‌	xabsur×+	xɑbsrɑ̆x
 ᡍᡄᠪᠰᡆᠷᡍᡇ‌	xabsur×+	xɑbsrɑ̆x
 ᡍᡄᠪᠰᡆᠷᡎᡄᡍᡇ‌	xabsurga×+	xɑbsɑ̆rɡɑ̆x
 ᡍᡄᠪᡑᡄᡅᡅᡍᡇ‌	xabtai×+	xɑbtɪːx
@@ -3428,7 +3345,6 @@
 ᡍᡄᡎᡆᡏᡄᡎᡄᡅᡅᠯᡄᡍᡇ‌	xagumagaila×+	xʊːmɡæːlɑ̆x
 ᡍᡄᡎᡆᡏᡄᡎᡄᡅᡅᡑᡆᡍᡇ‌	xagumagaitu×+	xʊːmɡæːtɑ̆x
 ᡍᡄᡎᡆᠯᡍᡇ‌	xagul×+	xʊːlɑ̆x
-ᡍᡄᡎᡆᠯᡍᡇ‌	xagul×+	xʊːlɑ̆x
 ᡍᡄᡎᡆᡑᡄᡏᡊᡄᡍᡇ‌	xagudamna×+	xʊːdɑ̆mnɑ̆x
 ᡍᡄᡎᡆᡑᡄᡏᠯᡄᡍᡇ‌	xagudamla×+	xʊːdɑ̆mlɑ̆x
 ᡍᡄᡎᡆᡑᡄᡏᡑᡆᡍᡇ‌	xagudamtu×+	xʊːdɑ̆mtɑ̆x
@@ -3438,7 +3354,6 @@
 ᡍᡄᡎᡆᠴᡅᠷᡍᡄᡍᡇ‌	xagučirxa×+	xʊːʧɪrxɑ̆x
 ᡍᡄᡎᡆᠷᡄᡅᡅᠯᡄᡍᡇ‌	xaguraila×+	xʊːræːlɑ̆x
 ᡍᡄᡎᡆᠷᡄᡍᡇ‌	xagura×+	xʊːrɑ̆x
-ᡍᡄᡎᡆᠷᡍᡇ‌	xagur×+	xʊːrɑ̆x
 ᡍᡄᡎᡆᠷᡍᡇ‌	xagur×+	xʊːrɑ̆x
 ᡍᡄᡎᡆᠷᡎᡄᠯᡄᡍᡇ‌	xagurgala×+	xʊːrɡɑ̆lɑ̆x
 ᡍᡄᡎᡆᠷᡏᡄᡍᠯᡄᡍᡇ‌	xagurmagla×+	xʊːrmɑ̆ɡlɑ̆x
@@ -3496,7 +3411,6 @@
 ᡍᡄᡏᡔᡅᠯᠴᡄᡍᡇ‌	xamǰilča×+	xɑmʤɪlʧɪx
 ᡍᡄᠯᡄᡅᡅᡍᡇ‌	xalai×+	xɑlɪːx
 ᡍᡄᠯᡄᡍᡇ‌	xala×+	xɑlɑ̆x
-ᡍᡄᠯᡄᡍᡇ‌	xala×+	xɑlɑ̆x
 ᡍᡄᠯᡄᡎᡄᡍᡇ‌	xalaga×+	xɑlɑːx
 ᡍᡄᠯᡄᡎᡄᠯᡄᡍᡇ‌	xalagala×+	xɑlɑːlɑ̆x
 ᡍᡄᠯᡄᡎᡆᡑᡄᡍᡇ‌	xalaguda×+	xɑlʊːdɑ̆x
@@ -3514,8 +3428,6 @@
 ᡍᡄᠯᡄᡑᡄᡍᡇ‌	xalada×+	xɑldɑ̆x
 ᡍᡄᠯᡅᠪᡅᠯᡔᡄᡍᡇ‌	xalibilǰa×+	xælbɑ̆lʤɪx
 ᡍᡄᠯᡅᠪᡑᡄᡍᡇ‌	xalibda×+	xælɪbdɑ̆x
-ᡍᡄᠯᡅᡍᡇ‌	xali×+	xælɪx
-ᡍᡄᠯᡅᡍᡇ‌	xali×+	xælɪx
 ᡍᡄᠯᡅᡍᡇ‌	xali×+	xælɪx
 ᡍᡄᠯᡅᡎᡆᠷᡄᡍᡇ‌	xaligura×+	xælɪʊrɑ̆x
 ᡍᡄᠯᡅᡏᡊᡄᡍᡇ‌	xalimna×+	xælɪmnɑ̆x
@@ -3574,7 +3486,6 @@
 ᡍᡄᠯᡔᡄᡄᡑᡆᡍᡇ‌	xalǰantu×+	xɑlʤɪntɑ̆x
 ᡍᡄᠯᡔᡄᠯᡄᡍᡇ‌	xalǰala×+	xɑlʤlɑ̆x
 ᡍᡄᠯᡔᡄᠷᡄᡍᡇ‌	xalǰara×+	xɑlʤrɑ̆x
-ᡍᡄᠰᡅᡍᡇ‌	xasi×+	xɑʃɪx
 ᡍᡄᠰᡅᡍᡇ‌	xasi×+	xɑʃɪx
 ᡍᡄᠰᡅᡍᠯᡄᡍᡇ‌	xasigla×+	xɑʃɪɡlɑ̆x
 ᡍᡄᠰᡅᡕᡄᠯᡄᡍᡇ‌	xasiyala×+	xɑʃɑːlɑ̆x
@@ -3635,7 +3546,6 @@
 ᡍᡄᡔᡄᠯᡄᡍᡇ‌	xaǰala×+	xɑʤlɑ̆x
 ᡍᡄᡔᡄᠯᡔᡄᡍᡇ‌	xaǰalǰa×+	xɑʤɪlʤɪx
 ᡍᡄᡔᡅᡍᡇ‌	xaǰi×+	xɑʤɪx
-ᡍᡄᡔᡅᡍᡇ‌	xaǰi×+	xɑʤɪx
 ᡍᡄᡔᡅᡍᠯᡄᡍᡇ‌	xaǰigla×+	xɑʤɪɡlɑ̆x
 ᡍᡄᡔᡅᠯᡎᡄᠯᡄᡍᡇ‌	xaǰilgala×+	xɑʤlɑ̆ɡlɑ̆x
 ᡍᡄᡔᡅᠷᠯᡄᡍᡇ‌	xaǰirla×+	xɑʤɪrlɑ̆x
@@ -3673,11 +3583,9 @@
 ᡍᡄᠷᡅᡎᡆᠯᡍᡇ‌	xarigul×+	xærɪʊlɑ̆x
 ᡍᡄᠷᡅᡎᡆᠰᡍᡄᡍᡇ‌	xarigusxa×+	xærɪʊsɡɑ̆x
 ᡍᡄᠷᡅᡎᡆᠴᡄᡍᡇ‌	xariguča×+	xærɪʊʧɪx
-ᡍᡄᠷᡅᡎᡆᠴᡄᡍᡇ‌	xariguča×+	xærɪʊʧɪx
 ᡍᡄᠷᡅᠯᡄᡍᡇ‌	xarila×+	xærlɑ̆x
 ᡍᡄᠷᡅᠯᡍᡄᡍᡇ‌	xarilxa×+	xærɪlxɑ̆x
 ᡍᡄᠷᡅᠯᠴᡄᡍᡇ‌	xarilča×+	xærɪlʧɪx
-ᡍᡄᠷᡅᠰᡄᡍᡇ‌	xarisa×+	xærsɑ̆x
 ᡍᡄᠷᡅᠰᡄᡍᡇ‌	xarisa×+	xærsɑ̆x
 ᡍᡄᠷᡅᡑᡄᡍᡇ‌	xarida×+	xærdɑ̆x
 ᡍᡄᠷᡅᠴᡄᡍᡇ‌	xariča×+	xærʧɪx
@@ -3735,8 +3643,6 @@
 ᡘᡄᡄᡘᡘᡆᠯᡔᡄᡘᡆ	xeŋxülǰe×−	xəŋxə̆lʤix
 ᡘᡄᡄᡘᡘᡄᠷᡘᡄᡑᡄᡘᡆ	xeŋgergede×−	xəŋɡə̆rə̆ɡdə̆x
 ᡘᡄᡄᡘᠰᡅᡘᡆ	xeŋsi×−	xəŋʃix
-ᡘᡄᡄᡘᠰᡅᡘᡆ	xeŋsi×−	xəŋʃix
-ᡘᡄᡄᡘᠰᡅᡘᡆ	xeŋsi×−	xəŋʃix
 ᡘᡄᡄᡘᠰᡅᡘᡆᠯᡘᡆ	xeŋsigül×−	xəŋʃuːlə̆x
 ᡘᡄᠪᡄᡅᡅᡘᡆ	xebei×−	xəbiːx
 ᡘᡄᠪᡄᡅᡅᠯᡄᡘᡆ	xebeile×−	xəbiːlə̆x
@@ -3748,7 +3654,6 @@
 ᡘᡄᠪᠯᡄᡘᡆ	xeble×−	xəblə̆x
 ᡘᡄᠪᠯᡄᡘᡆᠯᡘᡆ	xeblegül×−	xəbluːlə̆x
 ᡘᡄᠪᠰᡅᡊᡄᡘᡆ	xebsine×−	xəbʃnə̆x
-ᡘᡄᠪᠰᡅᡘᡆ	xebsi×−	xəbʃix
 ᡘᡄᠪᠰᡅᡘᡆ	xebsi×−	xəbʃix
 ᡘᡄᠪᠰᡅᡘᡆᠯᡘᡆ	xebsigül×−	xəbʃuːlə̆x
 ᡘᡄᠪᠰᡅᠷᡄᡘᡆ	xebsire×−	xəbʃrə̆x
@@ -3786,8 +3691,6 @@
 ᡘᡄᡏᡄᠯᡅᡘᡆ	xemeli×−	ximlə̆x
 ᡘᡄᡏᡅᠰᡅᡘᡆ	xemisi×−	ximʃix
 ᡘᡄᡏᡅᠷᡄᡘᡆ	xemire×−	ximrə̆x
-ᡘᡄᡏᡊᡄᡘᡆ	xemne×−	xəmnə̆x
-ᡘᡄᡏᡊᡄᡘᡆ	xemne×−	xəmnə̆x
 ᡘᡄᡏᡊᡄᡘᡆ	xemne×−	xəmnə̆x
 ᡘᡄᡏᡘᡄᠯᡘᡆ	xemxel×−	xəmxə̆lə̆x
 ᡘᡄᡏᡘᡄᠴᡅᡘᡆ	xemxeči×−	xəmxə̆ʧix
@@ -3853,13 +3756,11 @@
 ᡘᡄᡑᡄᠷᡘᡄᡑᡄᡘᡆ	xedergede×−	xədrə̆ɡdə̆x
 ᡘᡄᡑᡄᠷᠯᡄᡘᡆ	xederle×−	xədə̆rlə̆x
 ᡘᡄᡑᡆᠷᡘᡆ	xedür×−	xədrə̆x
-ᡘᡄᡑᡆᠷᡘᡆ	xedür×−	xədrə̆x
 ᡘᡄᠴᡄᡘᡆᠰᡅᡕᡄᡘᡆ	xečegüsiye×−	xəʧuːʃəːx
 ᡘᡄᠴᡄᡘᡆᡑᡄᡘᡆ	xečegüde×−	xəʧuːdə̆x
 ᡘᡄᠴᡄᡘᡆᡆᡄᡘᡆ	xečegüd×−	xəʧuːtə̆x
 ᡘᡄᠴᡄᡘᡆᠷᡄᡘᡆ	xečegüre×−	xəʧuːrə̆x
 ᡘᡄᠴᡄᡘᡆᠷᡘᡄᡘᡆ	xečegürxe×−	xəʧuːrxə̆x
-ᡘᡄᠴᡄᠯᡄᡘᡆ	xečele×−	xəʧlə̆x
 ᡘᡄᠴᡄᠯᡄᡘᡆ	xečele×−	xəʧlə̆x
 ᡘᡄᡔᡅᡘᡆ	xeǰi×−	xəʤix
 ᡘᡄᡕᡄᡘᡄᠯᡄᡘᡆ	xeyegele×−	xəjəːlə̆x
@@ -3892,7 +3793,6 @@
 ᡘᡄᠷᠴᡅᡕᡄᠰᡆᠯᡄᡘᡆ	xerčiyesüle×−	xərʧəːslə̆x
 ᡘᡄᠷᡔᡄᡅᡅᡘᡆ	xerǰei×−	xərʤiːx
 ᡘᡄᠷᡔᡄᡘᡄᠷᡑᡆᡘᡆ	xerǰegertü×−	xərʤɡə̆rtə̆x
-ᡘᡅᡊᡄᡍᡇ‌	xina×+	xɪnɑ̆x
 ᡘᡅᡊᡄᡍᡇ‌	xina×+	xɪnɑ̆x
 ᡘᡅᡊᡄᡏᡄᡎᡄᡅᡅᠯᡄᡍᡇ‌	xinamagaila×+	xɪnɑ̆mɡæːlɑ̆x
 ᡘᡅᡊᡄᡏᡄᡎᡄᡅᡅᡑᡄᡍᡇ‌	xinamagaida×+	xɪnɑ̆mɡæːdɑ̆x
@@ -4034,7 +3934,6 @@
 ᡍᡆᠪᡍᡆᠷᡄᡍᡇ‌	xobxora×+	xɔbxrɔ̆x
 ᡍᡆᠪᠯᡄᡍᡇ‌	xobla×+	xɔblɔ̆x
 ᡍᡆᠪᠰᡆᠷᡄᡍᡇ‌	xobsora×+	xɔbsrɔ̆x
-ᡍᡆᠪᠰᡆᠷᡄᡍᡇ‌	xobsora×+	xɔbsrɔ̆x
 ᡍᡆᠪᡑᡆᡍᡇ‌	xobto×+	xɔbtɔ̆x
 ᡍᡆᠪᡑᡆᡎᡆᠷᡍᡄᡍᡇ‌	xobdogorxa×+	xɔbdɡɔ̆rxɔ̆x
 ᡍᡆᠪᡑᡆᡍᠯᡄᡍᡇ‌	xobdogla×+	xɔbdɔ̆ɡlɔ̆x
@@ -4056,7 +3955,6 @@
 ᡍᡆᡎᡆᠰᡆᠷᡄᡎᡆᠯᡍᡇ‌	xogosoragul×+	xɔːsrʊːlɑ̆x
 ᡍᡆᡍᠯᡄᡍᡇ‌	xogla×+	xɔɡlɔ̆x
 ᡍᡆᡍᠯᡄᡎᡆᠯᡍᡇ‌	xoglagul×+	xɔɡlʊːlɑ̆x
-ᡍᡆᡍᠰᡅᡍᡇ‌	xogsi×+	xɔɡʃɪx
 ᡍᡆᡍᠰᡅᡍᡇ‌	xogsi×+	xɔɡʃɪx
 ᡍᡆᡍᡔᡅᠷᡄᡆᡑᡆᡍᡇ‌	xogǰirautu×+	xɔɡʤrʊːtɑ̆x
 ᡍᡆᡍᡔᡅᠷᡄᡍᡇ‌	xogǰira×+	xɔɡʤrɔ̆x
@@ -4143,7 +4041,6 @@
 ᡍᡆᠷᡆᡍᡄᡅᡅᠰᡍᡇ‌	xoroxais×+	xɔrxœːsɔ̆x
 ᡍᡆᠷᡆᡍᡄᡅᡅᡑᡆᡍᡇ‌	xoroxaitu×+	xɔrxœːtɔ̆x
 ᡍᡆᠷᡆᡍᡇ‌	xoro×+	xɔrɔ̆x
-ᡍᡆᠷᡆᡍᡇ‌	xoro×+	xɔrɔ̆x
 ᡍᡆᠷᡆᡎᡄᡍᡇ‌	xoroga×+	xɔrɔːx
 ᡍᡆᠷᡆᡎᡄᠯᡄᡍᡇ‌	xorogala×+	xɔrɔːlɔ̆x
 ᡍᡆᠷᡆᡎᡆᠯᡔᡄᡍᡇ‌	xorogolǰa×+	xɔrɡɔ̆lʤɪx
@@ -4151,8 +4048,6 @@
 ᡍᡆᠷᡆᡍᡑᡄᡎᡆᠯᡍᡇ‌	xorogdagul×+	xɔrɔ̆ɡdʊːlɑ̆x
 ᡍᡆᠷᡆᠯᡄᡍᡇ‌	xorola×+	xɔrlɔ̆x
 ᡍᡆᠷᡆᠰᡍᡄᡍᡇ‌	xorosxa×+	xɔrsɡɔ̆x
-ᡍᡆᠷᡆᠰᡍᡄᡍᡇ‌	xorosxa×+	xɔrsɡɔ̆x
-ᡍᡆᠷᡆᠰᡍᡇ‌	xoros×+	xɔrsɔ̆x
 ᡍᡆᠷᡆᠰᡍᡇ‌	xoros×+	xɔrsɔ̆x
 ᡍᡆᠷᡆᡑᡄᡍᡇ‌	xoroda×+	xɔrdɔ̆x
 ᡍᡆᠷᠪᡆᡅᡅᡍᡇ‌	xorboi×+	xɔrbɔɪx
@@ -4183,8 +4078,6 @@
 ᡍᡆᡅᡅᡍᡆᠯᡔᡄᡍᡇ‌	xuixulǰa×+	xʊɪxɑ̆lʤɪx
 ᡍᡆᡅᡅᡍᡆᠷᠯᡄᡍᡇ‌	xuixurla×+	xʊɪxɑ̆rlɑ̆x
 ᡍᡆᡅᡅᡍᡆᠷᡑᡄᡍᡇ‌	xuixurda×+	xʊɪxɑ̆rdɑ̆x
-ᡍᡆᡅᡅᠯᡄᡍᡇ‌	xuila×+	xʊɪlɑ̆x
-ᡍᡆᡅᡅᠯᡄᡍᡇ‌	xuila×+	xʊɪlɑ̆x
 ᡍᡆᡅᡅᠯᡄᡍᡇ‌	xuila×+	xʊɪlɑ̆x
 ᡍᡆᡅᡅᠯᡄᠷᡄᡍᡇ‌	xuilara×+	xʊɪlrɑ̆x
 ᡍᡆᡅᡅᠰᡄᡎᡄᡊᡄᡍᡇ‌	xuisagana×+	xʊɪsɡɑ̆nɑ̆x
@@ -4230,7 +4123,6 @@
 ᡍᡆᡎᡆᡊᡅᡍᡇ‌	xuguni×+	xʊːnɪx
 ᡍᡆᡎᡆᠯᡍᡇ‌	xugul×+	xʊɡlɑ̆x
 ᡍᡆᡎᡆᠴᡄᡍᡇ‌	xuguča×+	xʊɡʧɪx
-ᡍᡆᡎᡆᠴᡄᡍᡇ‌	xuguča×+	xʊɡʧɪx
 ᡍᡆᡎᡆᠴᡄᡎᡄᠯᡄᡍᡇ‌	xugučagala×+	xʊɡʧɑːlɑ̆x
 ᡍᡆᡎᡆᠴᡅᡍᡇ‌	xuguči×+	xʊɡʧɪx
 ᡍᡆᡎᡆᠷᡄᡍᡇ‌	xugura×+	xʊɡrɑ̆x
@@ -4262,7 +4154,6 @@
 ᡍᡆᠯᠴᡅᠯᡔᡄᡍᡇ‌	xulčilǰa×+	xʊlʧɪlʤɪx
 ᡍᡆᠯᡔᡅᡍᡇ‌	xulǰi×+	xʊlʤɪx
 ᡍᡆᠰᡄᠷᡄᡄᡘᡑᡆᡍᡇ‌	xusaraŋtu×+	xʊsrɑ̆ŋtɑ̆x
-ᡍᡆᠰᡄᠷᡄᡍᡇ‌	xusara×+	xʊsrɑ̆x
 ᡍᡆᠰᡄᠷᡄᡍᡇ‌	xusara×+	xʊsrɑ̆x
 ᡍᡆᠰᡅᡎᡄᠯᡄᡍᡇ‌	xusigala×+	xʊʃɡɑ̆lɑ̆x
 ᡍᡆᠰᡆᡍᡇ‌	xusu×+	xʊsɑ̆x
@@ -4381,7 +4272,6 @@
 ᡘᡆᡅᠪᠴᡅᡑᡄᡘᡆ	xöbčide×−	xobʧdŏx
 ᡘᡆᡅᡘᡄᠷᡄᡄᡑᡆᡘᡆ	xöxerentü×−	xoxrŏntŏx
 ᡘᡆᡅᡘᡄᠷᡄᡘᡆ	xöxere×−	xoxrŏx
-ᡘᡆᡅᡘᡄᠷᡄᡘᡆ	xöxere×−	xoxrŏx
 ᡘᡆᡅᡘᡅᡘᡆ	xöxi×−	xoxŏx
 ᡘᡆᡅᡘᡅᡘᡄᡘᡆ	xöxige×−	xoxoːx
 ᡘᡆᡅᡘᡅᡘᡆᠯᡘᡆ	xöxigül×−	xoxuːlə̆x
@@ -4389,8 +4279,6 @@
 ᡘᡆᡅᡘᡆᡘᡆ	xöxö×−	xoxŏx
 ᡘᡆᡅᡘᡆᡘᡆᠯᡘᡆ	xöxögül×−	xoxuːlə̆x
 ᡘᡆᡅᡘᡆᠷᡄᡘᡆ	xöxöre×−	xoxrŏx
-ᡘᡆᡅᡘᠯᡄᡘᡆ	xögle×−	xoɡlŏx
-ᡘᡆᡅᡘᠯᡄᡘᡆ	xögle×−	xoɡlŏx
 ᡘᡆᡅᡘᠯᡄᡘᡆ	xögle×−	xoɡlŏx
 ᡘᡆᡅᡘᠯᡄᡘᡆᠯᡘᡆ	xöglegül×−	xoɡluːlə̆x
 ᡘᡆᡅᡘᠯᡄᠷᡄᡘᡆ	xöglere×−	xoɡlŏrŏx
@@ -4407,8 +4295,6 @@
 ᡘᡆᡅᡘᡄᡄᡘᡘᡅᡑᡆᡘᡆ	xögeŋgitü×−	xoːŋɡŏtŏx
 ᡘᡆᡅᡘᡄᡄᡘᡘᡅᠷᡄᡘᡆ	xögeŋgire×−	xoːŋɡŏrŏx
 ᡘᡆᡅᡘᡄᠪᡆᠷᠯᡄᡘᡆ	xögebürle×−	xoːbŏrlŏx
-ᡘᡆᡅᡘᡄᠪᡆᠷᠯᡄᡘᡆ	xögebürle×−	xoːbŏrlŏx
-ᡘᡆᡅᡘᡄᡘᡄᡘᡆ	xögege×−	xoːx
 ᡘᡆᡅᡘᡄᡘᡄᡘᡆ	xögege×−	xoːx
 ᡘᡆᡅᡘᡄᡘᡄᠯᡘᡄᡘᡆ	xögegelge×−	xoːlɡŏx
 ᡘᡆᡅᡘᡄᡘᡄᠯᠴᡄᡘᡆ	xögegelče×−	xoːlʧix
@@ -4434,7 +4320,6 @@
 ᡘᡆᡅᡏᡆᡔᡅᡘᡆᠯᡘᡆ	xömüǰigül×−	xumuːʤuːlə̆x
 ᡘᡆᡅᠯᡄᡘᡆ	xöle×−	xoːlŏx
 ᡘᡆᡅᠯᡆᠰᡆᠯᡄᡘᡆ	xölösöle×−	xolslŏx
-ᡘᡆᡅᠯᡆᠰᡆᠯᡄᡘᡆ	xölösöle×−	xolslŏx
 ᡘᡆᡅᠯᡆᠷᡄᡘᡆ	xölöre×−	xolrŏx
 ᡘᡆᡅᠯᡆᠷᡄᡘᡄᡘᡆ	xölörege×−	xolroːx
 ᡘᡆᡅᠯᡆᠷᡄᡘᡆᠯᡘᡆ	xölöregül×−	xolruːlə̆x
@@ -4448,10 +4333,8 @@
 ᡘᡆᡅᠯᡏᡆᡘᡄᠷᡑᡄᡘᡆ	xölmögerde×−	xolŏmɡŏrdŏx
 ᡘᡆᡅᠯᡏᡆᠯᡔᡄᡘᡆ	xölmölǰe×−	xolmŏlʤix
 ᡘᡆᡅᠯᠯᡄᡘᡆ	xölle×−	xollŏx
-ᡘᡆᡅᠯᠯᡄᡘᡆ	xölle×−	xollŏx
 ᡘᡆᡅᠯᠰᡄᡘᡆ	xölse×−	xolsŏx
 ᡘᡆᡅᠯᡑᡆᠷᡘᡄᠯᡄᡘᡆ	xöltörgele×−	xoltrŏɡlŏx
-ᡘᡆᡅᠯᡑᡄᡘᡆ	xölde×−	xoldŏx
 ᡘᡆᡅᠯᡑᡄᡘᡆ	xölde×−	xoldŏx
 ᡘᡆᡅᠯᡑᡄᡘᡄᡘᡆ	xöldege×−	xoldoːx
 ᡘᡆᡅᠯᠴᡅᡘᡆ	xölči×−	xolʧix
@@ -4462,7 +4345,6 @@
 ᡘᡆᡅᠰᡄᠷᠰᡅᡘᡆ	xösersi×−	xosŏrʃix
 ᡘᡆᡅᠰᡄᠷᡑᡄᡘᡆ	xöserde×−	xosŏrdŏx
 ᡘᡆᡅᠰᡄᠷᡑᡄᡘᡆᠯᡘᡆ	xöserdegül×−	xosŏrduːlə̆x
-ᡘᡆᡅᠰᡅᡘᡆ	xösi×−	xoʃix
 ᡘᡆᡅᠰᡅᡘᡆ	xösi×−	xoʃix
 ᡘᡆᡅᠰᡅᡘᡄᡘᡆ	xösige×−	xoʃoːx
 ᡘᡆᡅᠰᡅᡘᡄᠯᡄᡘᡆ	xösigele×−	xoʃiɡlŏx
@@ -4544,7 +4426,6 @@
 ᡘᡆᡅᠯᡅᡘᡄᠯᡔᡄᡘᡆ	xüligelǰe×−	xulɡə̆lʤix
 ᡘᡆᡅᠯᡅᠴᡄᡘᡆ	xüliče×−	xulʧix
 ᡘᡆᡅᠯᡅᡕᡄᡘᡆ	xüliye×−	xuliəx
-ᡘᡆᡅᠯᡅᡕᡄᡘᡆ	xüliye×−	xuliəx
 ᡘᡆᡅᠯᡅᡕᡄᠰᡆᠯᡄᡘᡆ	xüliyesüle×−	xuliəslə̆x
 ᡘᡆᡅᠯᡘᡆᡅᡅᡘᡆ	xülxüi×−	xulxiːx
 ᡘᡆᡅᠯᡘᡆᡘᡆ	xülxü×−	xulxə̆x
@@ -4619,7 +4500,6 @@
 ᡎᡄᡄᡘᡎᡄᠯᡄᡍᡇ‌	gaŋgala×+	ɡɑŋɡɑ̆lɑ̆x
 ᡎᡄᡄᡘᡘᡅᡊᡄᡍᡇ‌	gaŋgina×+	ɡæŋɡɪnɑ̆x
 ᡎᡄᡄᡘᠰᡄᠷᡄᡍᡇ‌	gaŋsara×+	ɡɑŋsrɑ̆x
-ᡎᡄᡄᡘᠰᡅᡍᡇ‌	gaŋsi×+	ɡɑŋʃɪx
 ᡎᡄᡄᡘᠰᡅᡍᡇ‌	gaŋsi×+	ɡɑŋʃɪx
 ᡎᡄᡄᡘᡑᡆᡍᡇ‌	gaŋtu×+	ɡɑŋtɑ̆x
 ᡎᡄᡄᡘᡑᡄᡍᡇ‌	gaŋda×+	ɡɑŋdɑ̆x
@@ -4755,7 +4635,6 @@
 ᡘᡄᡑᡄᠷᡘᡆᡑᡄᡘᡆ	gedergüde×−	ɡədrə̆ɡdə̆x
 ᡘᡄᡔᡅᡘᡄᠯᡄᡘᡆ	geǰigele×−	ɡəʤiɡlə̆x
 ᡘᡄᡔᡅᡘᡄᡑᡄᡘᡆ	geǰigede×−	ɡəʤiɡdə̆x
-ᡘᡄᡔᡅᡘᡄᡑᡄᡘᡆ	geǰigede×−	ɡəʤiɡdə̆x
 ᡘᡄᡕᡆᠷᡄᡘᡆ	geyüre×−	ɡəjuːrə̆x
 ᡘᡄᠷᡄᠯᡑᡆᡘᡆ	gereltü×−	ɡərə̆ltə̆x
 ᡘᡄᠷᡄᠯᡑᡆᡘᡆᠯᡘᡆ	gereltügül×−	ɡərə̆ltuːlə̆x
@@ -4764,7 +4643,6 @@
 ᡘᡄᠷᡄᠴᡅᠯᡄᡘᡆ	gerečile×−	ɡərʧlə̆x
 ᡘᡄᠷᡅᡕᡄᠰᡆᠯᡄᡘᡆ	geriyesüle×−	ɡərəːslə̆x
 ᡘᡄᠷᡅᡕᡄᠰᠯᡄᡘᡆ	geriyesle×−	ɡərəːslə̆x
-ᡘᡄᠷᠯᡄᡘᡆ	gerle×−	ɡərlə̆x
 ᡘᡄᠷᠯᡄᡘᡆ	gerle×−	ɡərlə̆x
 ᡘᡅᡄᡔᡅᠯᡄᡘᡆ	ginǰile×−	ɡinʤlə̆x
 ᡘᡅᡄᡘᡘᡅᡊᡄᡘᡆ	giŋgine×−	ɡiŋɡə̆nə̆x
@@ -4883,7 +4761,6 @@
 ᡎᡆᠷᡅᠯᡄᡍᡇ‌	gorila×+	ɡœrlɔ̆x
 ᡎᡆᠷᡅᡑᡄᡍᡇ‌	gorida×+	ɡœrdɔ̆x
 ᡎᡆᠷᡆᡅᡅᡍᡇ‌	goroi×+	ɡɔrɔɪx
-ᡎᡆᠷᡆᡅᡅᡍᡇ‌	goroi×+	ɡɔrɔɪx
 ᡎᡆᠷᡆᡍᡄᠯᡄᡍᡇ‌	goroxala×+	ɡɔrxlɔ̆x
 ᡎᡆᠷᡘᡅᠯᡄᡍᡇ‌	gorgila×+	ɡœrɪɡlɔ̆x
 ᡎᡆᠷᡘᡅᡑᡄᡍᡇ‌	gorgida×+	ɡœrɪɡdɔ̆x
@@ -4899,7 +4776,6 @@
 ᡎᡆᡅᡅᠯᡅᡄᠴᡅᠯᡄᡍᡇ‌	guilinčila×+	ɡʊɪlɑ̆nʧlɑ̆x
 ᡎᡆᡅᡅᠷᡄᡄᠴᡅᠯᡄᡍᡇ‌	guirančila×+	ɡʊɪrɑ̆nʧlɑ̆x
 ᡎᡆᡆᡍᠯᡄᡍᡇ‌	guugla×+	ɡʊːɡlɑ̆x
-ᡎᡆᡆᠯᡄᡍᡇ‌	guula×+	ɡʊːlɑ̆x
 ᡎᡆᡆᠯᡄᡍᡇ‌	guula×+	ɡʊːlɑ̆x
 ᡎᡆᡆᡔᡅᡍᡇ‌	guuǰi×+	ɡʊːʤɪx
 ᡎᡆᡆᠷᡄᡅᡅᡍᡇ‌	guurai×+	ɡʊːrɪːx
@@ -4920,13 +4796,11 @@
 ᡎᡆᠪᡄᡔᡅᠯᡄᡍᡇ‌	gubaǰila×+	ɡʊbʤlɑ̆x
 ᡎᡆᠪᡅᡎᡆᠯᡍᡇ‌	gubigul×+	ɡʏbʊːlɑ̆x
 ᡎᡆᠪᡆᠷᡆᡆᡑᡆᡍᡇ‌	guburuutu×+	ɡʏbrʊːtɑ̆x
-ᡎᡆᠪᡆᠷᡆᡆᡑᡆᡍᡇ‌	guburuutu×+	ɡʏbrʊːtɑ̆x
 ᡎᡆᠪᠰᡅᡍᡇ‌	gubsi×+	ɡʊbʃɪx
 ᡎᡆᠪᠴᡅᡅᡍᡇ‌	gubčii×+	ɡʊbʧɪːx
 ᡎᡆᠪᠴᡅᡆᠷᠯᡄᡍᡇ‌	gubčiurla×+	ɡʊbʧʊːrlɑ̆x
 ᡎᡆᠪᠴᡅᡍᡇ‌	gubči×+	ɡʊbʧɪx
 ᡎᡆᠪᠴᡅᡎᡄᡊᡄᡍᡇ‌	gubčigana×+	ɡʊbʧɡɑ̆nɑ̆x
-ᡎᡆᠪᠴᡅᡎᡆᠷᠯᡄᡍᡇ‌	gubčigurla×+	ɡʊbʧʊːrlɑ̆x
 ᡎᡆᠪᠴᡅᡎᡆᠷᠯᡄᡍᡇ‌	gubčigurla×+	ɡʊbʧʊːrlɑ̆x
 ᡎᡆᠪᠴᡅᠯᡔᡄᡍᡇ‌	gubčilǰa×+	ɡʊbʧɪlʤɪx
 ᡎᡆᠪᠴᡆᡆᠷᠯᡄᡍᡇ‌	gubčuurla×+	ɡʊbʧʊːrlɑ̆x
@@ -4975,7 +4849,6 @@
 ᡎᡆᡑᡆᠷᡄᡍᡇ‌	gudura×+	ɡʊdrɑ̆x
 ᡎᡆᡑᡆᠷᡄᡎᡄᡑᡆᡍᡇ‌	guduragatu×+	ɡʊdrɑ̆ɡtɑ̆x
 ᡎᡆᡑᡆᠷᡄᡎᡄᡑᡄᡍᡇ‌	guduragada×+	ɡʊdrɑ̆ɡdɑ̆x
-ᡎᡆᡑᡆᠷᡄᡎᡄᡑᡄᡍᡇ‌	guduragada×+	ɡʊdrɑ̆ɡdɑ̆x
 ᡎᡆᡑᡆᠷᡄᡎᡆᠯᡍᡇ‌	guduragul×+	ɡʊdrʊːlɑ̆x
 ᡎᡆᠴᡄᡍᡇ‌	guča×+	ɡʊʧɪx
 ᡎᡆᡕᡄᡑᡄᡍᡇ‌	guyada×+	ɡʊjdɑ̆x
@@ -5016,19 +4889,15 @@
 ᡘᡆᡅᡘᡄᡅᡅᠷᡄᡘᡆ	gögeire×−	ɡoɡoirŏx
 ᡘᡆᡅᡏᡅᠰᡑᡄᡘᡆ	gömisde×−	ɡomŏsdŏx
 ᡘᡆᡅᠯᡅᡅᡘᡆ	gölii×−	ɡoliːx
-ᡘᡆᡅᠯᡅᡅᡘᡆ	gölii×−	ɡoliːx
 ᡘᡆᡅᠯᡅᠪᡄᠯᡔᡄᡘᡆ	gölibelǰe×−	ɡolbŏlʤix
 ᡘᡆᡅᠯᡅᡘᡄᡊᡄᡘᡆ	göligene×−	ɡoliɡnŏx
 ᡘᡆᡅᠯᡅᠯᡔᡄᡘᡆ	gölilǰe×−	ɡolilʤix
 ᡘᡆᡅᠯᡅᠷᡄᡘᡆ	gölire×−	ɡolrŏx
 ᡘᡆᡅᠯᡆᡘᡄᠯᡄᡘᡆ	gölögele×−	ɡolŏɡlŏx
-ᡘᡆᡅᠯᡆᡘᡄᠯᡄᡘᡆ	gölögele×−	ɡolŏɡlŏx
-ᡘᡆᡅᠯᡆᡘᡄᠯᡄᡘᡆ	gölögele×−	ɡolŏɡlŏx
 ᡘᡆᡅᠯᡏᡅᡑᡄᡘᡆ	gölmide×−	ɡolmiːdŏx
 ᡘᡆᡅᠯᡑᡄᡅᡅᡘᡆ	göltei×−	ɡoltoix
 ᡘᡆᡅᠯᡑᡄᡘᡄᡊᡄᡘᡆ	göltegene×−	ɡoltŏɡnŏx
 ᡘᡆᡅᠯᠴᡅᡘᡄᡊᡄᡘᡆ	gölčigene×−	ɡolʧiɡnŏx
-ᡘᡆᡅᠯᠴᡆᡘᡄᡅᡅᠯᡄᡘᡆ	gölčögeile×−	ɡolʧɡoilŏx
 ᡘᡆᡅᠯᠴᡆᡘᡄᡅᡅᠯᡄᡘᡆ	gölčögeile×−	ɡolʧɡoilŏx
 ᡘᡆᡅᠷᡆᡘᡆ	görö×−	ɡorŏx
 ᡘᡆᡅᠷᡆᡘᡄᠯᡄᡘᡆ	görögele×−	ɡoroːlŏx
@@ -5040,8 +4909,6 @@
 ᡘᡆᡅᡅᠯᡘᡄᡘᡆ	güilge×−	ɡuilɡə̆x
 ᡘᡆᡅᡅᠯᡘᡄᡘᡄᠯᡄᡘᡆ	güilgegele×−	ɡuilɡəːlə̆x
 ᡘᡆᡅᡅᠴᡄᡘᡆ	güiče×−	ɡuiʧix
-ᡘᡆᡅᡅᠴᡄᡘᡆ	güiče×−	ɡuiʧix
-ᡘᡆᡅᡅᠴᡄᡘᡄᡘᡆ	güičege×−	ɡuiʧəːx
 ᡘᡆᡅᡅᠴᡄᡘᡄᡘᡆ	güičege×−	ɡuiʧəːx
 ᡘᡆᡅᡅᠴᡄᠯᡑᡆᡘᡆ	güičeldü×−	ɡuiʧildə̆x
 ᡘᡆᡅᡅᠴᡄᡆᡄᡘᡄᡘᡆ	güičedxe×−	ɡuiʧitɡə̆x
@@ -5108,7 +4975,6 @@
 ᡏᡄᡅᡅᠷᡄᡍᡇ‌	maira×+	mæːrɑ̆x
 ᡏᡄᡅᡅᠷᡄᡎᡄᠯᡄᡍᡇ‌	mairagala×+	mæːrɡɑ̆lɑ̆x
 ᡏᡄᡊᡄᡍᡇ‌	mana×+	mɑnɑ̆x
-ᡏᡄᡊᡄᡍᡇ‌	mana×+	mɑnɑ̆x
 ᡏᡄᡊᡄᠷᡄᡍᡇ‌	manara×+	mɑnrɑ̆x
 ᡏᡄᡊᡄᠷᡄᡎᡆᠯᡍᡇ‌	manaragul×+	mɑnrʊːlɑ̆x
 ᡏᡄᡊᡅᡅᡍᡇ‌	manii×+	mɑnɪːx
@@ -5141,7 +5007,6 @@
 ᡏᡄᡎᡄᡆᡄᠯᡄᡍᡇ‌	magadla×+	mɑɡɑ̆dlɑ̆x
 ᡏᡄᡎᡄᡔᡅᡍᡇ‌	magaǰi×+	mɑːʤɪx
 ᡏᡄᡎᡄᡔᡅᠯᡄᡍᡇ‌	magaǰila×+	mɑːʤlɑ̆x
-ᡏᡄᡎᡄᠷᡄᡍᡇ‌	magara×+	mɑːrɑ̆x
 ᡏᡄᡎᡄᠷᡄᡍᡇ‌	magara×+	mɑːrɑ̆x
 ᡏᡄᡎᡄᠷᠰᡅᡍᡇ‌	magarsi×+	mɑːrʃɪx
 ᡏᡄᡎᡆᠯᡄᡍᡇ‌	magula×+	mʊːlɑ̆x
@@ -5196,7 +5061,6 @@
 ᡏᡄᡊᡄᡘᡑᡆᡘᡆ	menegtü×−	mənə̆ɡtə̆x
 ᡏᡄᡊᡄᠷᡄᡘᡆ	menere×−	mənrə̆x
 ᡏᡄᡄᡑᡆᠯᡄᡘᡆ	mendüle×−	məndlə̆x
-ᡏᡄᡄᡑᡆᠯᡄᡘᡆ	mendüle×−	məndlə̆x
 ᡏᡄᡄᡑᡆᠴᡅᠯᡄᡘᡆ	mendüčile×−	məndʧilə̆x
 ᡏᡄᡄᡘᡘᡄᠷᡑᡆᡘᡆ	meŋgertü×−	məŋɡə̆rtə̆x
 ᡏᡄᡄᡘᡑᡄᡊᡅᡘᡆ	meŋdeni×−	məŋdnə̆x
@@ -5225,14 +5089,12 @@
 ᡏᡄᠯᡑᡄᠯᡔᡄᡘᡆ	meltelǰe×−	məltə̆lʤix
 ᡏᡄᠯᠴᡄᡅᡅᡘᡆ	melčei×−	məlʧiːx
 ᡏᡄᠯᡔᡅᡘᡆ	melǰi×−	məlʤix
-ᡏᡄᠯᡔᡅᡘᡆ	melǰi×−	məlʤix
 ᡏᡄᠯᡔᡅᡕᡄᠴᡄᡘᡆ	melǰiyeče×−	məlʤəːʧix
 ᡏᡄᠰᡄᡑᡄᡘᡆ	mesede×−	məsdə̆x
 ᡏᡄᡑᡄᡅᡅᡘᡆ	metei×−	mətiːx
 ᡏᡄᡑᡄᡘᡄᡘᡆ	metege×−	mətɡə̆x
 ᡏᡄᡑᡄᡘᡆ	mede×−	mədə̆x
 ᡏᡄᡑᡄᡘᡑᡄᡘᡆ	medegde×−	mədə̆ɡdə̆x
-ᡏᡄᡑᡄᡘᡄᠯᡄᡘᡆ	medegele×−	mədəːlə̆x
 ᡏᡄᡑᡄᡘᡄᠯᡄᡘᡆ	medegele×−	mədəːlə̆x
 ᡏᡄᡑᡄᡘᡆᠯᡘᡆ	medegül×−	məduːlə̆x
 ᡏᡄᡑᡄᡏᡄᡘᡄᡅᡅᠯᡄᡘᡆ	medemexeile×−	mədə̆mxeːlə̆x
@@ -5297,8 +5159,6 @@
 ᡏᡆᡍᡔᡆᠷᡄᡍᡇ‌	mogǰora×+	mɔɡʤrɔ̆x
 ᡏᡆᠯᠴᡆᡍᠯᡄᡍᡇ‌	molčogla×+	mɔlʧɪɡlɔ̆x
 ᡏᡆᡐᡆᠷᠴᡅᠯᡄᡍᡇ‌	mot'orčila×+	mɔtɔːrʧlɔ̆x
-ᡏᡆᡑᡆᠯᡄᡍᡇ‌	modola×+	mɔdlɔ̆x
-ᡏᡆᡑᡆᠯᡄᡍᡇ‌	modola×+	mɔdlɔ̆x
 ᡏᡆᡑᡆᠯᡄᡍᡇ‌	modola×+	mɔdlɔ̆x
 ᡏᡆᡑᡆᡔᡅᡍᡇ‌	modoǰi×+	mɔdʤɪx
 ᡏᡆᡑᡆᠷᡄᡍᡇ‌	modora×+	mɔdrɔ̆x
@@ -5421,7 +5281,6 @@
 ᠯᡄᠪᠯᡄᡍᡇ‌	labla×+	lɑblɑ̆x
 ᠯᡄᠪᠰᡄᡍᡇ‌	labsa×+	lɑbsɑ̆x
 ᠯᡄᠪᠰᡅᡍᡇ‌	labsi×+	lɑbʃɪx
-ᠯᡄᠪᠰᡅᡍᡇ‌	labsi×+	lɑbʃɪx
 ᠯᡄᠪᠰᡅᠷᡄᡍᡇ‌	labsira×+	lɑbʃrɑ̆x
 ᠯᡄᠪᠰᡅᠷᡄᡎᡆᠯᡍᡇ‌	labsiragul×+	lɑbʃrʊːlɑ̆x
 ᠯᡄᠪᡑᡄᡅᡅᡍᡇ‌	labtai×+	lɑbtɪːx
@@ -5479,7 +5338,6 @@
 ᠯᡆᡄᡘᠰᡆᡅᡅᠯᡄᡍᡇ‌	luŋsuila×+	lʊŋsʊɪlɑ̆x
 ᠯᡆᡍᡄᡅᡅᡍᡇ‌	luxai×+	lʊxɪːx
 ᠯᡆᡍᠰᡅᡍᡇ‌	lugsi×+	lʊɡʃɪx
-ᠯᡆᡍᠰᡅᡍᡇ‌	lugsi×+	lʊɡʃɪx
 ᠯᡆᡅᠯᡆᡑᡄᡘᡆ	lölöde×−	loːloːdŏx
 ᠯᡆᡅᠪᡘᡅᡘᡆ	lübxi×−	lubxiːx
 ᠯᡆᡅᡘᡘᡅᡘᡆ	lügxi×−	luɡxiːx
@@ -5531,10 +5389,8 @@
 ᠰᡄᠪᡄᡎᡄᡑᡄᡍᡇ‌	sabagada×+	sɑbɡɑ̆dɑ̆x
 ᠰᡄᠪᡄᡎᡄᡑᡄᡍᡇ‌	sabagada×+	sɑbɑːdɑ̆x
 ᠰᡄᠪᡄᠯᡄᡍᡇ‌	sabala×+	sɑblɑ̆x
-ᠰᡄᠪᡄᠯᡄᡍᡇ‌	sabala×+	sɑblɑ̆x
 ᠰᡄᠪᡄᡑᡄᡍᡇ‌	sabada×+	sɑbdɑ̆x
 ᠰᡄᠪᡄᠴᡅᡍᡇ‌	sabači×+	sɑbʧɪx
-ᠰᡄᠪᡄᠷᡑᡄᡍᡇ‌	sabarda×+	sɑbɑ̆rdɑ̆x
 ᠰᡄᠪᡄᠷᡑᡄᡍᡇ‌	sabarda×+	sɑbɑ̆rdɑ̆x
 ᠰᡄᠪᡅᠷᡄᡍᡇ‌	sabira×+	sæbrɑ̆x
 ᠰᡄᠪᡅᠷᡄᡎᡆᠯᡍᡇ‌	sabiragul×+	sæbrʊːlɑ̆x
@@ -5552,7 +5408,6 @@
 ᠰᡄᡍᡆᡆᡑᡆᡍᡇ‌	saxuutu×+	sɑxʊːtɑ̆x
 ᠰᡄᡍᡆᡆᠷᡄᡍᡇ‌	saxuura×+	sɑxʊːrɑ̆x
 ᠰᡄᡎᡄᡍᡇ‌	saga×+	sɑːx
-ᠰᡄᡎᡄᡍᡇ‌	saga×+	sɑːx
 ᠰᡄᡎᡄᡍᡑᡄᡍᡇ‌	sagagda×+	sɑːɡdɑ̆x
 ᠰᡄᡎᡄᡏᡄᠰᡅᡍᡇ‌	sagamasi×+	sɑːmʃɪx
 ᠰᡄᡎᡄᡏᡄᠰᡅᠷᡄᡍᡇ‌	sagamasira×+	sɑːmʃrɑ̆x
@@ -5568,7 +5423,6 @@
 ᠰᡄᡎᡄᠷᡏᡄᡍᡔᡅᡍᡇ‌	sagarmagǰi×+	sɑːrmɑ̆ɡʤɪx
 ᠰᡄᡎᡆᡍᡇ‌	sagu×+	sʊːx
 ᠰᡄᡎᡆᡍᡑᡄᡍᡇ‌	sagugda×+	sʊːɡdɑ̆x
-ᠰᡄᡎᡆᠯᡎᡄᡍᡇ‌	sagulga×+	sʊːlɡɑ̆x
 ᠰᡄᡎᡆᠯᡎᡄᡍᡇ‌	sagulga×+	sʊːlɡɑ̆x
 ᠰᡄᡎᡆᠯᠴᡄᡍᡇ‌	sagulča×+	sʊːlʧɪx
 ᠰᡄᡎᡆᡆᡄᡍᡄᡍᡇ‌	sagudxa×+	sʊːtɡɑ̆x
@@ -5624,7 +5478,6 @@
 ᠰᡄᠯᡑᡄᡅᡅᡍᡇ‌	saldai×+	sɑldɪːx
 ᠰᡄᠯᡔᡅᡅᡍᡇ‌	salǰii×+	sɑlʤɪːx
 ᠰᡄᡑᡄᡎᡄᠷᡄᡍᡇ‌	satagara×+	sɑtɑːrɑ̆x
-ᠰᡄᡑᡄᡎᡄᡊᡄᡍᡇ‌	sadagana×+	sɑdɡɑ̆nɑ̆x
 ᠰᡄᡑᡄᡎᡄᡊᡄᡍᡇ‌	sadagana×+	sɑdɡɑ̆nɑ̆x
 ᠰᡄᡑᡄᠷᡄᡍᡇ‌	sadara×+	sɑdrɑ̆x
 ᠰᡄᡑᡆᡄᡘᡊᡄᡍᡇ‌	saduŋna×+	sɑdɑ̆ɡnɑ̆x
@@ -5751,7 +5604,6 @@
 ᠰᡄᡘᡆᡑᡄᠯᡔᡄᡘᡆ	següdelǰe×−	suːdə̆lʤix
 ᠰᡄᡘᡆᡑᡄᠷᠯᡄᡘᡆ	següderle×−	suːdə̆rlə̆x
 ᠰᡄᡘᡆᡑᡄᠷᡑᡆᡘᡆ	següdertü×−	suːdə̆rtə̆x
-ᠰᡄᡘᡆᡑᡄᠷᡑᡆᡘᡆ	següdertü×−	suːdə̆rtə̆x
 ᠰᡄᡏᡄᠯᡘᡆ	semel×−	səmlə̆x
 ᠰᡄᡏᡄᠰᡄᡅᡅᡘᡆ	semesei×−	səmsiːx
 ᠰᡄᡏᡄᠰᡄᠷᡄᡘᡆ	semesere×−	səmsrə̆x
@@ -5768,7 +5620,6 @@
 ᠰᡄᠯᡅᡘᡆ	seli×−	sələ̆x
 ᠰᡄᠯᡅᡘᡆᠷᡑᡄᡘᡆ	seligürde×−	səluːrdə̆x
 ᠰᡄᠯᠪᡅᡘᡆ	selbi×−	səlbə̆x
-ᠰᡄᠯᠪᡅᡘᡆ	selbi×−	səlbə̆x
 ᠰᡄᠯᠪᡅᡘᡆᠷᡑᡄᡘᡆ	selbigürde×−	səlbuːrdə̆x
 ᠰᡄᠯᠪᡅᠴᡄᡘᡆ	selbiče×−	sələ̆bʧix
 ᠰᡄᠯᡘᡆᡅᡅᡘᡆ	selxüi×−	səlxiːx
@@ -5784,7 +5635,6 @@
 ᠰᡄᡑᡄᡘᡆ	sede×−	sədə̆x
 ᠰᡄᡑᡄᠷᡄᡘᡆ	sedere×−	sədrə̆x
 ᠰᡄᡑᡄᠷᡄᡘᡑᡆᡘᡆ	sederegtü×−	sədrə̆ɡtə̆x
-ᠰᡄᡑᡆᠪᠯᡄᡘᡆ	sedüble×−	sədə̆blə̆x
 ᠰᡄᡑᡆᠪᠯᡄᡘᡆ	sedüble×−	sədə̆blə̆x
 ᠰᡄᡑᡆᠪᠴᡅᠯᡄᡘᡆ	sedübčile×−	sədə̆bʧlə̆x
 ᠰᡄᡑᡆᡘᡆ	sedü×−	sədə̆x
@@ -5836,7 +5686,6 @@
 ᠰᡅᡅᡆᡄᡘᡆ	siid×−	ʃiːdə̆x
 ᠰᡅᡊᡄᡎᡄᠯᡄᡍᡇ‌	sinagala×+	ʃɑnɡɑ̆lɑ̆x
 ᠰᡅᡊᡄᠯᡄᡍᡇ‌	sinala×+	ʃɪnɑːlɑ̆x
-ᠰᡅᡊᡄᠯᡄᡍᡇ‌	sinala×+	ʃɪnɑːlɑ̆x
 ᠰᡅᡊᡄᠯᡍᡇ‌	sinal×+	ʃɪnlɑ̆x
 ᠰᡅᡊᡄᠷᡄᡍᡇ‌	sinara×+	ʃɪnɑːrɑ̆x
 ᠰᡅᡊᡄᠯᡄᡘᡆ	sinele×−	ʃinlə̆x
@@ -5868,7 +5717,6 @@
 ᠰᡅᡄᡘᠰᡅᡘᡆ	siŋsi×−	ʃiŋʃix
 ᠰᡅᡄᡘᠰᡅᠯᡄᡘᡆ	siŋsile×−	ʃiŋʃlə̆x
 ᠰᡅᠪᡄᡄᡘᡑᡄᡍᡇ‌	sibaŋda×+	ʃɑbɑ̆ŋdɑ̆x
-ᠰᡅᠪᡄᡍᡇ‌	siba×+	ʃɑbɑ̆x
 ᠰᡅᠪᡄᡍᡇ‌	siba×+	ʃɑbɑ̆x
 ᠰᡅᠪᡄᡎᡄᠯᡄᡍᡇ‌	sibagala×+	ʃɑbɑːlɑ̆x
 ᠰᡅᠪᡄᡎᡄᠰᡆᠯᡄᡍᡇ‌	sibagasula×+	ʃɑbɑːslɑ̆x
@@ -5905,7 +5753,6 @@
 ᠰᡅᠪᠰᡅᡘᡆ	sibsi×−	ʃibʃix
 ᠰᡅᠪᠰᡅᠷᡎᡄᡑᡄᡍᡇ‌	sibsirgada×+	ʃɑbʃrɑ̆ɡdɑ̆x
 ᠰᡅᠪᡑᡆᠯᡍᡇ‌	sibtul×+	ʃʊbtlɑ̆x
-ᠰᡅᠪᡑᡆᠴᡅᡍᡇ‌	sibtuči×+	ʃʊbtʧɪx
 ᠰᡅᠪᡑᡆᠴᡅᡍᡇ‌	sibtuči×+	ʃʊbtʧɪx
 ᠰᡅᠪᡑᡆᠷᡄᡍᡇ‌	sibtura×+	ʃʊbtrɑ̆x
 ᠰᡅᠪᡑᡆᠷᡍᡇ‌	sibtur×+	ʃʊbtrɑ̆x
@@ -5961,7 +5808,6 @@
 ᠰᡅᡘᡆᠯᡘᡆ	sigül×−	ʃuːlə̆x
 ᠰᡅᡘᡆᠯᡘᡄᡘᡆ	sigülge×−	ʃuːlɡə̆x
 ᠰᡅᡘᡆᠰᡆᠯᡄᡘᡆ	sigüsüle×−	ʃuːslə̆x
-ᠰᡅᡘᡆᠰᡆᠯᡄᡘᡆ	sigüsüle×−	ʃuːslə̆x
 ᠰᡅᡘᡆᡑᡄᠷᡅᠯᡄᡘᡆ	sigüderile×−	ʃuːdə̆rlə̆x
 ᠰᡅᡘᡆᡑᡄᠷᡅᡑᡆᡘᡆ	sigüderitü×−	ʃuːdə̆rtə̆x
 ᠰᡅᡘᡆᠷᡄᡘᡅᠯᡄᡘᡆ	sigürexile×−	ʃuːrxiːlə̆x
@@ -6009,7 +5855,6 @@
 ᠰᡅᠯᠯᡄᡘᡆ	sille×−	ʃillə̆x
 ᠰᡅᠯᡑᡄᡍᡇ‌	silta×+	ʃɪltɑ̆x
 ᠰᡅᠯᡑᡄᡎᡄᠯᡄᡍᡇ‌	siltagala×+	ʃɪltɡɑːlɑ̆x
-ᠰᡅᠯᡑᡄᡎᡄᠯᡄᡍᡇ‌	siltagala×+	ʃɪltɡɑːlɑ̆x
 ᠰᡅᠯᡑᡄᡎᡄᠴᡄᡍᡇ‌	siltagača×+	ʃɪltɡɑːʧɪx
 ᠰᡅᠯᡑᡄᡍᠯᡄᡍᡇ‌	siltagla×+	ʃɪltɑ̆ɡlɑ̆x
 ᠰᡅᠯᡑᡆᡘᡆ	siltü×−	ʃiltə̆x
@@ -6030,7 +5875,6 @@
 ᠰᡅᡑᡄᡏᡑᡄᡍᡇ‌	sidamda×+	ʃɪːdɑ̆mdɑ̆x
 ᠰᡅᡑᡄᠷᠯᡄᡍᡇ‌	sidarla×+	ʃɪdɑ̆rlɑ̆x
 ᠰᡅᡑᡄᠷᡑᡄᡍᡇ‌	sidarda×+	ʃɪdɑ̆rdɑ̆x
-ᠰᡅᡑᡄᡘᡆ	side×−	ʃidə̆x
 ᠰᡅᡑᡄᡘᡆ	side×−	ʃidə̆x
 ᠰᡅᡑᡄᡏᡄᠯᡄᡘᡆ	sidemele×−	ʃidə̆mlə̆x
 ᠰᡅᡑᡄᡏᡄᠰᡆᠯᡄᡘᡆ	sidemesüle×−	ʃidə̆mslə̆x
@@ -6054,10 +5898,8 @@
 ᠰᡅᠷᡄᠯᡍᡄᡍᡇ‌	siralxa×+	ʃɑrɑ̆lxɑ̆x
 ᠰᡅᠷᡄᡑᡆᡍᡇ‌	siratu×+	ʃɑrtɑ̆x
 ᠰᡅᠷᡄᡘᡄᠯᡄᡘᡆ	siregele×−	ʃirəːlə̆x
-ᠰᡅᠷᡄᡘᡄᠯᡄᡘᡆ	siregele×−	ʃirəːlə̆x
 ᠰᡅᠷᡄᡘᡄᠯᡄᡆᡄᡘᡆ	siregeled×−	ʃirəːldə̆x
 ᠰᡅᠷᡄᡏᡆᠰᡅᡘᡆ	siremüsi×−	ʃirə̆mʃix
-ᠰᡅᠷᡅᡘᡆ	siri×−	ʃirə̆x
 ᠰᡅᠷᡅᡘᡆ	siri×−	ʃirə̆x
 ᠰᡅᠷᡅᡘᡄᡘᡆ	sirige×−	ʃirəːx
 ᠰᡅᠷᡅᡏᡄᡘᠯᡄᡘᡆ	sirimegle×−	ʃirmə̆ɡlə̆x
@@ -6097,8 +5939,6 @@
 ᠰᡅᠷᡑᡘᡅᡘᡆ	sird'xi×−	ʃirdxiːx
 ᠰᡅᠷᡑᡄᡘᡆ	sirde×−	ʃirdə̆x
 ᠰᡅᠷᠴᡅᡘᡅᡊᡄᡘᡆ	sirčigine×−	ʃirʧiɡnə̆x
-ᠰᡆᡅᡅᡍᡇ‌	soi×+	sœːx
-ᠰᡆᡅᡅᡍᡇ‌	soi×+	sœːx
 ᠰᡆᡅᡅᡍᡇ‌	soi×+	sœːx
 ᠰᡆᡅᡅᠯᡍᡇ‌	soil×+	sœːlɔ̆x
 ᠰᡆᡊᡅᠷᡍᡄᡍᡇ‌	sonirxa×+	sœnɪrxɔ̆x
@@ -6151,7 +5991,6 @@
 ᠰᡆᠯᠪᡅᠴᡄᡍᡇ‌	solbiča×+	sœlɪbʧɪx
 ᠰᡆᠯᡔᡅᡅᡍᡇ‌	solǰii×+	sœlʤɪːx
 ᠰᡆᡑᡆᠯᡄᡍᡇ‌	sodola×+	sɔdlɔ̆x
-ᠰᡆᡑᡆᠯᡄᡍᡇ‌	sodola×+	sɔdlɔ̆x
 ᠰᡆᠴᡅᡍᡇ‌	soči×+	sɔʧɪx
 ᠰᡆᠴᡅᡎᡄᡍᡇ‌	sočiga×+	sɔʧɔːx
 ᠰᡆᠴᡅᡏᡄᡍᡑᡄᡍᡇ‌	sočimagda×+	sɔʧmɔ̆ɡdɔ̆x
@@ -6181,7 +6020,6 @@
 ᠰᡆᠷᠯᡄᡍᡇ‌	sorla×+	sɔrlɔ̆x
 ᠰᡆᠷᠯᡆᡍᡇ‌	sorlo×+	sɔrlɔ̆x
 ᠰᡆᠷᠰᡆᠯᡄᡍᡇ‌	sorsola×+	sɔrslɔ̆x
-ᠰᡆᠷᠰᡆᠯᡄᡍᡇ‌	sorsola×+	sɔrslɔ̆x
 ᠰᡆᠷᡑᡆᡅᡅᡍᡇ‌	sortoi×+	sɔrtɔɪx
 ᠰᡆᠷᡑᡆᡅᡅᠯᡎᡄᡍᡇ‌	sortoilga×+	sɔrtɔɪlɡɔ̆x
 ᠰᡆᠷᡑᡆᡆᠯᡄᡍᡇ‌	sortoola×+	sɔrtɔːlɔ̆x
@@ -6189,7 +6027,6 @@
 ᠰᡆᠷᡑᡆᡎᡆᡊᡄᡍᡇ‌	sortogona×+	sɔrtɡɔ̆nɔ̆x
 ᠰᡆᠷᡑᡆᠯᡔᡄᡍᡇ‌	sortolǰa×+	sɔrtɔ̆lʤɪx
 ᠰᡆᡅᡅᠪᡑᡄᡍᡇ‌	suibda×+	sʊɪbdɑ̆x
-ᠰᡆᡅᡅᠯᡄᡍᡇ‌	suila×+	sʊɪlɑ̆x
 ᠰᡆᡅᡅᠯᡄᡍᡇ‌	suila×+	sʊɪlɑ̆x
 ᠰᡆᡅᡅᡑᡄᡎᡄᡊᡄᡍᡇ‌	suitagana×+	sʊɪtɡɑ̆nɑ̆x
 ᠰᡆᡅᡅᡑᡄᠯᡔᡄᡍᡇ‌	suitalǰa×+	sʊɪtɑ̆lʤɪx
@@ -6307,7 +6144,6 @@
 ᠰᡆᡅᡅᡘᡄᠯᡄᡘᡆ	süixele×−	suixlə̆x
 ᠰᡆᡅᡅᠯᡄᡘᡅᠯᡄᡘᡆ	süilexile×−	suilxiːlə̆x
 ᠰᡆᡅᡅᠯᡄᡘᡆ	süile×−	suilə̆x
-ᠰᡆᡅᡅᠯᡄᡘᡆ	süile×−	suilə̆x
 ᠰᡆᡅᡅᠯᡄᡘᠯᡄᡘᡆ	süilegle×−	suilə̆ɡlə̆x
 ᠰᡆᡅᡅᠯᡘᡆ	süil×−	suilə̆x
 ᠰᡆᡅᡅᡑᡆᡘᡄᡊᡄᡘᡆ	süitügene×−	suitə̆ɡnə̆x
@@ -6365,7 +6201,6 @@
 ᠱᡄᡄᡘᡊᡄᡍᡇ‌	šaŋna×+	ʃɑɡnɑ̆x
 ᠱᡄᡄᡘᡍᡆᠯᡄᡍᡇ‌	šaŋxula×+	ʃɑŋxlɑ̆x
 ᠱᡄᡄᡘᡑᡄᡍᡇ‌	šaŋda×+	ʃɑŋdɑ̆x
-ᠱᡄᡄᡘᡑᡄᡍᡇ‌	šaŋda×+	ʃɑŋdɑ̆x
 ᠱᡄᡄᡘᡑᡄᡎᡆᠷᡄᡍᡇ‌	šaŋdagura×+	ʃɑŋdʊːrɑ̆x
 ᠱᡄᠪᡅᠯᡄᡍᡇ‌	šabila×+	ʃæblɑ̆x
 ᠱᡄᠪᡅᠷᡅᡕᡄᠴᡅᠯᡄᡍᡇ‌	šabiriyačila×+	ʃæbrɑːʧlɑ̆x
@@ -6396,18 +6231,13 @@
 ᠱᡄᡏᠰᡅᡅᡍᡇ‌	šamsii×+	ʃæmʃɪːx
 ᠱᡄᡏᠰᡅᡍᡇ‌	šamsi×+	ʃæmʃɪx
 ᠱᡄᠯᡄᡄᡘᡊᡄᡍᡇ‌	šalaŋna×+	ʃɑlɑ̆ɡnɑ̆x
-ᠱᡄᠯᡄᡄᡘᡊᡄᡍᡇ‌	šalaŋna×+	ʃɑlɑ̆ɡnɑ̆x
-ᠱᡄᠯᡄᡄᡘᡊᡄᡍᡇ‌	šalaŋna×+	ʃɑlɑ̆ɡnɑ̆x
 ᠱᡄᠯᡄᠪᡄᠯᡔᡄᡍᡇ‌	šalabalǰa×+	ʃɑlbɑ̆lʤɪx
 ᠱᡄᠯᡄᠪᠯᡄᡍᡇ‌	šalabla×+	ʃɑlɑ̆blɑ̆x
 ᠱᡄᠯᡄᠪᡑᡄᡍᡇ‌	šalabda×+	ʃɑlɑ̆bdɑ̆x
 ᠱᡄᠯᡄᡍᡇ‌	šala×+	ʃɑlɑ̆x
-ᠱᡄᠯᡄᡍᡇ‌	šala×+	ʃɑlɑ̆x
 ᠱᡄᠯᡄᡏᡄᡎᡄᡅᡅᠯᡄᡍᡇ‌	šalamagaila×+	ʃɑlmɑ̆ɡæːlɑ̆x
 ᠱᡄᠯᡄᡏᡄᡑᡄᡍᡇ‌	šalamada×+	ʃɑlɑ̆mdɑ̆x
 ᠱᡄᠯᡄᡑᡄᡍᡇ‌	šalada×+	ʃɑldɑ̆x
-ᠱᡄᠯᡄᡑᡄᡍᡇ‌	šalada×+	ʃɑldɑ̆x
-ᠱᡄᠯᡅᡍᡇ‌	šali×+	ʃælɪx
 ᠱᡄᠯᡅᡍᡇ‌	šali×+	ʃælɪx
 ᠱᡄᠯᡅᡍᠯᡄᡍᡇ‌	šaligla×+	ʃælɪɡlɑ̆x
 ᠱᡄᠯᡅᡕᡄᡑᡆᡍᡇ‌	šaliyatu×+	ʃælɪɑtɑ̆x
@@ -6428,7 +6258,6 @@
 ᠱᡄᡔᡅᡘᡅᡊᡄᡍᡇ‌	šaǰigina×+	ʃɑʤɪɡnɑ̆x
 ᠱᡄᡔᡅᠯᡄᡍᡇ‌	šaǰila×+	ʃɑʤlɑ̆x
 ᠱᡄᠷᡅᡍᠯᡄᡍᡇ‌	šarigla×+	ʃærɪɡlɑ̆x
-ᠱᡄᠷᠪᡅᡘᡅᡊᡄᡍᡇ‌	šarbigina×+	ʃærbɑ̆ɡnɑ̆x
 ᠱᡄᠷᠪᡅᡘᡅᡊᡄᡍᡇ‌	šarbigina×+	ʃærbɑ̆ɡnɑ̆x
 ᠱᡄᠷᡘᡅᠷᡄᡍᡇ‌	šarxira×+	ʃærxrɑ̆x
 ᠱᡄᠷᡎᡄᡎᡄᡍᡇ‌	šargaga×+	ʃɑrɡɑːx
@@ -6463,7 +6292,6 @@
 ᠱᡆᡎᡆᡆᡄᡍᡇ‌	šogod×+	ʃɔːdɔ̆x
 ᠱᡆᡍᠯᡄᡍᡇ‌	šogla×+	ʃɔɡlɔ̆x
 ᠱᡆᡍᠰᡅᡍᡇ‌	šogsi×+	ʃɔɡʃɪx
-ᠱᡆᡍᠰᡅᡍᡇ‌	šogsi×+	ʃɔɡʃɪx
 ᠱᡆᡍᠰᡅᠷᡄᡍᡇ‌	šogsira×+	ʃɔɡʃrɔ̆x
 ᠱᡆᡍᠱᡆᡅᡅᠯᡎᡄᡍᡇ‌	šogšoilga×+	ʃɔɡʃɪːlɡɔ̆x
 ᠱᡆᡍᠱᡆᡍᡇ‌	šogšo×+	ʃɔɡʃɪx
@@ -6491,7 +6319,6 @@
 ᠱᡆᡔᡅᡘᡅᡊᡄᡍᡇ‌	šoǰigina×+	ʃɔʤɪɡnɔ̆x
 ᠱᡆᠷᡆᡄᡘᠯᡄᡍᡇ‌	šoroŋla×+	ʃɔrɔ̆ŋlɔ̆x
 ᠱᡆᠷᡆᠯᡄᡍᡇ‌	šorola×+	ʃɔrlɔ̆x
-ᠱᡆᠷᡆᡑᡄᡍᡇ‌	šoroda×+	ʃɔrdɔ̆x
 ᠱᡆᠷᡆᡑᡄᡍᡇ‌	šoroda×+	ʃɔrdɔ̆x
 ᠱᡆᠷᠪᡅᡅᡍᡇ‌	šorbii×+	ʃœrbɪːx
 ᠱᡆᠷᠪᡆᡅᡅᡍᡇ‌	šorboi×+	ʃɔrbɔɪx
@@ -6555,10 +6382,8 @@
 ᠱᡆᡅᡘᠯᡆᡑᡄᡘᡆ	šüglüde×−	ʃuɡə̆ldə̆x
 ᠱᡆᡅᡘᡆᡅᡅᠯᡄᡘᡆ	šügüile×−	ʃuːɡuilə̆x
 ᠱᡆᡅᡘᡆᡘᡆ	šügü×−	ʃuːx
-ᠱᡆᡅᡘᡆᡘᡆ	šügü×−	ʃuːx
 ᠱᡆᡅᡘᡆᡘᡑᡄᡘᡆ	šügügde×−	ʃuːɡdə̆x
 ᠱᡆᡅᡘᡆᠷᡄᡘᡆ	šügüre×−	ʃuːrə̆x
-ᠱᡆᡅᡘᡆᠷᡑᡄᡘᡆ	šügürde×−	ʃuːrdə̆x
 ᠱᡆᡅᡘᡆᠷᡑᡄᡘᡆ	šügürde×−	ʃuːrdə̆x
 ᠱᡆᡅᠯᡘᡆᡘᡄᡑᡆᡘᡆ	šülxügetü×−	ʃulxəːtə̆x
 ᠱᡆᡅᠯᡘᡆᡑᡆᡘᡆ	šülxütü×−	ʃulxtə̆x
@@ -6599,8 +6424,6 @@
 ᡐᡄᡄᡘᡊᡄᡅᡅᡑᡆᡍᡇ‌	taŋnaitu×+	tɑɡnæːtɑ̆x
 ᡐᡄᡄᡘᡊᡄᡅᡅᠷᡄᡎᡆᠯᡍᡇ‌	taŋnairagul×+	tɑɡnæːrʊːlɑ̆x
 ᡐᡄᡄᡘᡊᡄᡍᡇ‌	taŋna×+	tɑɡnɑ̆x
-ᡐᡄᡄᡘᡊᡄᡍᡇ‌	taŋna×+	tɑɡnɑ̆x
-ᡐᡄᡄᡘᡊᡄᡍᡇ‌	taŋna×+	tɑɡnɑ̆x
 ᡐᡄᡄᡘᡍᡄᡅᡅᡍᡇ‌	taŋxai×+	tɑŋxæːx
 ᡐᡄᡄᡘᡍᡄᡅᡅᠷᡄᡍᡇ‌	taŋxaira×+	tɑŋxæːrɑ̆x
 ᡐᡄᡄᡘᡘᡅᠯᡄᡍᡇ‌	taŋxila×+	tæŋxlɑ̆x
@@ -6613,13 +6436,10 @@
 ᡐᡄᡄᡘᡎᡄᠷᡅᡍᠯᡄᡍᡇ‌	taŋgarigla×+	tɑŋɡɑ̆rɑ̆ɡlɑ̆x
 ᡐᡄᡄᡘᡎᡄᠷᡍᡇ‌	taŋgar×+	tɑŋɡɑ̆rɑ̆x
 ᡐᡄᡄᡘᠰᡅᡍᡇ‌	taŋsi×+	tɑŋʃɪx
-ᡐᡄᡄᡘᠰᡅᡍᡇ‌	taŋsi×+	tɑŋʃɪx
 ᡐᡄᡄᡘᠰᡆᡍᠯᡄᡍᡇ‌	taŋsugla×+	tɑŋsɑ̆ɡlɑ̆x
-ᡐᡄᡄᡘᡑᡄᡍᡇ‌	taŋda×+	tɑŋdɑ̆x
 ᡐᡄᡄᡘᡑᡄᡍᡇ‌	taŋda×+	tɑŋdɑ̆x
 ᡐᡄᠪᡄᡍᡄᡅᡅᡑᡆᡍᡇ‌	tabaxaitu×+	tɑbxæːtɑ̆x
 ᡐᡄᠪᡄᡍᡄᡅᡅᡑᡄᡍᡇ‌	tabaxaida×+	tɑbxæːdɑ̆x
-ᡐᡄᠪᡄᡍᠯᡄᡍᡇ‌	tabagla×+	tɑbɑ̆ɡlɑ̆x
 ᡐᡄᠪᡄᡍᠯᡄᡍᡇ‌	tabagla×+	tɑbɑ̆ɡlɑ̆x
 ᡐᡄᠪᡄᠯᡄᡍᡇ‌	tabala×+	tɑblɑ̆x
 ᡐᡄᠪᡄᠷᡄᡄᡘᡑᡄᡍᡇ‌	tabaraŋda×+	tɑbrɑ̆ŋdɑ̆x
@@ -6650,7 +6470,6 @@
 ᡐᡄᡘᡅᡅᠯᡎᡄᡍᡇ‌	taxiilga×+	tæxɪːlɡɑ̆x
 ᡐᡄᡘᡅᡍᡇ‌	taxi×+	tæxɪx
 ᡐᡄᡘᡅᡏᡑᡄᡍᡇ‌	taximda×+	tæxɪmdɑ̆x
-ᡐᡄᡘᡅᡏᡑᡄᡍᡇ‌	taximda×+	tæxɪmdɑ̆x
 ᡐᡄᡘᡅᠯᡎᡄᠯᡄᡍᡇ‌	taxilgala×+	tæxlɑ̆ɡlɑ̆x
 ᡐᡄᡘᡅᠯᡔᡄᡍᡇ‌	taxilǰa×+	tæxɪlʤɪx
 ᡐᡄᡘᡅᠷᡄᡍᡇ‌	taxira×+	tæxrɑ̆x
@@ -6660,7 +6479,6 @@
 ᡐᡄᡍᡆᠯᠰᡅᡍᡇ‌	taxulsi×+	tɑxɑ̆lʃɪx
 ᡐᡄᡍᡆᠯᡑᡆᡍᡇ‌	taxultu×+	tɑxɑ̆ltɑ̆x
 ᡐᡄᡎᡄᠪᡆᠷᡅᠯᡄᡍᡇ‌	tagaburila×+	tɑːbɑ̆rlɑ̆x
-ᡐᡄᡎᡄᡍᡇ‌	taga×+	tɑːx
 ᡐᡄᡎᡄᡍᡇ‌	taga×+	tɑːx
 ᡐᡄᡎᡄᡏᡄᡍᠯᡄᡍᡇ‌	tagamagla×+	tɑːmɑ̆ɡlɑ̆x
 ᡐᡄᡎᡄᡏᡄᠯᡄᡍᡇ‌	tagamala×+	tɑːmlɑ̆x
@@ -6690,7 +6508,6 @@
 ᡐᡄᡍᠯᡄᡍᡇ‌	tagla×+	tɑɡlɑ̆x
 ᡐᡄᡍᠯᡄᠷᡄᡍᡇ‌	taglara×+	tɑɡlɑ̆rɑ̆x
 ᡐᡄᡍᠰᡅᡍᡇ‌	tagsi×+	tɑɡʃɪx
-ᡐᡄᡍᠰᡅᡍᡇ‌	tagsi×+	tɑɡʃɪx
 ᡐᡄᡍᠰᡅᡎᡆᠷᡑᡄᡍᡇ‌	tagsigurda×+	tɑɡʃʊːrdɑ̆x
 ᡐᡄᡍᡑᡄᠰᡅᡍᡇ‌	tagtasi×+	tɑɡtɑ̆ʃɪx
 ᡐᡄᡍᡑᡄᡅᡅᡍᡇ‌	tagdai×+	tɑɡdɪːx
@@ -6714,10 +6531,8 @@
 ᡐᡄᡏᡅᠷᡔᡅᡍᡇ‌	tamirǰi×+	tæmɪrʤɪx
 ᡐᡄᡏᡅᠷᡔᡅᡎᡆᠯᡍᡇ‌	tamirǰigul×+	tæmɪrʤʊːlɑ̆x
 ᡐᡄᡏᡆᡍᡇ‌	tamu×+	tɑmɑ̆x
-ᡐᡄᡏᡆᡍᡇ‌	tamu×+	tɑmɑ̆x
 ᡐᡄᡏᡆᠯᡄᡍᡇ‌	tamula×+	tɑmlɑ̆x
 ᡐᡄᡏᠪᡄᠷᡄᡍᡇ‌	tambara×+	tɑmbɑːrɑ̆x
-ᡐᡄᡏᠰᡅᡕᡄᡍᡇ‌	tamsiya×+	tɑmʃɑːx
 ᡐᡄᡏᠰᡅᡕᡄᡍᡇ‌	tamsiya×+	tɑmʃɑːx
 ᡐᡄᡏᠰᡅᡕᡄᠯᡄᡍᡇ‌	tamsiyala×+	tɑmʃɑːlɑ̆x
 ᡐᡄᡏᡑᡄᠷᡅᡍᡇ‌	tamtari×+	tæmtrɑ̆x
@@ -6726,8 +6541,6 @@
 ᡐᡄᡏᡑᡆᠴᡅᡍᡇ‌	tamtuči×+	tɑmtʧɪx
 ᡐᡄᡏᡑᡆᠷᡄᡍᡇ‌	tamtura×+	tɑmtrɑ̆x
 ᡐᡄᠯᡄᡍᡇ‌	tala×+	tɑlɑ̆x
-ᡐᡄᠯᡄᠯᡄᡍᡇ‌	talala×+	tɑllɑ̆x
-ᡐᡄᠯᡄᠯᡄᡍᡇ‌	talala×+	tɑllɑ̆x
 ᡐᡄᠯᡄᠯᡄᡍᡇ‌	talala×+	tɑllɑ̆x
 ᡐᡄᠯᡄᠰᡑᡆᡍᡇ‌	talastu×+	tɑlstɑ̆x
 ᡐᡄᠯᡄᠰᡑᡆᡔᡅᡎᡆᠯᡍᡇ‌	talastuǰigul×+	tɑlsɑ̆tʤʊːlɑ̆x
@@ -6744,9 +6557,7 @@
 ᡐᡄᠯᡍᡄᠯᡄᡍᡇ‌	talxala×+	tɑlxlɑ̆x
 ᡐᡄᠯᡍᡄᡑᡄᡍᡇ‌	talxada×+	tɑlxdɑ̆x
 ᡐᡄᠯᡘᡅᡍᡇ‌	talxi×+	tælxɪx
-ᡐᡄᠯᡘᡅᡍᡇ‌	talxi×+	tælxɪx
 ᡐᡄᠯᡘᡅᡍᡑᡄᡍᡇ‌	talxigda×+	tælxɪɡdɑ̆x
-ᡐᡄᠯᡘᡅᡑᡄᡍᡇ‌	talxida×+	tælxdɑ̆x
 ᡐᡄᠯᡘᡅᡑᡄᡍᡇ‌	talxida×+	tælxdɑ̆x
 ᡐᡄᠯᡏᡅᡕᡄᡑᡆᡍᡇ‌	talmiyatu×+	tælmɑːtɑ̆x
 ᡐᡄᠯᡏᡅᡕᡄᠷᡄᡍᡇ‌	talmiyara×+	tælmɑːrɑ̆x
@@ -6754,15 +6565,12 @@
 ᡐᡄᠰᡄᡏᡄᠯᡄᡍᡇ‌	tasamala×+	tɑsɑ̆mlɑ̆x
 ᡐᡄᠰᡄᡏᡄᡑᡄᡍᡇ‌	tasamada×+	tɑsɑ̆mdɑ̆x
 ᡐᡄᠰᡅᡍᡇ‌	tasi×+	tɑʃɪx
-ᡐᡄᠰᡅᡍᡇ‌	tasi×+	tɑʃɪx
-ᡐᡄᠰᡅᡍᡇ‌	tasi×+	tɑʃɪx
 ᡐᡄᠰᡅᡎᡆᠯᡄᡍᡇ‌	tasigula×+	tɑʃʊːlɑ̆x
 ᡐᡄᠰᡅᡎᡆᠯᡍᡇ‌	tasigul×+	tɑʃʊːlɑ̆x
 ᡐᡄᠰᡅᡎᡆᠷᡄᡍᡇ‌	tasigura×+	tɑʃʊːrɑ̆x
 ᡐᡄᠰᡅᡎᡆᠷᡑᡄᡍᡇ‌	tasigurda×+	tɑʃʊːrdɑ̆x
 ᡐᡄᠰᡅᡏᡄᡎᡄᡅᡅᠯᡄᡍᡇ‌	tasimagaila×+	tɑʃɪmɡæːlɑ̆x
 ᡐᡄᠰᡅᠯᡄᡍᡇ‌	tasila×+	tɑʃlɑ̆x~dɑʃlɑ̆x
-ᡐᡄᠰᡅᠯᡘᡅᠯᡄᡍᡇ‌	tasilxila×+	tɑʃɪlxiːlə̆x
 ᡐᡄᠰᡅᠯᡘᡅᠯᡄᡍᡇ‌	tasilxila×+	tɑʃɪlxiːlə̆x
 ᡐᡄᠰᡅᡕᡄᠯᡄᡍᡇ‌	tasiyala×+	tɑʃɑːlɑ̆x
 ᡐᡄᠰᡅᡕᡄᠯᡄᡍᡑᡄᡍᡇ‌	tasiyalagda×+	tɑʃɑːlɑ̆ɡdɑ̆x
@@ -6782,7 +6590,6 @@
 ᡐᡄᡑᡄᡎᡄᠯᡔᡄᡍᡇ‌	tatagalǰa×+	tɑtɡɑ̆lʤɪx
 ᡐᡄᡑᡄᡎᡆᠷᡄᡍᡇ‌	tatagura×+	tɑtʊːrɑ̆x
 ᡐᡄᡑᡄᡍᡑᡄᡍᡇ‌	tatagda×+	tɑtɑ̆ɡdɑ̆x
-ᡐᡄᡑᡄᠯᡄᡍᡇ‌	tatala×+	tɑtlɑ̆x
 ᡐᡄᡑᡄᠯᡄᡍᡇ‌	tatala×+	tɑtlɑ̆x
 ᡐᡄᡑᡄᠯᡎᡄᡍᡇ‌	tatalga×+	tɑtɑ̆lɡɑ̆x
 ᡐᡄᡑᡄᠯᡎᡄᠯᡄᡍᡇ‌	tatalgala×+	tɑtlɑ̆ɡlɑ̆x
@@ -6822,9 +6629,6 @@
 ᡐᡄᠷᡏᡅᡅᡍᡇ‌	tarmii×+	tærmɪːx
 ᡐᡄᠷᠯᡄᡄᡑᡆᡍᡇ‌	tarlantu×+	tɑrlɑ̆ntɑ̆x
 ᡐᡄᠷᠯᡄᡍᡇ‌	tarla×+	tɑrlɑ̆x
-ᡐᡄᠷᠯᡄᡍᡇ‌	tarla×+	tɑrlɑ̆x
-ᡐᡄᠷᠯᡄᡍᡇ‌	tarla×+	tɑrlɑ̆x
-ᡐᡄᠷᠰᡅᡍᡇ‌	tarsi×+	tɑrʃɪx
 ᡐᡄᠷᠰᡅᡍᡇ‌	tarsi×+	tɑrʃɪx
 ᡐᡄᠷᡑᡄᡍᡇ‌	tarda×+	tɑrdɑ̆x
 ᡐᡄᠷᠴᡅᡘᡅᡊᡄᡍᡇ‌	tarčigina×+	tɑrʧɪɡnɑ̆x
@@ -6885,15 +6689,11 @@
 ᡐᡄᠪᡄᠷᡅᠯᠴᡄᡘᡆ	teberilče×−	təbrə̆lʧix
 ᡐᡄᠪᡘᡄᡅᡅᡘᡆ	tebxei×−	təbxiːx
 ᡐᡄᠪᡘᡄᠯᡄᡘᡆ	tebxele×−	təbxlə̆x
-ᡐᡄᠪᡘᡄᠯᡄᡘᡆ	tebxele×−	təbxlə̆x
 ᡐᡄᠪᡘᡄᠯᡔᡄᡘᡆ	tebxelǰe×−	təbxə̆lʤix
 ᡐᡄᠪᡘᡄᡑᡄᡘᡆ	tebxede×−	təbxdə̆x
 ᡐᡄᠪᡘᡄᠷᠯᡄᡘᡆ	tebxerle×−	təbxə̆rlə̆x
-ᡐᡄᠪᡘᡄᠷᠯᡄᡘᡆ	tebxerle×−	təbxə̆rlə̆x
 ᡐᡄᠪᠴᡅᡘᡆ	tebči×−	təbʧix
 ᡐᡄᠪᠴᡅᡕᡄᠷᡅᠯᡄᡘᡆ	tebčiyerile×−	təbʧəːrlə̆x
-ᡐᡄᠪᠴᡅᡕᡄᠷᡅᠯᡄᡘᡆ	tebčiyerile×−	təbʧəːrlə̆x
-ᡐᡄᡘᡄᠷᡄᡘᡆ	texere×−	təxrə̆x
 ᡐᡄᡘᡄᠷᡄᡘᡆ	texere×−	təxrə̆x
 ᡐᡄᡘᠰᡅᠯᡄᡘᡆ	tegsile×−	təɡʃlə̆x
 ᡐᡄᡘᠰᡅᡑᡄᡘᡆ	tegside×−	təɡʃdə̆x
@@ -6911,7 +6711,6 @@
 ᡐᡄᡘᡄᡘᡄᡘᡆ	tegege×−	təːx
 ᡐᡄᡘᡄᡘᡄᠷᡄᠰᡅᡕᡄᡘᡆ	tegegeresiye×−	təːrʃəːx
 ᡐᡄᡘᡄᡑᡄᡘᡆ	tegede×−	təːdə̆x
-ᡐᡄᡘᡄᠷᡄᡘᡆ	tegere×−	təːrə̆x
 ᡐᡄᡘᡄᠷᡄᡘᡆ	tegere×−	təːrə̆x
 ᡐᡄᡘᡄᠷᡏᡄᡑᡄᡘᡆ	tegermede×−	təːrə̆mdə̆x
 ᡐᡄᡘᡆᠪᡆᠷᡅᠯᡄᡘᡆ	tegübürile×−	tuːbə̆rlə̆x
@@ -6939,11 +6738,9 @@
 ᡐᡄᠯᡄᡆᠯᡘᡆ	teleül×−	təluːlə̆x
 ᡐᡄᠯᡄᡆᠷᡄᡘᡆ	teleüre×−	təluːrə̆x
 ᡐᡄᠯᡄᡘᡆ	tele×−	tələ̆x
-ᡐᡄᠯᡄᡘᡆ	tele×−	tələ̆x
 ᡐᡄᠯᡄᡘᡄᠯᡄᡘᡆ	telegele×−	tələːlə̆x
 ᡐᡄᠯᡄᡘᡆᠷᡑᡄᡘᡆ	telegürde×−	təluːrdə̆x
 ᡐᡄᠯᡄᡏᡄᡘᡆ	teleme×−	təlmə̆x
-ᡐᡄᠯᡄᠷᡄᡘᡆ	telere×−	təlrə̆x
 ᡐᡄᠯᡄᠷᡄᡘᡆ	telere×−	təlrə̆x
 ᡐᡄᠯᠴᡅᡘᡅᡊᡄᡘᡆ	telčigine×−	təlʧiɡnə̆x
 ᡐᡄᠯᠴᡅᠯᡄᡘᡆ	telčile×−	təlʧlə̆x
@@ -6981,11 +6778,9 @@
 ᡐᡅᠷᠴᡅᡘᡅᡊᡄᡍᡇ‌	tirčigina×+	tɪrʧɪɡnɑ̆x
 ᡐᡆᡅᡅᠪᡅᠰᡅᡕᡄᡍᡇ‌	toibisiya×+	tœːbʃɔːx
 ᡐᡆᡅᡅᡍᠯᡄᡍᡇ‌	toigla×+	tœːɡlɔ̆x
-ᡐᡆᡅᡅᡍᠯᡄᡍᡇ‌	toigla×+	tœːɡlɔ̆x
 ᡐᡆᡅᡅᡏᡆᡍᠴᡅᠯᡄᡍᡇ‌	toimogčila×+	tœːmɔ̆ɡʧlɔ̆x
 ᡐᡆᡅᡅᡏᡆᠯᡄᡍᡇ‌	toimola×+	tœːmlɔ̆x
 ᡐᡆᡅᡅᡏᡆᠴᡅᠯᡄᡍᡇ‌	toimočila×+	tœːmʧlɔ̆x
-ᡐᡆᡅᡅᠯᡄᡍᡇ‌	toila×+	tœːlɔ̆x
 ᡐᡆᡅᡅᠯᡄᡍᡇ‌	toila×+	tœːlɔ̆x
 ᡐᡆᡆᠰᠯᡄᡍᡇ‌	toosla×+	tɔːslɔ̆x
 ᡐᡆᡆᠷᡄᡅᡅᠯᡄᡍᡇ‌	tooraila×+	tɔːrœːlɔ̆x
@@ -7022,13 +6817,11 @@
 ᡐᡆᠪᡍᡆᡑᡆᡍᡇ‌	tobxodo×+	tɔbxtɔ̆x
 ᡐᡆᠪᠯᡄᡍᡇ‌	tobla×+	tɔblɔ̆x
 ᡐᡆᠪᠰᡅᡍᡇ‌	tobsi×+	tɔbʃɪx
-ᡐᡆᠪᠰᡅᡍᡇ‌	tobsi×+	tɔbʃɪx
 ᡐᡆᠪᠰᡅᡎᡆᠷᡑᡄᡍᡇ‌	tobsigurda×+	tɔbʃʊːrdɑ̆x
 ᡐᡆᠪᠰᡅᠯᡄᡍᡇ‌	tobsila×+	tɔbʃlɔ̆x
 ᡐᡆᠪᠴᡅᡍᡇ‌	tobči×+	tɔbʧɪx
 ᡐᡆᠪᠴᡅᡘᡅᡊᡄᡍᡇ‌	tobčigina×+	tɔbʧɪɡnɔ̆x
 ᡐᡆᠪᠴᡅᡎᡆᠯᡍᡇ‌	tobčigul×+	tɔbʧʊːlɑ̆x
-ᡐᡆᠪᠴᡅᠯᡄᡍᡇ‌	tobčila×+	tɔbʧlɔ̆x
 ᡐᡆᠪᠴᡅᠯᡄᡍᡇ‌	tobčila×+	tɔbʧlɔ̆x
 ᡐᡆᠪᠴᡅᡑᡄᡍᡇ‌	tobčida×+	tɔbʧdɔ̆x
 ᡐᡆᠪᠴᡅᡕᡄᡍᡇ‌	tobčiya×+	tɔbʧɔːx
@@ -7077,7 +6870,6 @@
 ᡐᡆᡎᡆᡏᠰᡄᠷᡍᡄᡍᡇ‌	togomsarxa×+	tɔːmsɔ̆rxɔ̆x
 ᡐᡆᡎᡆᡏᠰᡄᠷᠯᡄᡍᡇ‌	togomsarla×+	tɔːmsɔ̆rlɔ̆x
 ᡐᡆᡎᡆᠰᡆᡑᡆᡍᡇ‌	togosoto×+	tɔːstɔ̆x
-ᡐᡆᡎᡆᠰᡆᡑᡆᡍᡇ‌	togosoto×+	tɔːstɔ̆x
 ᡐᡆᡎᡆᠰᡆᠷᡄᡍᡇ‌	togosora×+	tɔːsrɔ̆x
 ᡐᡆᡎᡆᠴᡄᡍᡇ‌	togoča×+	tɔːʧɪx
 ᡐᡆᡎᡆᠷᡅᡄᡘᡍᡄᡅᡅᡑᡆᡍᡇ‌	togoriŋxaitu×+	tœːrɔ̆ŋxœːtɔ̆x
@@ -7086,7 +6878,6 @@
 ᡐᡆᡎᡆᠷᡅᡍᠯᡄᡍᡇ‌	togorigla×+	tœːrɔ̆ɡlɔ̆x
 ᡐᡆᡍᠯᡄᡍᡇ‌	togla×+	tɔɡlɔ̆x
 ᡐᡆᡍᠯᡆᡅᡅᡍᡇ‌	togloi×+	tɔɡlɔɪx
-ᡐᡆᡍᠰᡅᡍᡇ‌	togsi×+	tɔɡʃɪx
 ᡐᡆᡍᠰᡅᡍᡇ‌	togsi×+	tɔɡʃɪx
 ᡐᡆᡍᠰᡅᡕᡄᡍᡇ‌	togsiya×+	tɔɡʃɔːx
 ᡐᡆᡍᡑᡄᡊᡅᡍᡇ‌	togtani×+	tɔɡtnɔ̆x
@@ -7108,14 +6899,11 @@
 ᡐᡆᡏᡅᡕᡄᠴᡅᠯᡄᡍᡇ‌	tomiyačila×+	tɔmjɔːʧlɔ̆x
 ᡐᡆᡏᡆᡅᡅᡍᡇ‌	tomoi×+	tɔmɔɪx
 ᡐᡆᡏᡆᡍᡇ‌	tomo×+	tɔmɔ̆x
-ᡐᡆᡏᡆᡍᡇ‌	tomo×+	tɔmɔ̆x
-ᡐᡆᡏᡆᡍᡇ‌	tomo×+	tɔmɔ̆x
 ᡐᡆᡏᡆᡎᡄᡔᡅᡍᡇ‌	tomogaǰi×+	tɔmɔːʤɪx
 ᡐᡆᡏᡆᡎᡄᠷᡄᡍᡇ‌	tomogara×+	tɔmɔːrɔ̆x
 ᡐᡆᡏᡆᡎᡄᠷᡍᡄᡍᡇ‌	tomogarxa×+	tɔmɔːrxɔ̆x
 ᡐᡆᡏᡆᡎᡆᠯᡄᡍᡇ‌	tomogola×+	tɔmɔːlɔ̆x~tɔmɡɔ̆lɔ̆x
 ᡐᡆᡏᡆᡎᡆᠷᡄᡍᡇ‌	tomogura×+	tɔmʊːrɑ̆x
-ᡐᡆᡏᡆᡍᠯᡄᡍᡇ‌	tomogla×+	tɔmɔ̆ɡlɔ̆x
 ᡐᡆᡏᡆᡍᠯᡄᡍᡇ‌	tomogla×+	tɔmɔ̆ɡlɔ̆x
 ᡐᡆᡏᡆᡑᡄᡍᡇ‌	tomoda×+	tɔmdɔ̆x
 ᡐᡆᡏᡆᡆᡄᡍᡄᡍᡇ‌	tomodxa×+	tɔmtɡɔ̆x
@@ -7154,7 +6942,6 @@
 ᡐᡆᠰᡘᡅᠴᡅᡍᡇ‌	tosxiči×+	tɔʃɪɡʧɪx
 ᡐᡆᠰᡘᡅᠷᡄᡍᡇ‌	tosxira×+	tɔʃɪɡrɔ̆x
 ᡐᡆᠰᡍᡇ‌	tos×+	tɔsɔ̆x
-ᡐᡆᡑᡆᡅᡅᡍᡇ‌	todoi×+	tɔdɔɪx
 ᡐᡆᡑᡆᡅᡅᡍᡇ‌	todoi×+	tɔdɔɪx
 ᡐᡆᡑᡆᠯᡄᡍᡇ‌	todola×+	tɔdlɔ̆x
 ᡐᡆᡑᡆᡆᡄᡍᡄᡍᡇ‌	tododxa×+	tɔdɔ̆tɡɔ̆x
@@ -7225,7 +7012,6 @@
 ᡐᡆᡍᡄᡅᡅᠯᡄᡍᡇ‌	tuxaila×+	tʊxæːlɑ̆x
 ᡐᡆᡍᡄᠯᡄᡍᡇ‌	tuxala×+	tʊxlɑ̆x
 ᡐᡆᡘᡅᠷᡍᡇ‌	tuxir×+	tʏxrɑ̆x
-ᡐᡆᡎᡆᠯᡍᡇ‌	tugul×+	tʊːlɑ̆x
 ᡐᡆᡎᡆᠯᡍᡇ‌	tugul×+	tʊːlɑ̆x
 ᡐᡆᡎᡆᠯᡎᡄᡍᡇ‌	tugulga×+	tʊːlɡɑ̆x
 ᡐᡆᡎᡆᠯᡎᡄᡑᡄᡍᡇ‌	tugulgada×+	tʊɡlɑ̆ɡdɑ̆x
@@ -7357,7 +7143,6 @@
 ᡐᡆᡅᡄᡘᡘᡆᠯᡔᡄᡘᡆ	tüŋxülǰe×−	tuŋxə̆lʤix
 ᡐᡆᡅᡄᡘᡘᡄᠷᠴᡄᡘᠯᡄᡘᡆ	tüŋgerčegle×−	tuŋɡə̆rʧiɡlə̆x
 ᡐᡆᡅᡄᡘᠰᡅᡘᡆ	tüŋsi×−	tuŋʃix
-ᡐᡆᡅᡄᡘᠰᡅᡘᡆ	tüŋsi×−	tuŋʃix
 ᡐᡆᡅᡄᡘᠰᡅᡘᡆᠷᡑᡄᡘᡆ	tüŋsigürde×−	tuŋʃuːrdə̆x
 ᡐᡆᡅᡄᡘᠰᡅᠯᡄᡘᡆ	tüŋsile×−	tuŋʃlə̆x
 ᡐᡆᡅᡄᡘᠰᡆᡅᡅᡘᡆ	tüŋsüi×−	tuŋsiːx
@@ -7376,8 +7161,6 @@
 ᡐᡆᡅᡘᠰᡄᡘᡆ	tügse×−	tuɡsə̆x
 ᡐᡆᡅᡘᠰᡅᡘᡆ	tügsi×−	tuɡʃix
 ᡐᡆᡅᡘᡑᡄᠴᡅᡘᡆ	tügdeči×−	tuɡdʧix
-ᡐᡆᡅᡘᡑᡄᠴᡅᡘᡆ	tügdeči×−	tuɡdʧix
-ᡐᡆᡅᡘᡑᡄᠷᡄᡘᡆ	tügdere×−	tuɡdrə̆x
 ᡐᡆᡅᡘᡑᡄᠷᡄᡘᡆ	tügdere×−	tuɡdrə̆x
 ᡐᡆᡅᡘᡑᡆᡅᡅᡘᡆ	tügdüi×−	tuɡdiːx
 ᡐᡆᡅᡘᡑᡆᡘᡄᡊᡄᡘᡆ	tügdügene×−	tuɡdə̆ɡnə̆x
@@ -7392,7 +7175,6 @@
 ᡐᡆᡅᡘᡄᡘᡄᡘᡆ	tügege×−	tuɡəːx~toɡoːx
 ᡐᡆᡅᡘᡄᡏᡄᠯᡔᡅᡘᡆ	tügemelǰi×−	tuɡəːmə̆lʤix~toɡoːmŏlʤix
 ᡐᡆᡅᡘᡄᡏᡄᠯᡔᡅᡘᡆᠯᡘᡆ	tügemelǰigül×−	tuɡəːmə̆lʤuːlə̆x~toɡoːmŏlʤuːlə̆x
-ᡐᡆᡅᡘᡆᡘᡄᡅᡅᠷᡄᡘᡆ	tügüxeire×−	tuːxeːrə̆x
 ᡐᡆᡅᡘᡆᡘᡄᡅᡅᠷᡄᡘᡆ	tügüxeire×−	tuːxeːrə̆x
 ᡐᡆᡅᡘᡆᠰᡅᠯᡄᡘᡆ	tügüsile×−	tuːʃlə̆x
 ᡐᡆᡅᡘᡆᠰᡅᡑᡄᡘᡆ	tügüside×−	tuːʃdə̆x
@@ -7426,14 +7208,12 @@
 ᡐᡆᡅᠷᡄᡅᡅᠪᠴᡅᠯᡄᡘᡆ	türeibčile×−	turiːbʧlə̆x
 ᡐᡆᡅᠷᡄᡅᡅᠯᡄᡘᡆ	türeile×−	turiːlə̆x
 ᡐᡆᡅᠷᡄᡘᡆ	türe×−	turə̆x
-ᡐᡆᡅᠷᡄᡘᡆ	türe×−	turə̆x
 ᡐᡆᡅᠷᡅᡘᡆ	türi×−	turə̆x
 ᡐᡆᡅᠷᡅᡏᡄᡘᡄᡅᡅᠯᡄᡘᡆ	türimexeile×−	turə̆mxeːlə̆x
 ᡐᡆᡅᠷᡅᡏᡄᡘᡄᡅᡅᠷᡘᡄᡘᡆ	türimexeirxe×−	turə̆mxeːrxə̆x
 ᡐᡆᡅᠷᡅᠯᡘᡅᠯᡄᡘᡆ	türilxile×−	turə̆lxiːlə̆x
 ᡐᡆᡅᠷᡅᡆᡄᡘᡆ	türid×−	turdə̆x
 ᡐᡆᡅᠷᡅᡕᡄᠰᡆᠯᡄᡘᡆ	türiyesüle×−	turəːslə̆x
-ᡐᡆᡅᠷᡆᡘᡆᠯᡄᡘᡆ	türügüle×−	turuːlə̆x
 ᡐᡆᡅᠷᡆᡘᡆᠯᡄᡘᡆ	türügüle×−	turuːlə̆x
 ᡐᡆᡅᠷᡆᡘᡆᡑᡆᡘᡆ	türügütü×−	turuːtə̆x
 ᡐᡆᡅᠷᡘᡅᡘᡆ	türxi×−	turxə̆x
@@ -7458,7 +7238,6 @@
 ᡐᡄᡅᡅᠪᡆᠷᡅᠯᡄᡍᡇ‌	daiburila×+	dæːbɑ̆rlɑ̆x
 ᡐᡄᡅᡅᡍᡇ‌	dai×+	dæːx
 ᡐᡄᡅᡅᠯᡄᡍᡇ‌	daila×+	dæːlɑ̆x
-ᡐᡄᡅᡅᠯᡄᡍᡇ‌	daila×+	dæːlɑ̆x
 ᡐᡄᡅᡅᠯᡄᠯᡑᡆᡍᡇ‌	dailaldu×+	dæːlɑ̆ldɑ̆x
 ᡐᡄᡅᡅᠯᡅᡍᡇ‌	daili×+	dæːlɑ̆x
 ᡐᡄᡅᡅᠰᡄᠯᡄᡍᡇ‌	daisala×+	dæːslɑ̆x~dæːʣlɑ̆x
@@ -7475,9 +7254,6 @@
 ᡐᡄᡊᡄᡎᡄᠷᡑᡄᡍᡇ‌	danagarda×+	dɑnɡɑ̆rdɑ̆x
 ᡐᡄᡊᡄᠯᡔᡄᡍᡇ‌	danalǰa×+	dɑnɑ̆lʤɪx
 ᡐᡄᡄᡔᡅᠯᡄᡍᡇ‌	danǰila×+	dɑnʤlɑ̆x
-ᡐᡄᡄᡘᡊᡄᡍᡇ‌	daŋna×+	dɑɡnɑ̆x
-ᡐᡄᡄᡘᡊᡄᡍᡇ‌	daŋna×+	dɑɡnɑ̆x
-ᡐᡄᡄᡘᡊᡄᡍᡇ‌	daŋna×+	dɑɡnɑ̆x
 ᡐᡄᡄᡘᡊᡄᡍᡇ‌	daŋna×+	dɑɡnɑ̆x
 ᡐᡄᡄᡘᡍᡄᡅᡅᡍᡇ‌	daŋxai×+	dɑŋxæːx
 ᡐᡄᡄᡘᡍᡄᡎᡄᡊᡄᡍᡇ‌	daŋxagana×+	dɑŋxɡɑ̆nɑ̆x
@@ -7541,9 +7317,6 @@
 ᡐᡄᡎᡄᡍᡇ‌	daga×+	dɑɡɑ̆x
 ᡐᡄᡎᡄᡎᡄᠪᡆᠷᡅᠯᡄᡍᡇ‌	dagagaburila×+	dɑːbɑ̆rlɑ̆x
 ᡐᡄᡎᡄᡎᡄᡍᡇ‌	dagaga×+	dɑːx
-ᡐᡄᡎᡄᡎᡄᡍᡇ‌	dagaga×+	dɑːx
-ᡐᡄᡎᡄᡎᡄᡍᡇ‌	dagaga×+	dɑːx
-ᡐᡄᡎᡄᡎᡄᠯᡎᡄᡍᡇ‌	dagagalga×+	dɑːlɡɑ̆x
 ᡐᡄᡎᡄᡎᡄᠯᡎᡄᡍᡇ‌	dagagalga×+	dɑːlɡɑ̆x
 ᡐᡄᡎᡄᡎᡄᠴᡅᠯᡄᡍᡇ‌	dagagačila×+	dɑːʧlɑ̆x
 ᡐᡄᡎᡄᡎᡆᠯᡍᡇ‌	dagagul×+	dɑɡʊːlɑ̆x
@@ -7666,7 +7439,6 @@
 ᡐᡄᠷᠪᡅᡍᡇ‌	darbi×+	dærbɑ̆x
 ᡐᡄᠷᠪᡅᡘᡅᡊᡄᡍᡇ‌	darbigina×+	dærbɑ̆ɡnɑ̆x
 ᡐᡄᠷᡍᡄᠯᡄᡍᡇ‌	darxala×+	dɑrxlɑ̆x
-ᡐᡄᠷᡍᡄᠯᡄᡍᡇ‌	darxala×+	dɑrxlɑ̆x
 ᡐᡄᠷᡘᡅᡅᡍᡇ‌	darxii×+	dærxɪːx
 ᡐᡄᠷᡘᡅᡍᡇ‌	dargi×+	dærɡɪːx
 ᡐᡄᠷᡘᡅᠯᡍᡇ‌	dargil×+	dærɡɪlɑ̆x
@@ -7702,7 +7474,6 @@
 ᡐᡄᡄᡘᡑᡄᡘᡆ	deŋde×−	dəŋdə̆x
 ᡐᡄᡄᡘᡑᡄᡘᡆᠯᡘᡆ	deŋdegül×−	dəŋduːlə̆x
 ᡐᡄᠪᡄᡘᡄᠷᡄᡘᡆ	debegere×−	dəbəːrə̆x
-ᡐᡄᠪᡄᡘᡄᠷᡄᡘᡆ	debegere×−	dəbəːrə̆x
 ᡐᡄᠪᡄᠷᡄᡘᡆ	debere×−	dəbrə̆x
 ᡐᡄᠪᡅᡘᡆ	debi×−	dəbə̆x
 ᡐᡄᠪᡅᡘᡄᡊᡄᡘᡆ	debigene×−	dəbə̆ɡnə̆x
@@ -7712,14 +7483,12 @@
 ᡐᡄᠪᡅᠰᡘᡄᠷᠯᡄᡘᡆ	debisxerle×−	dəbsɡə̆rlə̆x
 ᡐᡄᠪᡅᠰᡘᡆ	debis×−	dəbsə̆x
 ᡐᡄᠪᡆᠯᡘᡆ	debül×−	dəblə̆x
-ᡐᡄᠪᡆᠯᡘᡆ	debül×−	dəblə̆x
 ᡐᡄᠪᡆᠷᡄᠯᡄᡘᡆ	debürele×−	dəbə̆rlə̆x
 ᡐᡄᠪᡘᡄᡘᡆ	debxe×−	dəbxə̆x
 ᡐᡄᠪᡘᡄᠯᡘᡆ	debxel×−	dəbxlə̆x
 ᡐᡄᠪᡘᡄᠴᡄᡘᡆ	debxeče×−	dəbxʧix
 ᡐᡄᠪᡘᡄᠷᡘᡆ	debxer×−	dəbxrə̆x
 ᡐᡄᠪᠰᡄᡘᡆ	debse×−	dəbsə̆x
-ᡐᡄᠪᠰᡄᠯᡄᡘᡆ	debsele×−	dəbsə̆lə̆x
 ᡐᡄᠪᠰᡄᠯᡄᡘᡆ	debsele×−	dəbsə̆lə̆x
 ᡐᡄᠪᠰᡄᠯᡘᡅᠯᡄᡘᡆ	debselxile×−	dəbsə̆lxiːlə̆x
 ᡐᡄᠪᠰᡄᠴᡅᡘᡆ	debseči×−	dəbsʧix
@@ -7779,7 +7548,6 @@
 ᡐᡄᡘᡆᡔᡅᠯᡄᡘᡆ	degüǰile×−	duːʤlə̆x
 ᡐᡄᡘᡆᠷᡘᡆ	degür×−	duːrə̆x
 ᡐᡄᡏᡄᡅᡅᠷᡄᡘᡆ	demeire×−	dəmiːrə̆x
-ᡐᡄᡏᡊᡄᡘᡆ	demne×−	dəmnə̆x
 ᡐᡄᡏᡊᡄᡘᡆ	demne×−	dəmnə̆x
 ᡐᡄᡏᠪᡄᠯᡔᡄᡘᡆ	dembelǰe×−	dəmbə̆lʤix
 ᡐᡄᡏᠴᡅᠯᡄᡘᡆ	demčile×−	dəmʧlə̆x
@@ -7914,7 +7682,6 @@
 ᡐᡆᠯᡆᡎᡆᠯᡎᡄᡍᡇ‌	dologolga×+	dɔlɔːlɡɔ̆x
 ᡐᡆᠯᡆᠯᡎᡄᡍᡇ‌	dololga×+	dɔlɔːlɡɔ̆x
 ᡐᡆᠯᡆᠷᡄᡍᡇ‌	dolora×+	dɔlrɔ̆x
-ᡐᡆᠯᡆᠷᡄᡍᡇ‌	dolora×+	dɔlrɔ̆x
 ᡐᡆᠯᡘᡅᡍᡇ‌	dolgi×+	dœlɡɪx
 ᡐᡆᠯᡘᡅᠯᡄᡍᡇ‌	dolgila×+	dœlɡɪlɔ̆x
 ᡐᡆᠯᡘᡅᠰᡍᡇ‌	dolgis×+	dœlɡɪsɔ̆x
@@ -7994,7 +7761,6 @@
 ᡐᡆᡎᡆᡅᡅᠯᡑᡄᡍᡇ‌	duguilda×+	dʊɡʊɪldɑ̆x
 ᡐᡆᡎᡆᡅᡅᠯᠴᡄᡍᡇ‌	duguilča×+	dʊɡʊɪlʧɪx
 ᡐᡆᡎᡆᡅᡅᠴᡄᡍᡇ‌	duguiča×+	dʊɡʊɪʧɪx
-ᡐᡆᡎᡆᡅᡅᠴᡄᡍᡇ‌	duguiča×+	dʊɡʊɪʧɪx
 ᡐᡆᡎᡆᡅᡅᠷᡄᡍᡇ‌	duguira×+	dʊɡʊɪrɑ̆x
 ᡐᡆᡎᡆᡊᡅᡍᡇ‌	duguni×+	dʊːnɪx
 ᡐᡆᡎᡆᠯᡄᡎᡄᠯᡄᡍᡇ‌	dugulagala×+	dʊːlɡɑ̆lɑ̆x
@@ -8020,7 +7786,6 @@
 ᡐᡆᠯᡄᡅᡅᡍᡇ‌	dulai×+	dʊlæːx
 ᡐᡆᠯᡄᠪᡄᠯᡔᡄᡍᡇ‌	dulabalǰa×+	dʊlbɑ̆lʤɪx
 ᡐᡆᠯᡄᡍᡇ‌	dula×+	dʊlɑ̆x
-ᡐᡆᠯᡄᡍᡇ‌	dula×+	dʊlɑ̆x
 ᡐᡆᠯᡄᡎᡄᠯᡄᡍᡇ‌	dulagala×+	dʊlɑːlɑ̆x
 ᡐᡆᠯᡄᡎᡄᠴᡄᡍᡇ‌	dulagača×+	dʊlɑːʧɪx
 ᡐᡆᠯᡄᡎᡄᠷᡄᡍᡇ‌	dulagara×+	dʊlɑːrɑ̆x
@@ -8038,7 +7803,6 @@
 ᡐᡆᠰᡆᠯᡄᡍᡇ‌	dusula×+	dʊslɑ̆x
 ᡐᡆᡑᡄᡍᡇ‌	duta×+	dʊtɑ̆x
 ᡐᡆᡑᡄᡎᡄᡍᡇ‌	dutaga×+	dʊtɑːx
-ᡐᡆᡑᡄᡎᡄᡍᡇ‌	dutaga×+	dʊtɑːx
 ᡐᡆᡑᡄᡎᡆᡑᡄᡍᡇ‌	dutaguda×+	dʊtʊːdɑ̆x
 ᡐᡆᡑᡄᡍᡑᡄᡍᡇ‌	dutagda×+	dʊtɑ̆ɡdɑ̆x
 ᡐᡆᡑᡄᡏᡄᡍᡑᡄᡍᡇ‌	dutamagda×+	dʊtmɑ̆ɡdɑ̆x
@@ -8053,7 +7817,6 @@
 ᡐᡆᠷᡄᠰᡍᡄᡍᡇ‌	durasxa×+	dʊrsɡɑ̆x
 ᡐᡆᠷᡄᠰᡍᡇ‌	duras×+	dʊrsɑ̆x
 ᡐᡆᠷᡄᡆᡄᡍᡄᡍᡇ‌	duradxa×+	dʊrtɡɑ̆x
-ᡐᡆᠷᡄᡆᡄᡍᡇ‌	durad×+	dʊrdɑ̆x
 ᡐᡆᠷᡄᡆᡄᡍᡇ‌	durad×+	dʊrdɑ̆x
 ᡐᡆᠷᡆᠰᡆᠯᡄᡍᡇ‌	durusula×+	dʊrslɑ̆x
 ᡐᡆᠷᠪᡄᡍᡇ‌	durba×+	dʊrbɑ̆x
@@ -8114,7 +7877,6 @@
 ᡐᡆᡅᠯᡅᡅᡘᡆ	dülii×−	duliːx
 ᡐᡆᡅᠯᡅᡄᡘᡘᡅᠷᡑᡆᡘᡆ	düliŋgirtü×−	dulə̆ŋɡə̆rtə̆x
 ᡐᡆᡅᠯᡅᡘᡆ	düli×−	dulə̆x
-ᡐᡆᡅᠯᡅᡘᡆ	düli×−	dulə̆x
 ᡐᡆᡅᠯᡅᡘᡆᠯᡘᡆ	düligül×−	duluːlə̆x
 ᡐᡆᡅᠯᡅᠯᡄᡘᡆ	dülile×−	dullə̆x
 ᡐᡆᡅᡑᡆᡊᡄᡘᡆ	düdüne×−	dudnə̆x
@@ -8147,9 +7909,6 @@
 ᠴᡄᡅᡅᠯᡄᠪᡄᠯᡔᡄᡍᡇ‌	čailabalǰa×+	ʧæːlbɑ̆lʤɪx
 ᠴᡄᡅᡅᠯᡄᡍᡇ‌	čaila×+	ʧæːlɑ̆x
 ᠴᡄᡅᡅᠯᡎᡄᡍᡇ‌	čailga×+	ʧæːlɡɑ̆x
-ᠴᡄᡅᡅᠯᡎᡄᡍᡇ‌	čailga×+	ʧæːlɡɑ̆x
-ᠴᡄᡅᡅᠯᡎᡄᡍᡇ‌	čailga×+	ʧæːlɡɑ̆x
-ᠴᡄᡅᡅᠯᡔᡄᡍᡇ‌	čailǰa×+	ʧæːlʤɪx
 ᠴᡄᡅᡅᠯᡔᡄᡍᡇ‌	čailǰa×+	ʧæːlʤɪx
 ᠴᡄᡅᡅᠰᡄᡍᡇ‌	čaisa×+	ʧæːsɑ̆x
 ᠴᡄᡅᡅᠷᡄᡍᡇ‌	čaira×+	ʧæːrɑ̆x
@@ -8189,8 +7948,6 @@
 ᠴᡄᡍᡆᡑᡄᡍᡇ‌	čaxuda×+	ʧɑxdɑ̆x
 ᠴᡄᡎᡄᡊᡄᡑᡄᡍᡇ‌	čaganada×+	ʧɑːndɑ̆x
 ᠴᡄᡎᡄᠯᡄᡍᡇ‌	čagala×+	ʧɑɡɑːlɑ̆x
-ᠴᡄᡎᡄᠯᡄᡍᡇ‌	čagala×+	ʧɑɡɑːlɑ̆x
-ᠴᡄᡎᡄᠯᡄᡍᡇ‌	čagala×+	ʧɑɡɑːlɑ̆x
 ᠴᡄᡎᡄᠯᡅᡍᡇ‌	čagali×+	ʧɑɡɑːlɑ̆x
 ᠴᡄᡎᡄᠰᡅᠯᡄᡍᡇ‌	čagasila×+	ʧɑːʃlɑ̆x
 ᠴᡄᡎᡄᠰᡆᠯᡄᡍᡇ‌	čagasula×+	ʧɑːslɑ̆x
@@ -8203,7 +7960,6 @@
 ᠴᡄᡎᡄᠷᡎᡆᠯᡄᡍᡇ‌	čagargula×+	ʧɑːrɡɑ̆lɑ̆x
 ᠴᡄᡎᡆᠷᡍᡄᡅᡅᡑᡆᡍᡇ‌	čagurxaitu×+	ʧʊːrxæːtɑ̆x
 ᠴᡄᡎᡆᠷᡎᡄᠯᡄᡍᡇ‌	čagurgala×+	ʧʊːrɡɑ̆lɑ̆x
-ᠴᡄᡍᠯᡄᡍᡇ‌	čagla×+	ʧɑɡlɑ̆x
 ᠴᡄᡍᠯᡄᡍᡇ‌	čagla×+	ʧɑɡlɑ̆x
 ᠴᡄᡍᡑᡄᡍᡇ‌	čagda×+	ʧɑɡdɑ̆x
 ᠴᡄᡏᡄᡄᡘᡑᡄᡍᡇ‌	čamaŋda×+	ʧɑmɑ̆ŋdɑ̆x
@@ -8253,13 +8009,10 @@
 ᠴᡄᠷᡘᡅᠷᡄᡍᡇ‌	čarxira×+	ʧærxrɑ̆x
 ᠴᡄᠷᡘᡅᠷᡄᠯᡑᡆᡍᡇ‌	čarxiraldu×+	ʧærxrɑ̆ldɑ̆x
 ᠴᡄᠷᡘᡅᡍᡇ‌	čargi×+	ʧærɡɪx
-ᠴᡄᠷᡘᡅᡍᡇ‌	čargi×+	ʧærɡɪx
 ᠴᡄᠷᡘᡅᠯᡑᡄᡍᡇ‌	čargilda×+	ʧærɡɪldɑ̆x
 ᠴᡄᠷᡎᡆᠯᡄᡍᡇ‌	čargula×+	ʧɑrɡɑ̆lɑ̆x
 ᠴᡄᠷᡎᡆᡑᡆᡍᡇ‌	čargutu×+	ʧɑrɡɑ̆tɑ̆x
 ᠴᡄᠷᡎᡆᡑᡄᡍᡇ‌	čarguda×+	ʧɑrɡɑ̆dɑ̆x
-ᠴᡄᠷᡎᡆᡑᡄᡍᡇ‌	čarguda×+	ʧɑrɡɑ̆dɑ̆x
-ᠴᡄᠷᠯᡄᡍᡇ‌	čarla×+	ʧɑrlɑ̆x
 ᠴᡄᠷᠯᡄᡍᡇ‌	čarla×+	ʧɑrlɑ̆x
 ᠴᡄᠷᡑᡆᡍᡇ‌	čartu×+	ʧɑrtɑ̆x
 ᠴᡄᠷᡑᡄᡅᡅᡍᡇ‌	čardai×+	ʧɑrdɪːx
@@ -8271,7 +8024,6 @@
 ᠴᡄᠷᠴᡄᡄᡘᡘᡅᠷᡄᡍᡇ‌	čarčaŋgira×+	ʧærʧɪŋɡɪrɑ̆x
 ᠴᡄᠷᠴᡄᡍᡇ‌	čarča×+	ʧærʧɪx
 ᠴᡄᠷᠴᡄᡎᡄᡍᡇ‌	čarčaga×+	ʧærʧɑːx
-ᠴᡄᡊᡄᡘᡆ	čene×−	ʧinə̆x
 ᠴᡄᡊᡄᡘᡆ	čene×−	ʧinə̆x
 ᠴᡄᡊᡄᡘᠯᡄᡘᡆ	čenegle×−	ʧinə̆ɡlə̆x
 ᠴᡄᡄᡑᡄᡅᡅᡘᡆ	čendei×−	ʧindiːx
@@ -8313,7 +8065,6 @@
 ᠴᡄᠯᡄᠯᡔᡄᡘᡆ	čelelǰe×−	ʧilə̆lʤix
 ᠴᡄᠯᡘᡄᡊᡄᡘᡆ	čelgene×−	ʧilə̆ɡnə̆x
 ᠴᡄᠯᡘᡄᠷᡄᡘᡆ	čelgere×−	ʧilə̆ɡrə̆x
-ᠴᡄᠯᡏᡄᡅᡅᡘᡆ	čelmei×−	ʧilmiːx
 ᠴᡄᠯᡏᡄᡅᡅᡘᡆ	čelmei×−	ʧilmiːx
 ᠴᡄᠯᡏᡄᡘᡆ	čelme×−	ʧilmə̆x
 ᠴᡄᠯᠴᡄᡅᡅᡘᡆ	čelčei×−	ʧilʧiːx
@@ -8403,7 +8154,6 @@
 ᠴᡅᡘᡅᡘᡆ	čixi×−	ʧixə̆x
 ᠴᡅᡘᡅᡘᡑᡄᡘᡆ	čixigde×−	ʧixə̆ɡdə̆x
 ᠴᡅᡘᡅᠯᡄᡘᡆ	čixile×−	ʧixlə̆x
-ᠴᡅᡘᡅᠯᡄᡘᡆ	čixile×−	ʧixlə̆x
 ᠴᡅᡘᡅᠯᡑᡆᡘᡆ	čixildü×−	ʧixə̆ldə̆x
 ᠴᡅᡘᡅᠯᠴᡄᡘᡆ	čixilče×−	ʧixə̆lʧix
 ᠴᡅᡘᡅᡑᡄᡘᡆ	čixide×−	ʧixdə̆x
@@ -8413,9 +8163,6 @@
 ᠴᡅᡍᡆᠯᡄᠴᡅᠯᡄᡍᡇ‌	čixulačila×+	ʧʊxɑ̆lʧlɑ̆x
 ᠴᡅᡍᡆᠯᡑᡄᡍᡇ‌	čixulda×+	ʧʊxɑ̆ldɑ̆x
 ᠴᡅᡍᡆᠯᡑᡄᡎᡆᠯᡍᡇ‌	čixuldagul×+	ʧʊxɑ̆ldʊːlɑ̆x
-ᠴᡅᡘᠯᡄᡘᡆ	čigle×−	ʧiɡlə̆x
-ᠴᡅᡘᠯᡄᡘᡆ	čigle×−	ʧiɡlə̆x
-ᠴᡅᡘᠯᡄᡘᡆ	čigle×−	ʧiɡlə̆x
 ᠴᡅᡘᠯᡄᡘᡆ	čigle×−	ʧiɡlə̆x
 ᠴᡅᡘᠯᡄᡘᡆᠯᡘᡆ	čiglegül×−	ʧiɡluːlə̆x
 ᠴᡅᡘᠯᡄᠷᡄᡘᡆ	čiglere×−	ʧiɡlə̆rə̆x
@@ -8445,8 +8192,6 @@
 ᠴᡅᡏᡆᡘᡄᠴᡅᠯᡄᡘᡆ	čimögečile×−	ʧomŏɡʧlŏx
 ᠴᡅᡏᡘᡄᠷᡅᠯᡄᡘᡆ	čimxerile×−	ʧimxəːrlə̆x
 ᠴᡅᡏᡘᡅᡘᡆ	čimxi×−	ʧimxə̆x
-ᠴᡅᡏᡘᡅᡘᡆ	čimxi×−	ʧimxə̆x
-ᠴᡅᡏᡘᡅᡘᡆ	čimxi×−	ʧimxə̆x
 ᠴᡅᡏᡘᡅᠯᡄᡘᡆ	čimxile×−	ʧimxə̆lə̆x
 ᠴᡅᡏᡘᡅᠯᡘᡅᠯᡄᡘᡆ	čimxilxile×−	ʧimxə̆lxiːlə̆x
 ᠴᡅᡏᡘᡅᡕᡄᠷᡅᠯᡄᡘᡆ	čimxiyerile×−	ʧimxəːrlə̆x
@@ -8458,7 +8203,6 @@
 ᠴᡅᠯᡄᡘᡆ	čile×−	ʧilə̆x
 ᠴᡅᠯᡄᡘᡄᡘᡆ	čilege×−	ʧiləːx
 ᠴᡅᠯᡄᡘᡄᠷᡘᡄᡘᡆ	čilegerxe×−	ʧiləːrxə̆x
-ᠴᡅᠯᡅᡅᡘᡆ	čilii×−	ʧiliːx
 ᠴᡅᠯᡅᡅᡘᡆ	čilii×−	ʧiliːx
 ᠴᡅᠯᡆᡘᡄᠯᡄᡘᡆ	čilögele×−	ʧoloːlŏx
 ᠴᡅᠯᡆᡘᡄᠯᡄᡘᡑᡄᡘᡆ	čilögelegde×−	ʧoloːlŏɡdŏx
@@ -8492,9 +8236,7 @@
 ᠴᡅᠴᡄᠪᡄᠯᡔᡄᡍᡇ‌	čičabalǰa×+	ʧɪʧbɑ̆lʤɪx
 ᠴᡅᠴᡄᡎᡄᡑᡄᡍᡇ‌	čičagada×+	ʧɪʧɡɑ̆dɑ̆x
 ᠴᡅᠴᡄᡎᡄᠷᡄᡍᡇ‌	čičagara×+	ʧɪʧɡɑ̆rɑ̆x
-ᠴᡅᠴᡄᡎᡄᠷᡄᡍᡇ‌	čičagara×+	ʧɪʧɡɑ̆rɑ̆x
 ᠴᡅᠴᡄᠷᡍᡄᡅᡅᠯᡄᡍᡇ‌	čičarxaila×+	ʧɪʧɪrxæːlɑ̆x
-ᠴᡅᠴᡅᡘᡆ	čiči×−	ʧiʧix
 ᠴᡅᠴᡅᡘᡆ	čiči×−	ʧiʧix
 ᠴᡅᠴᡅᡘᡄᡊᡄᡘᡆ	čičigene×−	ʧiʧiɡnə̆x
 ᠴᡅᠴᡅᡘᡄᡘᡆ	čičige×−	ʧiʧəːx
@@ -8520,7 +8262,6 @@
 ᠴᡅᠷᡏᡄᡅᡅᡍᡇ‌	čirmai×+	ʧærmæːx
 ᠴᡅᠷᡏᡄᡍᡇ‌	čirma×+	ʧɪrmɑ̆x
 ᠴᡅᠷᡑᡄᡅᡅᡍᡇ‌	čirdai×+	ʧɪrdɪːx
-ᠴᡅᠷᡑᡄᡅᡅᡍᡇ‌	čirdai×+	ʧɪrdɪːx
 ᠴᡅᠷᡑᡄᡎᡄᡊᡄᡍᡇ‌	čirdagana×+	ʧɪrdɡɑ̆nɑ̆x
 ᠴᡅᠷᡑᡄᠯᡔᡄᡍᡇ‌	čirdalǰa×+	ʧɪrdɑ̆lʤɪx
 ᠴᡆᡅᡅᠯᡄᡍᡇ‌	čoila×+	ʧœːlɔ̆x
@@ -8545,8 +8286,6 @@
 ᠴᡆᡍᡆᡅᡅᡑᡄᡍᡇ‌	čoxoida×+	ʧɔxœːdɔ̆x
 ᠴᡆᡍᡆᡅᡅᡔᡅᡍᡇ‌	čoxoiǰi×+	ʧɔxœːʤɪx
 ᠴᡆᡍᡆᡍᡇ‌	čoxo×+	ʧɔxɔ̆x
-ᠴᡆᡍᡆᡍᡇ‌	čoxo×+	ʧɔxɔ̆x
-ᠴᡆᡍᡆᠯᡄᡍᡇ‌	čoxola×+	ʧɔxlɔ̆x
 ᠴᡆᡍᡆᠯᡄᡍᡇ‌	čoxola×+	ʧɔxlɔ̆x
 ᠴᡆᡍᡆᠯᡍᡇ‌	čoxol×+	ʧɔxlɔ̆x
 ᠴᡆᡍᡆᡑᡄᡍᡇ‌	čoxoda×+	ʧɔxdɔ̆x
@@ -8676,7 +8415,6 @@
 ᠴᡆᠷᡏᡄᡑᡄᡍᡇ‌	čurmada×+	ʧʊrɑ̆mdɑ̆x
 ᠴᡆᡅᠪᡆᠷᡅᡘᡆᡑᡆᡘᡆ	čöbörigütü×−	ʧobruːtə̆x
 ᠴᡆᡅᠪᡑᡆᡘᡆ	čöbtö×−	ʧobtŏx
-ᠴᡆᡅᠪᡑᡆᡘᡆ	čöbtö×−	ʧobtŏx
 ᠴᡆᡅᡘᡆᡘᡆ	čöxö×−	ʧoxŏx
 ᠴᡆᡅᡘᡆᡘᠰᡅᡘᡆ	čöxögsi×−	ʧoxŏɡʃix
 ᠴᡆᡅᡘᡆᠷᡄᡘᡆ	čöxöre×−	ʧoxrŏx
@@ -8749,7 +8487,6 @@
 ᡅᡄᡅᡅᡏᡆᡍᡇ‌	ǰaimu×+	ʤæːmɑ̆x
 ᡅᡄᡅᡅᡏᡆᠷᡄᡍᡇ‌	ǰaimura×+	ʤæːmrɑ̆x
 ᡅᡄᡅᡅᠯᡄᡍᡇ‌	ǰaila×+	ʤæːlɑ̆x
-ᡅᡄᡅᡅᠯᡄᡍᡇ‌	ǰaila×+	ʤæːlɑ̆x
 ᡅᡄᡅᡅᠯᡄᡎᡆᠯᡍᡇ‌	ǰailagul×+	ʤæːlʊːlɑ̆x
 ᡅᡄᡅᡅᠯᡄᠰᡘᡅᡘᡆ	ǰailasxi×−	ʤæːlsxiːx
 ᡅᡄᡅᡅᠯᡍᡇ‌	ǰail×+	ʤæːlɑ̆x
@@ -8763,7 +8500,6 @@
 ᡅᡄᡅᡅᠴᡄᡍᡇ‌	ǰaiča×+	ʤæːʧɪx
 ᡅᡄᡅᡅᠷᡄᡄᡘᡊᡄᡍᡇ‌	ǰairaŋna×+	ʤæːrɑ̆ɡnɑ̆x
 ᡅᡄᡅᡅᠷᡏᡄᡍᠯᡄᡍᡇ‌	ǰairmagla×+	ʤæːrmɑ̆ɡlɑ̆x
-ᡅᡄᡅᡅᠷᡑᡆᡍᡇ‌	ǰairtu×+	ʤæːrtɑ̆x
 ᡅᡄᡅᡅᠷᡑᡆᡍᡇ‌	ǰairtu×+	ʤæːrtɑ̆x
 ᡅᡄᡊᡆᡍᡇ‌	ǰanu×+	ʤɑnɑ̆x
 ᡅᡄᡄᡑᡄᡅᡅᡍᡇ‌	ǰantai×+	ʤɑntɪːx
@@ -8815,7 +8551,6 @@
 ᡅᡄᡘᡅᡕᡄᠯᡄᡍᡇ‌	ǰaxiyala×+	ʤæxɪɑlɑ̆x
 ᡅᡄᡘᡅᠷᡍᡇ‌	ǰaxir×+	ʤæxrɑ̆x
 ᡅᡄᡎᡄᡍᡇ‌	ǰaga×+	ʤɑːx
-ᡅᡄᡎᡄᡍᡇ‌	ǰaga×+	ʤɑːx
 ᡅᡄᡎᡄᡍᠯᡄᡍᡇ‌	ǰagagla×+	ʤɑːɡlɑ̆x
 ᡅᡄᡎᡄᡏᡄᡑᡄᡍᡇ‌	ǰagamada×+	ʤɑːmdɑ̆x
 ᡅᡄᡎᡄᠯᡄᡍᡇ‌	ǰagala×+	ʤɑɡɑːlɑ̆x
@@ -8848,7 +8583,6 @@
 ᡅᡄᡏᡄᡍᡑᡆᡍᡇ‌	ǰamagtu×+	ʤɑmɑ̆ɡtɑ̆x
 ᡅᡄᡏᡄᡍᠷᡄᡍᡇ‌	ǰamagra×+	ʤɑmɑ̆ɡrɑ̆x
 ᡅᡄᡏᡆᡍᠯᡄᡍᡇ‌	ǰamugla×+	ʤɑmɑ̆ɡlɑ̆x
-ᡅᡄᡏᡆᡍᠯᡄᡍᡇ‌	ǰamugla×+	ʤɑmɑ̆ɡlɑ̆x
 ᡅᡄᡏᡆᠷᡍᡇ‌	ǰamur×+	ʤɑmrɑ̆x
 ᡅᡄᡏᡊᡄᡍᡇ‌	ǰamna×+	ʤɑmnɑ̆x
 ᡅᡄᡏᠪᡅᡅᡍᡇ‌	ǰambii×+	ʤæmbɪːx
@@ -8859,15 +8593,12 @@
 ᡅᡄᡏᠴᡅᠯᡄᡍᡇ‌	ǰamčila×+	ʤɑmʧlɑ̆x
 ᡅᡄᠯᡄᡍᡄᡅᡅᡑᡄᡍᡇ‌	ǰalaxaida×+	ʤɑlxæːdɑ̆x
 ᡅᡄᠯᡄᡍᡇ‌	ǰala×+	ʤɑlɑ̆x
-ᡅᡄᠯᡄᡍᡇ‌	ǰala×+	ʤɑlɑ̆x
-ᡅᡄᠯᡄᡍᡇ‌	ǰala×+	ʤɑlɑ̆x
 ᡅᡄᠯᡄᡎᡄᠯᡄᡍᡇ‌	ǰalagala×+	ʤɑlɑːlɑ̆x
 ᡅᡄᠯᡄᡎᡆᡑᡄᡍᡇ‌	ǰalaguda×+	ʤɑlʊːdɑ̆x
 ᡅᡄᠯᡄᡎᡆᡔᡅᡍᡇ‌	ǰalaguǰi×+	ʤɑlʊːʤɪx
 ᡅᡄᠯᡄᡎᡆᠷᡄᡍᡇ‌	ǰalagura×+	ʤɑlʊːrɑ̆x
 ᡅᡄᠯᡄᡎᡆᠷᡍᡄᡍᡇ‌	ǰalagurxa×+	ʤɑlʊːrxɑ̆x
 ᡅᡄᠯᡄᡎᡆᠷᡑᡄᡍᡇ‌	ǰalagurda×+	ʤɑlʊːrdɑ̆x
-ᡅᡄᠯᡄᠷᡄᡍᡇ‌	ǰalara×+	ʤɑlrɑ̆x
 ᡅᡄᠯᡄᠷᡄᡍᡇ‌	ǰalara×+	ʤɑlrɑ̆x
 ᡅᡄᠯᡄᠷᡄᡎᡆᠯᡍᡇ‌	ǰalaragul×+	ʤɑlrʊːlɑ̆x
 ᡅᡄᠯᡅᡍᡄᡅᡅᠷᡄᡍᡇ‌	ǰalixaira×+	ʤɑlxæːrɑ̆x
@@ -8888,7 +8619,6 @@
 ᡅᡄᠯᡘᡅᠯᡄᡍᡇ‌	ǰalgila×+	ʤælɡɪlɑ̆x
 ᡅᡄᠯᡎᡆᠷᠯᡄᡍᡇ‌	ǰalgurla×+	ʤɑlɡʊːrlɑ̆x
 ᡅᡄᠰᡄᠪᡆᠷᡅᠯᡄᡍᡇ‌	ǰasaburila×+	ʤɑsbɑ̆rlɑ̆x
-ᡅᡄᠰᡄᡍᡇ‌	ǰasa×+	ʤɑsɑ̆x
 ᡅᡄᠰᡄᡍᡇ‌	ǰasa×+	ʤɑsɑ̆x
 ᡅᡄᠰᡄᡍᠯᡄᡍᡇ‌	ǰasagla×+	ʤɑsɑ̆ɡlɑ̆x
 ᡅᡄᠰᡄᡍᡑᡄᡍᡇ‌	ǰasagda×+	ʤɑsɑ̆ɡdɑ̆x
@@ -8938,8 +8668,6 @@
 ᡅᡄᡘᡆᠪᠴᡅᠯᡄᡘᡆ	ǰegübčile×−	ʤuːbʧlə̆x
 ᡅᡄᡘᡆᡘᡆ	ǰegü×−	ʤuːx
 ᡅᡄᡘᡆᠯᡄᡘᡆ	ǰegüle×−	ʤuːlə̆x
-ᡅᡄᡘᡆᠯᡄᡘᡆ	ǰegüle×−	ʤuːlə̆x
-ᡅᡄᡘᡆᠯᡄᡘᡆ	ǰegüle×−	ʤuːlə̆x
 ᡅᡄᡘᡆᠯᡘᡄᡘᡆ	ǰegülge×−	ʤuːlɡə̆x
 ᡅᡄᡘᡆᡑᡄᡘᡆ	ǰegüde×−	ʤuːdə̆x
 ᡅᡄᡘᡆᡑᡆᠯᡄᡘᡆ	ǰegüdüle×−	ʤuːdlə̆x
@@ -8978,7 +8706,6 @@
 ᡅᡅᡘᡄᡘᡆᠷᡄᡘᡆ	ǰixegüre×−	ʤixuːrə̆x
 ᡅᡅᡘᡄᡘᡆᠷᡘᡄᡘᡆ	ǰixegürxe×−	ʤixuːrxə̆x
 ᡅᡅᡘᡅᠷᡘᡆ	ǰixir×−	ʤixrə̆x
-ᡅᡅᡘᠯᡄᡘᡆ	ǰigle×−	ʤiɡlə̆x
 ᡅᡅᡘᠯᡄᡘᡆ	ǰigle×−	ʤiɡlə̆x
 ᡅᡅᡘᠰᡅᡘᡆ	ǰigsi×−	ʤiɡʃix
 ᡅᡅᡘᠰᡅᡘᡆᠷᡄᡘᡆ	ǰigsigüre×−	ʤiɡʃuːrə̆x
@@ -9043,7 +8770,6 @@
 ᡅᡅᠰᡆᠷᠴᡅᠯᡄᡍᡇ‌	ǰisurčila×+	ʤʊsɑ̆rʧlɑ̆x
 ᡅᡅᠰᡆᠯᡄᡘᡆ	ǰisüle×−	ʤuslə̆x
 ᡅᡅᠱᡅᡘᡆ	ǰiši×−	ʤiʃix
-ᡅᡅᠱᡅᡘᡆ	ǰiši×−	ʤiʃix
 ᡅᡅᠱᡅᡘᡑᡄᡘᡆ	ǰišigde×−	ʤiʃiɡdə̆x
 ᡅᡅᠱᡅᠯᡄᡘᡆ	ǰišile×−	ʤiʃlə̆x
 ᡅᡅᠱᡅᡕᡄᠯᡄᡘᡆ	ǰišiyele×−	ʤiʃəːlə̆x
@@ -9085,11 +8811,8 @@
 ᡅᡅᠷᠪᡅᡘᡅᡊᡄᡘᡆ	ǰirbigine×−	ʤirbə̆ɡnə̆x
 ᡅᡅᠷᠪᡅᠯᡔᡄᡘᡆ	ǰirbilǰe×−	ʤirbə̆lʤix
 ᡅᡅᠷᡎᡄᡍᡇ‌	ǰirga×+	ʤɪrɡɑ̆x
-ᡅᡅᠷᡎᡄᡍᡇ‌	ǰirga×+	ʤɪrɡɑ̆x
 ᡅᡅᠷᡎᡄᡎᡄᡍᡇ‌	ǰirgaga×+	ʤɪrɡɑːx
 ᡅᡅᠷᡘᡄᠯᡘᡆ	ǰirgel×−	ʤirə̆ɡlə̆x
-ᡅᡅᠷᡘᡅᡘᡆ	ǰirgi×−	ʤirɡə̆x
-ᡅᡅᠷᡘᡅᡘᡆ	ǰirgi×−	ʤirɡə̆x
 ᡅᡅᠷᡘᡅᡘᡆ	ǰirgi×−	ʤirɡə̆x
 ᡅᡅᠷᡏᡄᡅᡅᡍᡇ‌	ǰirmai×+	ʤɪrmɪːx
 ᡅᡅᠷᡏᡄᡎᡄᡊᡄᡍᡇ‌	ǰirmagana×+	ʤɪrɑ̆mɡɑ̆nɑ̆x
@@ -9173,7 +8896,6 @@
 ᡅᡆᡆᡏᡄᠯᡔᡄᡍᡇ‌	ǰuumalǰa×+	ʤʊːmɑ̆lʤɪx
 ᡅᡆᡆᠯᡅᡑᡄᡍᡇ‌	ǰuulida×+	ʤʊɪldɑ̆x
 ᡅᡆᡆᡔᡄᡅᡅᠯᡄᡍᡇ‌	ǰuuǰaila×+	ʤʊːʤæːlɑ̆x
-ᡅᡆᡆᡔᡄᡅᡅᠯᡄᡍᡇ‌	ǰuuǰaila×+	ʤʊːʤæːlɑ̆x
 ᡅᡆᡆᡔᡄᡅᡅᡑᡄᡍᡇ‌	ǰuuǰaida×+	ʤʊːʤæːdɑ̆x
 ᡅᡆᡄᠰᡅᡍᡇ‌	ǰunsi×+	ʤʊnʃɪx
 ᡅᡆᡄᡔᡅᡍᡇ‌	ǰunǰi×+	ʤʊnʤɪx
@@ -9184,7 +8906,6 @@
 ᡅᡆᠪᡆᡍᡇ‌	ǰubu×+	ʤʊbɑ̆x
 ᡅᡆᠪᠴᡄᡎᡄᠯᡄᡍᡇ‌	ǰubčagala×+	ʤʊbʧɑːlɑ̆x
 ᡅᡆᠪᠴᡅᡍᡇ‌	ǰubči×+	ʤʊbʧɪx
-ᡅᡆᡎᡄᠯᡄᡍᡇ‌	ǰugala×+	ʤʊɡɑːlɑ̆x
 ᡅᡆᡎᡄᠯᡄᡍᡇ‌	ǰugala×+	ʤʊɡɑːlɑ̆x
 ᡅᡆᡎᡄᠴᡄᡍᡇ‌	ǰugača×+	ʤʊɡɑːʧɪx
 ᡅᡆᡎᡆᠯᡍᡇ‌	ǰugul×+	ʤʊɡlɑ̆x
@@ -9200,7 +8921,6 @@
 ᡅᡆᠯᠪᡆᡍᡇ‌	ǰulbu×+	ʤʊlbɑ̆x
 ᡅᡆᠯᠪᡆᡎᡄᡊᡄᡍᡇ‌	ǰulbugana×+	ʤʊlɑ̆bɡɑ̆nɑ̆x
 ᡅᡆᠯᠪᡆᠯᡍᡇ‌	ǰulbul×+	ʤʊlɑ̆blɑ̆x
-ᡅᡆᠯᠪᡆᡑᡄᠰᡆᠯᡄᡍᡇ‌	ǰulbudasula×+	ʤʊlɑ̆bdɑ̆slɑ̆x
 ᡅᡆᠯᠪᡆᡑᡄᠰᡆᠯᡄᡍᡇ‌	ǰulbudasula×+	ʤʊlɑ̆bdɑ̆slɑ̆x
 ᡅᡆᠯᡎᡄᡎᡄᡍᡇ‌	ǰulgaga×+	ʤʊlɡɑːx
 ᡅᡆᠯᡎᡄᠯᡍᡇ‌	ǰulgal×+	ʤʊlɡɑ̆lɑ̆x
@@ -9424,7 +9144,6 @@
 ᡕᡆᠪᡆᠴᡅᡍᡇ‌	yoboči×+	jɔbʧɪx
 ᡕᡆᠪᡆᠷᡘᡅᠯᡄᡍᡇ‌	yoborxila×+	jɔbɔ̆rxiːlə̆x
 ᡕᡆᠪᡆᠷᡍᡇ‌	yobor×+	jɔbrɔ̆x
-ᡕᡆᠪᡆᠷᡍᡇ‌	yobor×+	jɔbrɔ̆x
 ᡕᡆᡍᡆᠯᡄᡍᡇ‌	yoxola×+	jɔxlɔ̆x
 ᡕᡆᡍᡑᡄᠯᡄᡍᡇ‌	yogtala×+	jɔɡtlɔ̆x
 ᡕᡆᡏᠪᡆᡅᡅᡍᡇ‌	yomboi×+	jɔmbɔɪx
@@ -9451,7 +9170,6 @@
 ᡕᡆᡅᡘᡄᡑᡆᡘᡆ	yögetü×−	joɡoːtŏx
 ᡕᡆᡅᡘᡄᡑᡄᡘᡆ	yögede×−	joɡoːdŏx
 ᡕᡆᡅᡘᡄᠷᡄᡘᡆ	yögere×−	joɡoːrŏx
-ᡕᡆᡅᠷᡘᡄᡘᡆ	yörge×−	jorɡŏx
 ᡕᡆᡅᠷᡘᡄᡘᡆ	yörge×−	jorɡŏx
 ᡕᡆᡅᠷᡘᡄᠯᡑᡆᡘᡆ	yörgeldü×−	jorɡŏldŏx
 ᡕᡆᡅᡄᡘᡘᡆᡅᡅᡘᡆ	yüŋxüi×−	juŋxiːx
