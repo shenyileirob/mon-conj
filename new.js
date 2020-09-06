@@ -32,6 +32,8 @@ function compile_dict(xhttp) {
 
   }
   var entries = text_dict.split("\r\n");
+	console.log(text_dict);
+	console.log(entries);
   /*
   var innerHTML = '';
 	console.log(entries[1]);
