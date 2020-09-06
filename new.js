@@ -121,8 +121,8 @@ request.onsuccess = function() {
   if (cursor) {
     // Called for each matching record.
     innerHTML += cursor.value.graph + '\t'
-		+ "<span class='xlit'>" + cursor.value.xlit + "</span>" + '\t'
-		+ "<span class='IPA'>" + cursor.value.phone + "</span>" + '<br>';
+		+ "<span class='IPA'>(" + "<span class='xlit'>" + cursor.value.xlit + "</span>" + '\t'
+		+ cursor.value.phone + ")</span>" + '<br>';
     cursor.continue();
   } else {  }
   console.log('716:', innerHTML);
