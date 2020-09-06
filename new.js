@@ -12,7 +12,7 @@ function loadDoc() {
     }
   };
 	console.log('222');
-  xhttp.open("GET", "dict.txt", true);
+  xhttp.open("GET", "dict_full.txt", true);
   xhttp.send();
 	console.log('333');
 }
