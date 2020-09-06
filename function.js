@@ -3,6 +3,8 @@
 // Transforming (?<![SET])(STRING) -> $1 into (^|[^SET])(STRING) -> $1$2 will work in some cases.
 function pinyin2graph(pinyin) {
 	var graph = pinyin;
+	graph = graph.replace(/J/g, 'Z');
+	graph = graph.replace(/C/g, 'Q');
 	graph = graph.replace(/;/g, 'N');
 	graph = graph.replace(/c/g, 'C');
 	graph = graph.replace(/q/g, 'c');
