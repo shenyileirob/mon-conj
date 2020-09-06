@@ -12,7 +12,7 @@ function loadDoc() {
     }
   };
 	console.log('222');
-  xhttp.open("GET", "dict.txt", true);
+  xhttp.open("GET", "dict_full.txt", true);
   xhttp.send();
 	console.log('333');
 }
@@ -31,7 +31,11 @@ function compile_dict(xhttp) {
 	  var text_dict = 'ᡄᡄᡅᡅᠪᡄᡅᡅᡍᡇ‌	ʔaibai×+	æːbɪːx\r\nᡄᡄᡅᡅᠪᡄᠯᡔᡄᡍᡇ‌	ʔaibalǰa×+	æːbɑ̆lʤɪx\r\nᡄᡄᡅᡅᠪᡆᠷᠯᡄᡍᡇ‌	ʔaiburla×+	æːbɑ̆rlɑ̆x\r\nᡄᡄᡅᡅᡍᡇ‌	ʔai×+	æːx\r\nᡄᡄᡅᡅᡎᡆᡆᡄᡍᡄᡍᡇ‌	ʔaigudxa×+	æːɡʊːtɡɑ̆x\r\nᡄᡄᡅᡅᡏᡄᡍᡇ‌	ʔaima×+	æːmɑ̆x\r\nᡄᡄᡅᡅᡏᡄᡍᠯᡄᡍᡇ‌	ʔaimagla×+	æːmɑ̆ɡlɑ̆x\r\nᡄᡄᡅᡅᡏᡄᡍᠴᡅᠯᡄᡍᡇ‌	ʔaimagčila×+	æːmɑ̆ɡʧlɑ̆x\r\nbbb‌	ʔaimas×+	æːmsɑ̆x\r\nᡄᡄᡅᡅᡏᡆᠷᡍᡇ‌	ʔaimur×+	æːmrɑ̆x\r\nᡄᡄᡅᡅᡏᡆᠷᠯᡄᡍᡇ‌	ʔaimurla×+	æːmɑ̆rlɑ̆x\r\nᡄᡄᡅᡅᠯᡄᡆᡄᡍᡄᡍᡇ‌	ʔailadxa×+	æːltɡɑ̆x\r\nᡄᡄᡅᡅᠯᡄᡆᡄᡍᡇ‌	ʔailad×+	æːldɑ̆x\r\nᡄᡄᡅᡅᠯᡆᡍᠯᡄᡍᡇ‌	ʔailugla×+	æːlɑ̆ɡlɑ̆x\r\nᡄᡄᡅᡅᠯᡎᡄᡍᡇ‌	ʔailga×+	æːlɡɑ̆x\r\nᡄᡄᡅᡅᠯᠰᡄᡍᡇ‌	ʔailsa×+	æːlsɑ̆x\r\nᡄᡄᡅᡅᠯᠰᡅᡍᡇ‌	ʔailsi×+	æːlʃɪx\r\nᡄᡄᡅᡅᠯᠴᡅᠯᡄᡍᡇ‌	ʔailčila×+	æːlʧlɑ̆x\r\nᡄᡄᡅᡅᠰᡆᡍᡇ‌	ʔaisu×+	æːsɑ̆x\r\nᡄᡄᡅᡅᡑᡄᡄᡘᡎᡆᡅᡅᠯᡄᡍᡇ‌	ʔaidaŋguila×+	æːdɑ̆ŋɡʊɪlɑ̆x';
 
   }
-  var entries = text_dict.split("\r\n");
+  var entries = text_dict.split(/[\r\n]+/);
+	/*
+	console.log(text_dict);
+	console.log(entries);
+	*/
   /*
   var innerHTML = '';
 	console.log(entries[1]);
