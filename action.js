@@ -64,7 +64,7 @@ function refresh_LB_deconj_lemma()
  	var innerHTML = '';
 	if(if_dict){
 		for (i = 0; i < list_wordform.length; i++) {
-			innerHTML += lookup_by_graph(list_wordform[i]);
+			lookup_by_graph(list_wordform[i]); // innerHTML must be updated internally becase of asynchronism
 		}
 	}
 	else {
