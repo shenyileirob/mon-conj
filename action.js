@@ -46,9 +46,11 @@ refresh_TEXT_conj_wordform();
 // console.log(['qwertyuiop', 'asdfghjkl']);
 // console.log('finally:',set([1, 2, 3, 4, 3, 3, 4, 2, 1]));
 refresh_LB_deconj_lemma();
+document.getElementById("if_dict").checked = 1;
 
 function refresh_LB_deconj_lemma()
 {
+	console.log('refresh_LB_deconj_lemma');
 	var wordform = pinyin2graph(document.getElementById("input_wordform").value);
 	var if_infer_stem_mf = !!document.getElementById("if_infer_mf").checked;
 	var if_dict = !!document.getElementById("if_dict").checked;
@@ -56,15 +58,23 @@ function refresh_LB_deconj_lemma()
 	var list_wordform = deconjugate (wordform, suffix_lists , if_infer_stem_mf, if_dict, if_bare_stem);
 	console.log(if_infer_stem_mf, if_dict, if_bare_stem);
 	console.log(list_wordform);
+	
  	var innerHTML = '';
-/*	for (i=0; i<list_wordform.length; i++) {
-		innerHTML = innerHTML + '<option>' + list_wordform[i] +'</option>';
-	} */
-	if (list_wordform.length){
-		innerHTML = '<span>' + list_wordform[0] + '</span>';
-		for (i=1; i<list_wordform.length; i++) {
-			innerHTML = innerHTML + '<br><span>' + list_wordform[i] + '</span>';
-		}	
+	if(if_dict){
+		for (i = 0; i < list_wordform.length; i++) {
+			innerHTML += lookup_by_graph(list_wordform[i]);
+		}
+	}
+	else {
+	/*	for (i=0; i<list_wordform.length; i++) {
+			innerHTML = innerHTML + '<option>' + list_wordform[i] +'</option>';
+		} */
+		if (list_wordform.length){
+			innerHTML = '<span>' + list_wordform[0] + '</span>';
+			for (i=1; i<list_wordform.length; i++) {
+				innerHTML = innerHTML + '<br><span>' + list_wordform[i] + '</span>';
+			}	
+		}
 	}
 	// console.log(innerHTML);
 	document.getElementById("lemmas").innerHTML = innerHTML;

@@ -72,7 +72,9 @@
 					<td style="height:50px;padding:auto;">
 						<div>
 							<form><input type="checkbox" id="if_infer_mf" value="1" checked onclick="refresh_LB_deconj_lemma()"><label id="label_cb_infer_gender">infer gender</label></form>
-							<form style="display:none"><input type="checkbox" id="if_dict" value="1" onclick="refresh_LB_deconj_lemma()"><label>dict</label></form>
+							<form><input type="checkbox" id="if_dict" value="1" onclick="loadDoc()"><label>dict</label></form>
+							<!--<form><input type="checkbox" id="if_dict" value="1" onclick="lookup_by_graph ('ᡄᡄᡅᡅᠪᡄᡅᡅᡍᡇ‌');"><label>dict</label></form>-->
+							<!--<form style="display:none"><input type="checkbox" id="if_dict" value="1" onclick="refresh_LB_deconj_lemma()"><label>dict</label></form>-->
 							<form><input type="checkbox" id="if_bare_stem" value="1" onclick="refresh_LB_deconj_lemma()"><label id="label_cb_bare_stem">accept bare stems</label></form>
 						</div>
 					</td> 
@@ -88,6 +90,7 @@
 	</div>
 </div>
 
+<script src="new.js"></script>
 <script src="function.js"></script>
 <script src="action.js"></script>
 

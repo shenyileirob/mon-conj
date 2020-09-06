@@ -1,14 +1,21 @@
 @font-face
 {
 	font-family: 'gmongol';
-/*	src:
-		url('MWG3_demo.eot');*/
 	src:
-		/*local('MWG3_demo'), 
-		url('MWG3_demo.eot?#iefix') format('embedded-opentype'),*/
+		local('MWG3_demo'), 
 		url('MWG3_demo.ttf') format('opentype');
 }
-
+.IPA
+{
+	font-family: 'Segoe UI';
+	font-size: 32px;
+}
+.xlit
+{
+	font-family: 'Segoe UI';
+	font-size: 32px;
+	font-style: italic;
+}
 .gmongol
 {
 	font-family: gmongol;
