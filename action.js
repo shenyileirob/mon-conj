@@ -47,8 +47,10 @@ var suffix_lists = [
 refresh_TEXT_conj_wordform();
 // console.log(['qwertyuiop', 'asdfghjkl']);
 // console.log('finally:',set([1, 2, 3, 4, 3, 3, 4, 2, 1]));
-document.getElementById("if_dict").checked = 1;
 refresh_LB_deconj_lemma();
+document.getElementById("if_dict").checked = 1; // putting this before the previous line would cause the lemma to miss init when the dict is not ready
+document.getElementById("if_infer_mf").disabled= true;
+document.getElementById("if_bare_stem").disabled= true;
 
 function refresh_LB_deconj_lemma()
 {
