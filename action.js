@@ -63,11 +63,15 @@ function refresh_LB_deconj_lemma()
 	
  	var innerHTML = '';
 	if(if_dict){
+		document.getElementById("if_infer_mf").disabled= true;
+		document.getElementById("if_bare_stem").disabled= true;
 		for (i = 0; i < list_wordform.length; i++) {
 			lookup_by_graph(list_wordform[i]); // innerHTML must be updated internally becase of asynchronism
 		}
 	}
 	else {
+		document.getElementById("if_infer_mf").disabled= false;
+		document.getElementById("if_bare_stem").disabled= false;
 	/*	for (i=0; i<list_wordform.length; i++) {
 			innerHTML = innerHTML + '<option>' + list_wordform[i] +'</option>';
 		} */
