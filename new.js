@@ -4,6 +4,7 @@ var xhrmode = 1;
 loadDoc();
 
 function loadDoc() {
+	console.log('loadDoc() starts.');
 	if(xhrmode){
 		console.log('111');
 		var xhttp = new XMLHttpRequest();
@@ -19,10 +20,11 @@ function loadDoc() {
 		console.log('333');
 	}
 	else{compile_dict(null);}
+	console.log('loadDoc() ends.');
 }
 
 function compile_dict(xhttp) {
-	console.log('555');
+	console.log('compile_dict() starts.');
 	var i;
   
 	if(xhrmode){
@@ -87,9 +89,11 @@ function compile_dict(xhttp) {
 		// lookup_by_graph ('ᡄᡄᡅᡅᡏᡄᡍᠴᡅᠯᡄᡍᡇ')
 		console.log('714');
 	}
+	console.log('compile_dict() ends.');
 }
 
 function lookup_by_graph (graph) {
+	console.log('lookup_by_graph() starts.');
 	console.log(db);
 	console.log(graph);
 
@@ -123,4 +127,5 @@ function lookup_by_graph (graph) {
 		document.getElementById("lemmas").innerHTML = innerHTML;
 		//return innerHTML;
 	};
+	console.log('lookup_by_graph() ends.');
 }

@@ -54,7 +54,7 @@ document.getElementById("if_bare_stem").disabled= true;
 
 function refresh_LB_deconj_lemma()
 {
-	console.log('refresh_LB_deconj_lemma');
+	console.log('refresh_LB_deconj_lemma() starts.');
 	var wordform = pinyin2graph(document.getElementById("input_wordform").value);
 	var if_infer_stem_mf = !!document.getElementById("if_infer_mf").checked;
 	var if_dict = !!document.getElementById("if_dict").checked;
@@ -86,7 +86,9 @@ function refresh_LB_deconj_lemma()
 	}
 	// console.log(innerHTML);
 	document.getElementById("lemmas").innerHTML = innerHTML;
+	console.log('refresh_LB_deconj_lemma() ends.');
 }
+
 function keybind(event, object)
 {
 	var e = event || window.event || arguments.callee.caller.arguments[0];
