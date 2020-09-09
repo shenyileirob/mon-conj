@@ -13,13 +13,13 @@
 <div id="content" class="w3-container w3-white" style="max-width:600px;margin:auto;display:none;">
 	<form style="margin:auto;text-align: center;">
 		<input type="radio" id="cb_lan_en" name="radio_lan" onclick="localize_ui('en')" checked="checked">
-		<label id="label_cb_lan_en">EN</label>
+		<label id="label_cb_lan_en" for="cb_lan_en">EN</label>
 		<span></span>
 		<input type="radio" id="cb_lan_zh" name="radio_lan" onclick="localize_ui('zh')" >
-		<label id="label_cb_lan_zh">汉</label>
+		<label id="label_cb_lan_zh" for="cb_lan_zh">汉</label>
 		<span></span>
 		<input type="radio" id="cb_lan_mn" name="radio_lan" onclick="localize_ui('mn')" disabled="disabled">
-		<label id="label_cb_lan_mn"><span class="gmongol" style="font-size:16px;">ᡏᡆᡄᡘᡎᡆᠯ</span></label>
+		<label id="label_cb_lan_mn" for="cb_lan_mn"><span class="gmongol" style="font-size:16px;">ᡏᡆᡄᡘᡎᡆᠯ</span></label>
 	</form>
 	<div class="w3-container w3-white w3-cell w3-twothird" style="padding-left:0px;padding-right:32px;">
 		<h1 id="header_conj">Conjugator</h1>
@@ -35,7 +35,7 @@
 				</tr>
 				<tr>
 					<td>
-						<form><input type="checkbox" id="cb_chn" value="1" checked onclick="refresh_TEXT_conj_wordform()"><label id="label_cb_chn">CN</label></form>
+						<form><input type="checkbox" id="cb_chn" value="1" checked onclick="refresh_TEXT_conj_wordform()"><label id="label_cb_chn" for="cb_chn">CN</label></form>
 					</td>
 					<td>
 						<input id="input_lemma" class="gmongol w3-input w3-border" type="text" value="ᡅᡅᠪᡘᡆ" placeholder="Lemma" onkeyup="keybind(event, this)">
@@ -71,17 +71,15 @@
 				<tr>
 					<td style="height:50px;padding:auto;">
 						<div>
-							<form><input type="checkbox" id="if_dict" value="1" onclick="refresh_LB_deconj_lemma()"><label id="label_cb_dict">use dictionary</label></form>
-							<form><input type="checkbox" id="if_infer_mf" value="1" checked disabled onclick="refresh_LB_deconj_lemma()"><label id="label_cb_infer_gender">infer gender</label></form>
-							<!--<form><input type="checkbox" id="if_dict" value="1" onclick="lookup_by_graph ('ᡄᡄᡅᡅᠪᡄᡅᡅᡍᡇ‌');"><label>dict</label></form>-->
-							<!--<form style="display:none"><input type="checkbox" id="if_dict" value="1" onclick="refresh_LB_deconj_lemma()"><label>dict</label></form>-->
-							<form><input type="checkbox" id="if_bare_stem" value="1" disabled onclick="refresh_LB_deconj_lemma()"><label id="label_cb_bare_stem">accept bare stems</label></form>
+							<form><input type="checkbox" id="if_dict" value="1" onclick="refresh_LB_deconj_lemma()"><label id="label_cb_dict" for="if_dict">use dictionary</label></form>
+							<form><input type="checkbox" id="if_infer_mf" value="1" checked disabled onclick="refresh_LB_deconj_lemma()"><label id="label_cb_infer_gender" for="if_infer_mf">infer gender</label></form>
+							<form><input type="checkbox" id="if_bare_stem" value="1" disabled onclick="refresh_LB_deconj_lemma()"><label id="label_cb_bare_stem" for="if_bare_stem">accept bare stems</label></form>
 						</div>
 					</td> 
 				</tr>
 				<tr>
 					<td>
-						<div id="lemmas" class="gmongol table_text" valign="bottom">lemmas</div>
+						<div id="lemmas" class="gmongol table_text" valign="bottom"><!--lemmas--></div>
 <!-- 						<select id="lemmas" class="gmongol table_text w3-select w3-border"multiple="false" style="width:200px;">list items go here</select> -->
 					</td>
 				</tr>
