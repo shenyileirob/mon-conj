@@ -962,12 +962,12 @@ function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_dict, if_bare
 		}
 	}
 	// console.log(lemma_list);
+	var lemma_set = new Set(lemma_list);
 	if (!if_bare_stem) {
-		var lemma_set = new Set(lemma_list);
-		var lemma_set_bare_stem = new Set(deconjugate_suffix (wordform, 'ᠴᡅ', 0, 0, 1) + deconjugate_suffix (wordform, 'ᡎᡄᡑᡄ', 0, 0, 1) + deconjugate_suffix (wordform, '', 0, 0, 1));
-		return [...lemma_set].filter(x => !lemma_set_bare_stem.has(x)) // lemma_set - lemma_set_bare_stem
+		var lemma_set_bare_stem = new Set(deconjugate_suffix (wordform, 'ᠴᡅ', 0, 0, 1).concat(deconjugate_suffix (wordform, 'ᡎᡄᡑᡄ', 0, 0, 1)).concat(deconjugate_suffix (wordform, '', 0, 0, 1)));
 	}
 	else {
-		return lemma_list;
+		var lemma_set_bare_stem = new Set(deconjugate_suffix (wordform, 'ᠴᡅ', 0, 0, 1).concat(deconjugate_suffix (wordform, 'ᡎᡄᡑᡄ', 0, 0, 1)));
 	}
+	return [...lemma_set].filter(x => !lemma_set_bare_stem.has(x)) // lemma_set - lemma_set_bare_stem
 };
