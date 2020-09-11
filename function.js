@@ -971,10 +971,12 @@ function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_dict, if_bare
 		}
 	}
 	// console.log(lemma_list);
-	var lemma_set = new Set(lemma_list);
 	if (!if_bare_stem) {
-		lemma_set.delete(wordform)
+		var lemma_set = new Set(lemma_list);
+		var lemma_set_bare_stem = new Set(deconjugate_suffix (wordform, '', 0, 0, 1));
+		return [...lemma_set].filter(x => !lemma_set_bare_stem.has(x))
 	}
-	var lemma_list = Array.from(lemma_set)
-	return lemma_list;
+	else {
+		return lemma_set;
+	}
 };
