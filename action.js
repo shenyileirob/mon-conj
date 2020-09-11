@@ -1,11 +1,13 @@
 
 document.getElementById("info_enable_js").style.display = "none";
+document.getElementById("sidenav").style.display = "table";
 document.getElementById("content").style.display = "table";
 function localize_ui(lan){
 	console.log('checked:', lan);
 	switch (lan) {
 	case "zh":
 		console.log('branch:', 'zh');
+		document.getElementById("label_cb_xlithint").innerHTML = "帮助";
 		document.getElementById("header_conj").innerHTML = "屈折器";
 		document.getElementById("header_deconj").innerHTML = "逆屈折器";
 		document.getElementById("label_cb_chn").innerHTML = "中国";
@@ -21,6 +23,7 @@ function localize_ui(lan){
 		break;
 	default:
 		console.log('branch:', 'default');
+		document.getElementById("label_cb_xlithint").innerHTML = "Help";
 		document.getElementById("header_conj").innerHTML = "Conjugator";
 		document.getElementById("header_deconj").innerHTML = "Deconjugator";
 		document.getElementById("label_cb_chn").innerHTML = "CHN";
@@ -52,6 +55,17 @@ document.getElementById("if_dict").checked = 1; // putting this before the previ
 document.getElementById("if_infer_mf").disabled= true;
 document.getElementById("if_bare_stem").disabled= true;
 
+function toggle_xlithint()
+{
+	if(document.getElementById("cb_xlithint").checked)
+	{
+		document.getElementById("tb_xlithint").style.display = "table";
+	}
+	else
+	{
+		document.getElementById("tb_xlithint").style.display = "none";
+	}
+}
 function refresh_LB_deconj_lemma()
 {
 	console.log('refresh_LB_deconj_lemma');
