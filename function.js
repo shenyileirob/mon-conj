@@ -975,6 +975,6 @@ function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_dict, if_bare
 	if (!if_bare_stem) {
 		lemma_set.delete(wordform)
 	}
-	var lemma_list = new Array.from(lemma_set)
+	var lemma_list = Array.from(lemma_set)
 	return lemma_list;
 };
