@@ -670,7 +670,7 @@ function conjugate(lemma, cell, if_chn) {
 function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bare_stem) {
 	// console.log('param:', if_infer_stem_mf, if_dict, if_bare_stem);
 	var lemma_list = [];
-	if (suffix == '') {
+	if (0 && suffix == '') {
 		if (if_bare_stem == 0 && if_dict == 0) {
 			return lemma_list;
 		}
@@ -971,5 +971,10 @@ function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_dict, if_bare
 		}
 	}
 	// console.log(lemma_list);
-	return list (set (lemma_list));
+	var lemma_set = new Set(lemma_list);
+	if (!if_bare_stem) {
+		lemma_set.delete(wordform)
+	}
+	var lemma_list = new Array.from(lemma_set)
+	return lemma_list;
 };
