@@ -977,6 +977,6 @@ function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_dict, if_bare
 		return [...lemma_set].filter(x => !lemma_set_bare_stem.has(x))
 	}
 	else {
-		return lemma_set;
+		return lemma_list;
 	}
 };
