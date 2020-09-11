@@ -670,72 +670,63 @@ function conjugate(lemma, cell, if_chn) {
 function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bare_stem) {
 	// console.log('param:', if_infer_stem_mf, if_dict, if_bare_stem);
 	var lemma_list = [];
-	if (suffix == '') {
-		if (if_bare_stem == 0 && if_dict == 0) {
+
+	var __left0__ = re_subn ('[ᡍᡎ]', 'ᡘ', suffix);
+	var suffix_f = __left0__ [0];
+	var mf_suffix = __left0__ [1];
+	var mf_suffix = !(!(mf_suffix));
+	if (mf_suffix) {
+		var suffix_f = re_sub ('ᡘᡃ$', 'ᡘᡄ', suffix_f);
+		var suffix_f = re_sub ('([ᠪᡘ])ᡇ‌$', '\\1ᡆ', suffix_f);
+	}
+	var __left0__ = re_subn ('^ᡔ', 'ᠴ', suffix);
+	var suffix_c = __left0__ [0];
+	var jc_suffix = __left0__ [1];
+	var jc_suffix = !(!(jc_suffix));
+	var flag_match = 0;
+	if (re_search (suffix + '$', wordform)) {
+		var flag_match = 1;
+		var mf_form = mf_suffix;
+		var jc_form = jc_suffix;
+		var stem_raw = re_sub (suffix + '$', '', wordform);
+		if (stem_raw == '') {
 			return lemma_list;
 		}
-		else {
-			var mf_form = 0;
-			var stem_raw = wordform;
+	}
+	if (!(flag_match) && mf_suffix && re_search (suffix_f + '$', wordform)) {
+		var flag_match = 1;
+		var mf_form = 2;
+		var jc_form = jc_suffix;
+		var stem_raw = re_sub (suffix_f + '$', '', wordform);
+		if (stem_raw == '') {
+			return lemma_list;
 		}
 	}
-	else {
-		var __left0__ = re_subn ('[ᡍᡎ]', 'ᡘ', suffix);
-		var suffix_f = __left0__ [0];
-		var mf_suffix = __left0__ [1];
-		var mf_suffix = !(!(mf_suffix));
-		if (mf_suffix) {
-			var suffix_f = re_sub ('ᡘᡃ$', 'ᡘᡄ', suffix_f);
-			var suffix_f = re_sub ('([ᠪᡘ])ᡇ‌$', '\\1ᡆ', suffix_f);
+	if (!(flag_match) && jc_suffix && re_search (suffix_c + '$', wordform)) {
+		var flag_match = 1;
+		var mf_form = mf_suffix;
+		var jc_form = 2;
+		var stem_raw = re_sub (suffix_c + '$', '', wordform);
+		if (stem_raw == '') {
+			return lemma_list;
 		}
-		var __left0__ = re_subn ('^ᡔ', 'ᠴ', suffix);
-		var suffix_c = __left0__ [0];
-		var jc_suffix = __left0__ [1];
-		var jc_suffix = !(!(jc_suffix));
-		var flag_match = 0;
-		if (re_search (suffix + '$', wordform)) {
-			var flag_match = 1;
-			var mf_form = mf_suffix;
-			var jc_form = jc_suffix;
-			var stem_raw = re_sub (suffix + '$', '', wordform);
-			if (stem_raw == '') {
-				return lemma_list;
-			}
-		}
-		if (!(flag_match) && mf_suffix && re_search (suffix_f + '$', wordform)) {
+	}
+	if (!(flag_match) && mf_suffix && jc_suffix) {
+		var suffix_f_c = re_sub ('^ᡔ', 'ᠴ', suffix_f);
+		if (re_search (suffix_f_c + '$', wordform)) {
 			var flag_match = 1;
 			var mf_form = 2;
-			var jc_form = jc_suffix;
-			var stem_raw = re_sub (suffix_f + '$', '', wordform);
-			if (stem_raw == '') {
-				return lemma_list;
-			}
-		}
-		if (!(flag_match) && jc_suffix && re_search (suffix_c + '$', wordform)) {
-			var flag_match = 1;
-			var mf_form = mf_suffix;
 			var jc_form = 2;
-			var stem_raw = re_sub (suffix_c + '$', '', wordform);
+			var stem_raw = re_sub (suffix_f_c + '$', '', wordform);
 			if (stem_raw == '') {
 				return lemma_list;
 			}
-		}
-		if (!(flag_match) && mf_suffix && jc_suffix) {
-			var suffix_f_c = re_sub ('^ᡔ', 'ᠴ', suffix_f);
-			if (re_search (suffix_f_c + '$', wordform)) {
-				var flag_match = 1;
-				var mf_form = 2;
-				var jc_form = 2;
-				var stem_raw = re_sub (suffix_f_c + '$', '', wordform);
-				if (stem_raw == '') {
-					return lemma_list;
-				}
-			}
-		}
-		if (!(flag_match)) {
-			return lemma_list;
 		}
 	}
+	if (!(flag_match)) {
+		return lemma_list;
+	}
+	
 	if (mf_form == 1) {
 		var suffix_xu_list = /*list*/ (['ᡍᡇ‌']);
 	}
@@ -971,5 +962,12 @@ function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_dict, if_bare
 		}
 	}
 	// console.log(lemma_list);
-	return list (set (lemma_list));
+	if (!if_bare_stem) {
+		var lemma_set = new Set(lemma_list);
+		var lemma_set_bare_stem = new Set(deconjugate_suffix (wordform, '', 0, 0, 1));
+		return [...lemma_set].filter(x => !lemma_set_bare_stem.has(x)) // lemma_set - lemma_set_bare_stem
+	}
+	else {
+		return lemma_list;
+	}
 };
