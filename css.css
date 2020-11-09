@@ -1,20 +1,68 @@
 @font-face
 {
 	font-family: 'gmongol';
-/*	src:
-		url('MWG3_demo.eot');*/
 	src:
-		/*local('MWG3_demo'), 
-		url('MWG3_demo.eot?#iefix') format('embedded-opentype'),*/
+		local('MWG3_demo'), 
 		url('MWG3_demo.ttf') format('opentype');
 }
-
+.IPA
+{
+	font-family: 'Segoe UI';
+	font-size: 15px;
+}
+.xlit
+{
+	font-family: 'Segoe UI';
+	font-size: 15px;
+	font-style: italic;
+}
 .gmongol
 {
 	font-family: gmongol;
 	font-size: 32px;
+	word-break:keep-all;/* 不换行 */
+	white-space:nowrap;/* 不换行 */
 /* 	-webkit-writing-mode: horizontal-tb;
 	writing-mode: vertical-lr; */
+}
+
+.sidenav {
+  /*
+  width: 130px;
+  */
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 1;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 5px 5px;
+}
+/*
+.main {
+  margin-right: 75px; /* reserved for sidenav
+  padding: 0px 10px;
+}
+*/
+.xlittb {
+	display:none;
+}
+.xlitmongol {
+	font-family: gmongol;
+	text-align: left;
+}
+.xlitsmlcps {
+	font-size: smaller;
+	/*font-variant: small-caps;*/
+	text-align: left;
+}
+.xlitlatin {
+	text-align: right;
+  font-family: Consolas,"courier new";
+  padding: 0px 0px 0px 5px;
+/*  color: crimson;
+  font-size: 105%;
+  background-color: #fff;*/
 }
 
 .w3-input, .table_text, label

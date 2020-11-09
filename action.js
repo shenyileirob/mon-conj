@@ -1,15 +1,18 @@
 
 document.getElementById("info_enable_js").style.display = "none";
+document.getElementById("sidenav").style.display = "table";
 document.getElementById("content").style.display = "table";
 function localize_ui(lan){
 	console.log('checked:', lan);
 	switch (lan) {
 	case "zh":
 		console.log('branch:', 'zh');
+		document.getElementById("label_cb_xlithint").innerHTML = "帮助";
 		document.getElementById("header_conj").innerHTML = "屈折器";
 		document.getElementById("header_deconj").innerHTML = "逆屈折器";
 		document.getElementById("label_cb_chn").innerHTML = "中国";
 		document.getElementById("label_cb_infer_gender").innerHTML = "推测阴阳性";
+		document.getElementById("label_cb_dict").innerHTML = "启用词典";
 		document.getElementById("label_cb_bare_stem").innerHTML = "接受秃词干";
 		document.getElementById("input_cell").placeholder = "目标形";
 		document.getElementById("input_lemma").placeholder = "词典形";
@@ -20,10 +23,12 @@ function localize_ui(lan){
 		break;
 	default:
 		console.log('branch:', 'default');
+		document.getElementById("label_cb_xlithint").innerHTML = "Help";
 		document.getElementById("header_conj").innerHTML = "Conjugator";
 		document.getElementById("header_deconj").innerHTML = "Deconjugator";
 		document.getElementById("label_cb_chn").innerHTML = "CHN";
 		document.getElementById("label_cb_infer_gender").innerHTML = "infer gender";
+		document.getElementById("label_cb_dict").innerHTML = "use dictionary";
 		document.getElementById("label_cb_bare_stem").innerHTML = "accept bare stems";
 		document.getElementById("input_cell").placeholder = "Target";
 		document.getElementById("input_lemma").placeholder = "Lemma";
@@ -46,9 +51,24 @@ refresh_TEXT_conj_wordform();
 // console.log(['qwertyuiop', 'asdfghjkl']);
 // console.log('finally:',set([1, 2, 3, 4, 3, 3, 4, 2, 1]));
 refresh_LB_deconj_lemma();
+document.getElementById("if_dict").checked = 1; // putting this before the previous line would cause the lemma to miss init when the dict is not ready
+document.getElementById("if_infer_mf").disabled= true;
+document.getElementById("if_bare_stem").disabled= true;
 
+function toggle_xlithint()
+{
+	if(document.getElementById("cb_xlithint").checked)
+	{
+		document.getElementById("tb_xlithint").style.display = "table";
+	}
+	else
+	{
+		document.getElementById("tb_xlithint").style.display = "none";
+	}
+}
 function refresh_LB_deconj_lemma()
 {
+	console.log('refresh_LB_deconj_lemma');
 	var wordform = pinyin2graph(document.getElementById("input_wordform").value);
 	var if_infer_stem_mf = !!document.getElementById("if_infer_mf").checked;
 	var if_dict = !!document.getElementById("if_dict").checked;
@@ -56,15 +76,27 @@ function refresh_LB_deconj_lemma()
 	var list_wordform = deconjugate (wordform, suffix_lists , if_infer_stem_mf, if_dict, if_bare_stem);
 	console.log(if_infer_stem_mf, if_dict, if_bare_stem);
 	console.log(list_wordform);
+	
  	var innerHTML = '';
-/*	for (i=0; i<list_wordform.length; i++) {
-		innerHTML = innerHTML + '<option>' + list_wordform[i] +'</option>';
-	} */
-	if (list_wordform.length){
-		innerHTML = '<span>' + list_wordform[0] + '</span>';
-		for (i=1; i<list_wordform.length; i++) {
-			innerHTML = innerHTML + '<br><span>' + list_wordform[i] + '</span>';
-		}	
+	if(if_dict){
+		document.getElementById("if_infer_mf").disabled= true;
+		document.getElementById("if_bare_stem").disabled= true;
+		for (i = 0; i < list_wordform.length; i++) {
+			lookup_by_graph(list_wordform[i]); // innerHTML must be updated internally becase of asynchronism
+		}
+	}
+	else {
+		document.getElementById("if_infer_mf").disabled= false;
+		document.getElementById("if_bare_stem").disabled= false;
+	/*	for (i=0; i<list_wordform.length; i++) {
+			innerHTML = innerHTML + '<option>' + list_wordform[i] +'</option>';
+		} */
+		if (list_wordform.length){
+			innerHTML = '<span>' + list_wordform[0] + '</span>';
+			for (i=1; i<list_wordform.length; i++) {
+				innerHTML = innerHTML + '<br><span>' + list_wordform[i] + '</span>';
+			}	
+		}
 	}
 	// console.log(innerHTML);
 	document.getElementById("lemmas").innerHTML = innerHTML;
