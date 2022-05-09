@@ -735,6 +735,14 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 	}
 	else {
 		var suffix_xu_list = /*list*/ (['ᡍᡇ‌', 'ᡘᡆ']);
+		if (suffix == '') {
+			if (re_search ('ᡆᡅᡅ$', stem_raw)) {
+				var suffix_xu_list = /*list*/ (['ᡘᡆ']);
+			}
+			else if (re_search ('^.ᡆᡅ$', stem_raw)) {
+				var suffix_xu_list = /*list*/ (['ᡍᡇ‌']);
+			}
+		}
 		if (if_infer_stem_mf && !(if_dict)) {
 			if (re_search ('[ᡍᡎ]', stem_raw) || re_search ('^ᡄᡄ(?![ᡑᡘ])', stem_raw) || re_search ('^.ᡆ(?!ᡅ)', stem_raw)) {
 				var suffix_xu_list = /*list*/ (['ᡍᡇ‌']);
