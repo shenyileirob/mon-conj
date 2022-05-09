@@ -70,9 +70,13 @@ function refresh_LB_deconj_lemma()
 {
 	console.log('refresh_LB_deconj_lemma');
 	var wordform = pinyin2graph(document.getElementById("input_wordform").value);
-	var if_infer_stem_mf = !!document.getElementById("if_infer_mf").checked;
 	var if_dict = !!document.getElementById("if_dict").checked;
+	var if_infer_stem_mf = !!document.getElementById("if_infer_mf").checked;
 	var if_bare_stem = !!document.getElementById("if_bare_stem").checked;
+	if(if_dict){
+		if_infer_stem_mf = 0;
+		if_bare_stem = 1;
+	}
 	var list_wordform = deconjugate (wordform, suffix_lists , if_infer_stem_mf, if_dict, if_bare_stem);
 	console.log(if_infer_stem_mf, if_dict, if_bare_stem);
 	console.log(list_wordform);
