@@ -1,41 +1,44 @@
+function get(id){
+	return document.getElementById(id);
+}
 
-document.getElementById("info_enable_js").style.display = "none";
-document.getElementById("sidenav").style.display = "table";
-document.getElementById("content").style.display = "table";
+// get("info_enable_js").style.display = "none";
+get("sidenav").style.display = "table";
+get("content").style.display = "table";
 function localize_ui(lan){
 	console.log('checked:', lan);
 	switch (lan) {
 	case "zh":
 		console.log('branch:', 'zh');
-		document.getElementById("label_cb_xlithint").innerHTML = "帮助";
-		document.getElementById("header_conj").innerHTML = "屈折器";
-		document.getElementById("header_deconj").innerHTML = "逆屈折器";
-		document.getElementById("label_cb_chn").innerHTML = "中国";
-		document.getElementById("label_cb_infer_gender").innerHTML = "推测阴阳性";
-		document.getElementById("label_cb_dict").innerHTML = "启用词典";
-		document.getElementById("label_cb_bare_stem").innerHTML = "接受秃词干";
-		document.getElementById("input_cell").placeholder = "目标形";
-		document.getElementById("input_lemma").placeholder = "词典形";
-		document.getElementById("input_wordform").placeholder = "屈折形";
-		document.getElementById("input_cell_pinyin").placeholder = "目标形（拼音）";
-		document.getElementById("input_lemma_pinyin").placeholder = "词典形（拼音）";
-		document.getElementById("input_wordform_pinyin").placeholder = "屈折形（拼音）";
+		get("label_cb_xlithint").innerHTML = "帮助";
+		get("header_conj").innerHTML = "屈折器";
+		get("header_deconj").innerHTML = "逆屈折器";
+		get("label_cb_chn").innerHTML = "中国";
+		get("label_cb_infer_gender").innerHTML = "推测阴阳性";
+		get("label_cb_dict").innerHTML = "启用词典";
+		get("label_cb_bare_stem").innerHTML = "接受秃词干";
+		get("input_cell").placeholder = "目标形";
+		get("input_lemma").placeholder = "词典形";
+		get("input_wordform").placeholder = "屈折形";
+		get("input_cell_pinyin").placeholder = "目标形（拼音）";
+		get("input_lemma_pinyin").placeholder = "词典形（拼音）";
+		get("input_wordform_pinyin").placeholder = "屈折形（拼音）";
 		break;
 	default:
 		console.log('branch:', 'default');
-		document.getElementById("label_cb_xlithint").innerHTML = "Help";
-		document.getElementById("header_conj").innerHTML = "Conjugator";
-		document.getElementById("header_deconj").innerHTML = "Deconjugator";
-		document.getElementById("label_cb_chn").innerHTML = "CHN";
-		document.getElementById("label_cb_infer_gender").innerHTML = "infer gender";
-		document.getElementById("label_cb_dict").innerHTML = "use dictionary";
-		document.getElementById("label_cb_bare_stem").innerHTML = "accept bare stems";
-		document.getElementById("input_cell").placeholder = "Target";
-		document.getElementById("input_lemma").placeholder = "Lemma";
-		document.getElementById("input_wordform").placeholder = "Wordform";
-		document.getElementById("input_cell_pinyin").placeholder = "Target (pinyin)";
-		document.getElementById("input_lemma_pinyin").placeholder = "Lemma (pinyin)";
-		document.getElementById("input_wordform_pinyin").placeholder = "Wordform (pinyin)";
+		get("label_cb_xlithint").innerHTML = "Help";
+		get("header_conj").innerHTML = "Conjugator";
+		get("header_deconj").innerHTML = "Deconjugator";
+		get("label_cb_chn").innerHTML = "CHN";
+		get("label_cb_infer_gender").innerHTML = "infer gender";
+		get("label_cb_dict").innerHTML = "use dictionary";
+		get("label_cb_bare_stem").innerHTML = "accept bare stems";
+		get("input_cell").placeholder = "Target";
+		get("input_lemma").placeholder = "Lemma";
+		get("input_wordform").placeholder = "Wordform";
+		get("input_cell_pinyin").placeholder = "Target (pinyin)";
+		get("input_lemma_pinyin").placeholder = "Lemma (pinyin)";
+		get("input_wordform_pinyin").placeholder = "Wordform (pinyin)";
 		break;
 	}
 }
@@ -51,28 +54,28 @@ refresh_TEXT_conj_wordform();
 // console.log(['qwertyuiop', 'asdfghjkl']);
 // console.log('finally:',set([1, 2, 3, 4, 3, 3, 4, 2, 1]));
 refresh_LB_deconj_lemma();
-document.getElementById("if_dict").checked = 1; // putting this before the previous line would cause the lemma to miss init when the dict is not ready
-document.getElementById("if_infer_mf").disabled= true;
-document.getElementById("if_bare_stem").disabled= true;
+get("if_dict").checked = 1; // putting this before the previous line would cause the lemma to miss init when the dict is not ready
+get("if_infer_mf").disabled= true;
+get("if_bare_stem").disabled= true;
 
 function toggle_xlithint()
 {
-	if(document.getElementById("cb_xlithint").checked)
+	if(get("cb_xlithint").checked)
 	{
-		document.getElementById("tb_xlithint").style.display = "table";
+		get("tb_xlithint").style.display = "table";
 	}
 	else
 	{
-		document.getElementById("tb_xlithint").style.display = "none";
+		get("tb_xlithint").style.display = "none";
 	}
 }
 function refresh_LB_deconj_lemma()
 {
 	console.log('refresh_LB_deconj_lemma');
-	var wordform = pinyin2graph(document.getElementById("input_wordform").value);
-	var if_dict = !!document.getElementById("if_dict").checked;
-	var if_infer_stem_mf = !!document.getElementById("if_infer_mf").checked;
-	var if_bare_stem = !!document.getElementById("if_bare_stem").checked;
+	var wordform = pinyin2graph(get("input_wordform").value);
+	var if_dict = !!get("if_dict").checked;
+	var if_infer_stem_mf = !!get("if_infer_mf").checked;
+	var if_bare_stem = !!get("if_bare_stem").checked;
 	if(if_dict){
 		if_infer_stem_mf = 0;
 		if_bare_stem = 1;
@@ -83,15 +86,15 @@ function refresh_LB_deconj_lemma()
 	
  	var innerHTML = '';
 	if(if_dict){
-		document.getElementById("if_infer_mf").disabled= true;
-		document.getElementById("if_bare_stem").disabled= true;
+		get("if_infer_mf").disabled= true;
+		get("if_bare_stem").disabled= true;
 		for (i = 0; i < list_wordform.length; i++) {
 			lookup_by_graph(list_wordform[i]); // innerHTML must be updated internally becase of asynchronism
 		}
 	}
 	else {
-		document.getElementById("if_infer_mf").disabled= false;
-		document.getElementById("if_bare_stem").disabled= false;
+		get("if_infer_mf").disabled= false;
+		get("if_bare_stem").disabled= false;
 	/*	for (i=0; i<list_wordform.length; i++) {
 			innerHTML = innerHTML + '<option>' + list_wordform[i] +'</option>';
 		} */
@@ -103,7 +106,7 @@ function refresh_LB_deconj_lemma()
 		}
 	}
 	// console.log(innerHTML);
-	document.getElementById("lemmas").innerHTML = innerHTML;
+	get("lemmas").innerHTML = innerHTML;
 }
 function keybind(event, object)
 {
@@ -113,13 +116,13 @@ function keybind(event, object)
 	} // clear input
 	else if(e && e.keyCode==13){ // press Enter
 		if(object.id == "input_cell_pinyin"){
-			document.getElementById("input_cell").value = pinyin2graph(object.value); // commit cell
+			get("input_cell").value = pinyin2graph(object.value); // commit cell
 		}
 		else if(object.id == "input_lemma_pinyin"){
-			document.getElementById("input_lemma").value = pinyin2graph(object.value); // commit lemma
+			get("input_lemma").value = pinyin2graph(object.value); // commit lemma
 		}
 		else if(object.id == "input_wordform_pinyin"){
-			document.getElementById("input_wordform").value = pinyin2graph(object.value); // commit wordform
+			get("input_wordform").value = pinyin2graph(object.value); // commit wordform
 		} // deconj
 		
 		if (object.id == "input_wordform_pinyin" || object.id == "input_wordform") {refresh_LB_deconj_lemma();} // deconj
@@ -127,22 +130,22 @@ function keybind(event, object)
 	} // conj
 	else {
 		if(object.id == "input_cell_pinyin"){
-			document.getElementById("input_cell").value = pinyin2graph(object.value); // commit cell
+			get("input_cell").value = pinyin2graph(object.value); // commit cell
 		}
 		else if(object.id == "input_lemma_pinyin"){
-			document.getElementById("input_lemma").value = pinyin2graph(object.value); // commit lemma
+			get("input_lemma").value = pinyin2graph(object.value); // commit lemma
 		}
 		else if(object.id == "input_wordform_pinyin"){
-			document.getElementById("input_wordform").value = pinyin2graph(object.value); // commit wordform
+			get("input_wordform").value = pinyin2graph(object.value); // commit wordform
 		} // deconj		
 	}
 };
 function refresh_TEXT_conj_wordform()
 {
-	var cell = pinyin2graph(document.getElementById("input_cell").value);
-	var lemma = pinyin2graph(document.getElementById("input_lemma").value);
-	var if_chn = document.getElementById("cb_chn").checked;
-	document.getElementById("wordforms").innerHTML = conjugate_parad(lemma, cell, parad, if_chn);
+	var cell = pinyin2graph(get("input_cell").value);
+	var lemma = pinyin2graph(get("input_lemma").value);
+	var if_chn = get("cb_chn").checked;
+	get("wordforms").innerHTML = conjugate_parad(lemma, cell, parad, if_chn);
 	// console.log(lemma, cell, parad, if_chn);
 }
 function conjugate_parad(lemma, cell, parad, if_chn)
