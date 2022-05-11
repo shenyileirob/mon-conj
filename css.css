@@ -16,6 +16,11 @@
 	font-size: 15px;
 	font-style: italic;
 }
+.code
+{
+	font-family: 'Courier New';
+	font-size: 15px;
+}
 .gmongol
 {
 	font-family: gmongol;
@@ -56,10 +61,10 @@
 	/*font-variant: small-caps;*/
 	text-align: left;
 }
-.xlitlatin {
+.code_nav {
 	text-align: right;
-  font-family: Consolas,"courier new";
-  padding: 0px 0px 0px 5px;
+	font-family: "courier new";
+	padding: 0px 0px 0px 5px;
 /*  color: crimson;
   font-size: 105%;
   background-color: #fff;*/
