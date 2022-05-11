@@ -9,8 +9,8 @@ function xlit2graph(s) {
 }
 
 function pinyin2graph(s) {
-	s = unicode2gbkey(s);
 	s = pinyin2gbkey(s);
+	s = unicode2gbkey(s); // this should follow pinyin2gbkey
 	s = gbkey2graph(s);
 	return s;
 }
