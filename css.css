@@ -3,7 +3,7 @@
 	font-family: 'gmongol';
 	src:
 		local('MWG3_demo'), 
-		url('MWG3_demo.ttf') format('opentype');
+		url('https://shenyileirob.github.io/hanshi/MWG3_demo.ttf') format('opentype');
 }
 .IPA
 {
