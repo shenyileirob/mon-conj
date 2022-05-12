@@ -42,12 +42,12 @@ function pinyin2gbkey(s) {
 	s = s.replace(/c/g, 'C');
 	s = s.replace(/q/g, 'c');
 	s = s.replace(/o/g, 'q');
-	s = s.replace(/v/g, '_');
+	s = s.replace(/v/g, '_a');
+	s = s.replace(/ha$/g, 'h_a');
+	s = s.replace(/ga$/g, 'g_a');
 	s = s.replace(/-q/g, '-v');
 	return s;
 }
-	
-
 function unicode2gbkey(s) {
 	// phon code -> s code
 	s = s.replace(/͏/g, '~');
