@@ -705,8 +705,8 @@ function conjugate(lemma, cell, if_chn) {
 	// console.log([wordform, highlight]);
 	return [wordform, highlight];
 };
-function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bare_stem) {
-	// console.log('param:', if_infer_stem_mf, if_dict, if_bare_stem);
+function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
+	// console.log('param:', if_infer_stem_mf);
 	var lemma_list = [];
 
 	var __left0__ = re_subn ('[ᡍᡎ]', 'ᡘ', suffix);
@@ -764,7 +764,7 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 	if (!(flag_match)) {
 		return lemma_list;
 	}
-	
+
 	if (mf_form == 1) {
 		var suffix_xu_list = /*list*/ (['ᡍᡇ‌']);
 	}
@@ -781,7 +781,7 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 				var suffix_xu_list = /*list*/ (['ᡍᡇ‌']);
 			}
 		}
-		if (if_infer_stem_mf && !(if_dict)) {
+		if (if_infer_stem_mf) {
 			if (re_search ('[ᡍᡎ]', stem_raw) || re_search ('^ᡄᡄ(?![ᡑᡘ])', stem_raw) || re_search ('^.ᡆ(?!ᡅ)', stem_raw)) {
 				var suffix_xu_list = /*list*/ (['ᡍᡇ‌']);
 			}
@@ -980,15 +980,14 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bar
 	// console.log(lemma_list);
 	return lemma_list;
 };
-function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_dict, if_bare_stem) {
+function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_bare_stem) {
 	var lemma_list = list ([]);
-	// console.log(1, lemma_list);
 	if (wordform != '') {
 		var __iterable0__ = suffix_lists [0];
+		if (if_bare_stem) {lemma_list = deconjugate_suffix (wordform, '', if_infer_stem_mf);}
 		for (var __index0__ = 0; __index0__ < len (__iterable0__); __index0__++) {
 			var suffix = __iterable0__ [__index0__];
-			var lemma_list = lemma_list.concat(deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_dict, if_bare_stem));
-			// console.log(2, lemma_list);
+			var lemma_list = lemma_list.concat(deconjugate_suffix (wordform, suffix, if_infer_stem_mf));
 		}
 		var __iterable0__ = suffix_lists.slice(1);
 		for (var __index0__ = 0; __index0__ < len (__iterable0__); __index0__++) {
@@ -1000,20 +999,13 @@ function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_dict, if_bare
 				var __iterable2__ = suffix_list;
 				for (var __index2__ = 0; __index2__ < len (__iterable2__); __index2__++) {
 					var suffix = __iterable2__ [__index2__];
-					var lemma_list_temp = lemma_list_temp.concat(deconjugate_suffix (lemma, suffix, if_infer_stem_mf, if_dict, if_bare_stem));
+					var lemma_list_temp = lemma_list_temp.concat(deconjugate_suffix (lemma, suffix, if_infer_stem_mf));
 				}
 			}
-			// console.log(3, lemma_list_temp);
 			var lemma_list = lemma_list.concat(lemma_list_temp);
 		}
 	}
-	// console.log(lemma_list);
-	if (!if_bare_stem) {
-		var lemma_set = new Set(lemma_list);
-		var lemma_set_bare_stem = new Set(deconjugate_suffix (wordform, '', 0, 0, 1));
-		return [...lemma_set].filter(x => !lemma_set_bare_stem.has(x)) // lemma_set - lemma_set_bare_stem
-	}
-	else {
-		return lemma_list;
-	}
+	lemma_list = Array.from(new Set(lemma_list));
+	// removing duplicates is necessary as final and nonfinal suffixes may be the same (e.g., g_a & gaxu)
+	return lemma_list;
 };
