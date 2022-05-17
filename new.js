@@ -63,7 +63,10 @@ function lookup_by_graph (graph) { // async request for appending lemma by lemma
 		if (cursor) {
 			// Called for each matching record.
 			document.getElementById("lemmas").innerHTML += cursor.value.graph + ' '
-				+ "<span class='IPA'>(" + "<span class='xlit'>" + cursor.value.xlit + "</span>" + ' /'
+				+ "<span class='IPA'>(" + "<a  target='_blank' rel='noopener noreferrer' href='"
+				+ "http://hkuri.cneas.tohoku.ac.jp/p01/mongol/list?groupId=12&keyword="
+				+ xlit2unicode(cursor.value.xlit) + "'>" + "<span class='xlit'>"
+				+ cursor.value.xlit + "</span></a>" + ' /'
 				+ cursor.value.phone + "/)</span>" + '<br>';
 			cursor.continue();
 		}

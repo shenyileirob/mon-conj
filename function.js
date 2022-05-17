@@ -45,11 +45,12 @@ function pinyin2gbkey(s) {
 	s = s.replace(/v/g, '_a');
 	s = s.replace(/ha$/g, 'h_a');
 	s = s.replace(/ga$/g, 'g_a');
+	s = s.replace(/^h_a/g, 'ha');
+	s = s.replace(/^g_a/g, 'ga');
 	s = s.replace(/-q/g, '-v');
 	return s;
 }
 function unicode2gbkey(s) {
-	// phon code -> s code
 	s = s.replace(/͏/g, '~');
 	s = s.replace(/᠋/g, "'");
 	s = s.replace(/᠌/g, '"');
@@ -95,7 +96,57 @@ function unicode2gbkey(s) {
 	s = s.replace(/ᡂ/g, 'Q');
 	return s;
 }
-
+function xlit2unicode(s) {
+	s = xlit2gbkey(s);
+	s = gbkey2unicode(s);
+	return s;
+}
+function gbkey2unicode(s) {
+	s = s.replace(/~/g, '͏');
+	s = s.replace(/'/g, '᠋');
+	s = s.replace(/"/g, '᠌');
+	s = s.replace(/`/g, '᠍');
+	s = s.replace(/-/g, ' ');
+	s = s.replace(/_/g, '᠎');
+	s = s.replace(/\$/g, '᠇');
+	s = s.replace(/&/g, '᠊');
+	s = s.replace(/a/g, 'ᠠ');
+	s = s.replace(/e/g, 'ᠡ');
+	s = s.replace(/i/g, 'ᠢ');
+	s = s.replace(/q/g, 'ᠣ');
+	s = s.replace(/v/g, 'ᠤ');
+	s = s.replace(/o/g, 'ᠥ');
+	s = s.replace(/u/g, 'ᠦ');
+	s = s.replace(/E/g, 'ᠧ');
+	s = s.replace(/n/g, 'ᠨ');
+	s = s.replace(/N/g, 'ᠩ');
+	s = s.replace(/b/g, 'ᠪ');
+	s = s.replace(/p/g, 'ᠫ');
+	s = s.replace(/h/g, 'ᠬ');
+	s = s.replace(/g/g, 'ᠭ');
+	s = s.replace(/m/g, 'ᠮ');
+	s = s.replace(/l/g, 'ᠯ');
+	s = s.replace(/s/g, 'ᠰ');
+	s = s.replace(/x/g, 'ᠱ');
+	s = s.replace(/t/g, 'ᠲ');
+	s = s.replace(/d/g, 'ᠳ');
+	s = s.replace(/c/g, 'ᠴ');
+	s = s.replace(/j/g, 'ᠵ');
+	s = s.replace(/y/g, 'ᠶ');
+	s = s.replace(/r/g, 'ᠷ');
+	s = s.replace(/w/g, 'ᠸ');
+	s = s.replace(/f/g, 'ᠹ');
+	s = s.replace(/k/g, 'ᠺ');
+	s = s.replace(/K/g, 'ᠻ');
+	s = s.replace(/C/g, 'ᠼ');
+	s = s.replace(/z/g, 'ᠽ');
+	s = s.replace(/H/g, 'ᠾ');
+	s = s.replace(/R/g, 'ᠿ');
+	s = s.replace(/L/g, 'ᡀ');
+	s = s.replace(/Z/g, 'ᡁ');
+	s = s.replace(/Q/g, 'ᡂ');
+	return s;
+}
 function gbkey2graph(s) {
 	// s = s.replace(/(?<=[aqv])([*&_~'"`inNbphgMFmlsxtdcjyrwfkKCzRHLZQ]*)g/g, '$1M');
 	// s = s.replace(/(?<=[eouE])([*&_~'"`inNbphgMFmlsxtdcjyrwfkKCzRHLZQ]*)g/g, '$1F');
@@ -791,7 +842,7 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 			}
 		}
 	}
-	var stem_list_temp = /*list*/ ([]);
+	
 	var stem_list = /*list*/ ([]);
 	if (suffix == '') {
 		if (re_search ('ᡃ$', stem_raw)) {
