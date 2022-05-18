@@ -756,6 +756,73 @@ function conjugate(lemma, cell, if_chn) {
 	// console.log([wordform, highlight]);
 	return [wordform, highlight];
 };
+// lexical conditions
+function bo2b(stem_raw) {
+	var s = stem_raw.slice(0, -2);
+	if(re_search('^ᡄᡄ$|^(ᡘᡆ|ᡅ|ᠴ)ᡅᠪ?$', s)) { // ^AA$|^(GO|ǰ|č)Ib?$
+		if(re_search('^([ᡅᠴ]ᡅ|ᡄᡄ)$', s)) return [s+'ᠪ']; // ^([ǰč]I|AA)$ : = drop O
+		else if (re_search('^ᡘᡆᡅ$', s)) return [s+'ᠪᡆ', s+'ᠪ']; // ^GOI$ : += drop O
+		else return [s]; // ^(GO|I|č)Ib$ : drop bO
+	}
+	else return [stem_raw]; // pass
+}
+function b2b(stem_raw) {
+	var s = stem_raw.slice(0, -1);
+	if(re_search('^ᡄᡄ$|^(ᡘᡆ|ᡅ|ᠴ)ᡅ$', s)) { // ^AA$|^(GO|I|č)I$
+		return [stem_raw]; // pass
+	}
+	else return []; // reject
+}
+function no2ag(stem_raw) {
+	var s = stem_raw.slice(0, -2);
+	if(re_search('^(ᡍᡄ|ᠴᡅ|ᠰᡆ|ᡐᡆ)$', s)) { // ^(XA|čI|sO|tO)$
+		if(re_search('^ᡍᡄ$', s)) return [s+'ᡄᡘ']; // ^XA$ : = nO->AG
+		else return [s+'ᡊᡆ', s+'ᡄᡘ']; // ^(čI|sO|tO)$ : += nO->AG
+	}
+	else return [stem_raw]; // pass
+}
+function a2ag(stem_raw) {
+	var s = stem_raw.slice(0, -1);
+	if(re_search('^(ᡍᡄ|ᠴᡅ|ᠰᡆ|ᡐᡆ)$', s)) { // ^(XA|čI|sO|tO)$
+		return [s+'ᡄᡘ']; // = A->AG // confuse AX done
+	}
+	else return [stem_raw]; // pass
+}
+function ag2ag(stem_raw) {
+	var s = stem_raw.slice(0, -2);
+	if(re_search('^(ᡍᡄ|ᠴᡅ|ᠰᡆ|ᡐᡆ)$', s)) { // ^(XA|čI|sO|tO)$
+		return [stem_raw]; // pass
+	}
+	else return []; // reject
+}
+function ggo2g(stem_raw) {
+	var s = stem_raw.slice(0, -3);
+	if(re_search('^[ᡄᡘ]ᡆᡅ$', s)) { // ^[AG]OI$
+		return [s+'ᡘ']; // = drop GO
+	}
+	else return [stem_raw]; // pass
+}
+function g2g(stem_raw) {
+	var s = stem_raw.slice(0, -1);
+	if(re_search('^[ᡄᡘ]ᡆᡅ$', s)) { // ^[AG]OI$
+		return [stem_raw]; // pass
+	}
+	else return []; // reject
+}
+function go2x(stem_raw) {
+	var s = stem_raw.slice(0, -2);
+	if(re_search('^ᡘᡅᠷᡆ$', s)) { // ^GIrO$
+		return [s+'ᡍ']; // = ġO->X // confuse AX todo!!!
+	}
+	else return [stem_raw]; // pass
+}
+function x2x(stem_raw) {
+	var s = stem_raw.slice(0, -1);
+	if(re_search('^ᡘᡅᠷᡆ$', s)) { // ^GIrO$
+		return [stem_raw]; // pass // confuse AX todo!!
+	}
+	else return []; // reject
+}
 function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 	// console.log('param:', if_infer_stem_mf);
 	var lemma_list = [];
@@ -779,7 +846,7 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 		var jc_form = jc_suffix;
 		var stem_raw = re_sub (suffix + '$', '', wordform);
 		if (stem_raw == '') {
-			return lemma_list;
+			return [];
 		}
 	}
 	if (!(flag_match) && mf_suffix && re_search (suffix_f + '$', wordform)) {
@@ -788,7 +855,7 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 		var jc_form = jc_suffix;
 		var stem_raw = re_sub (suffix_f + '$', '', wordform);
 		if (stem_raw == '') {
-			return lemma_list;
+			return [];
 		}
 	}
 	if (!(flag_match) && jc_suffix && re_search (suffix_c + '$', wordform)) {
@@ -797,7 +864,7 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 		var jc_form = 2;
 		var stem_raw = re_sub (suffix_c + '$', '', wordform);
 		if (stem_raw == '') {
-			return lemma_list;
+			return [];
 		}
 	}
 	if (!(flag_match) && mf_suffix && jc_suffix) {
@@ -808,12 +875,12 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 			var jc_form = 2;
 			var stem_raw = re_sub (suffix_f_c + '$', '', wordform);
 			if (stem_raw == '') {
-				return lemma_list;
+				return [];
 			}
 		}
 	}
 	if (!(flag_match)) {
-		return lemma_list;
+		return [];
 	}
 
 	if (mf_form == 1) {
@@ -843,182 +910,102 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 		}
 	}
 	
-	var stem_list = /*list*/ ([]);
-	if (suffix == '') {
-		if (re_search ('ᡃ$', stem_raw)) {
-			// var __left0__ = re_subn ('(?<=[ᡍᡎ])ᡃ$', 'ᡄ', stem_raw); // lookbehind!!!!!!!!!!!!
-			var __left0__ = re_subn ('([ᡍᡎ])ᡃ$', '$1ᡄ', stem_raw);
-			var stem_raw = __left0__ [0];
-			var flag_xa_ga = __left0__ [1];
-			if (flag_xa_ga) {
-				stem_list.push (stem_raw);
-			}
-			else {
-				return lemma_list;
-			}
-		}
-		else if (re_search ('ᡏ$|ᡄᡘ$', stem_raw)) {
-			return lemma_list;
-		}
-		else {
-			var stem_raw = re_sub ('(ᡄᡅ|ᡆᡅ)$', '\\1ᡅ', stem_raw);
-			var stem_raw = re_sub ('ᡇ$', 'ᡆ', stem_raw);
-			var stem_raw = re_sub ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
-//			var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
-			stem_list.push (stem_raw);
+	var stem_list = [];
+	if (!(re_search ('[ᡄᡅᡆᡃᡇᠪᡘᡍᠯᠰᠷᡈ]$', stem_raw))) return []; // reject all except ending in [AIOɑUbGXLsrð]	
+	if (suffix == '') { // imp
+		switch (stem_raw.slice(-1)) {
+		case 'ᡄ': stem_list = a2ag(stem_raw); // A
+		break; case 'ᡅ': // I: [AO]I$ -> $1II; pass others
+			stem_list = [re_sub ('(ᡄᡅ|ᡆᡅ)$', '\\1ᡅ', stem_raw)];
+		break; case 'ᡇ': // U: U$ -> O
+			stem_list = [stem_raw.slice(0, -1)+'ᡆ'];
+		break; case 'ᡃ': // ɑ: (X|ġ)ɑ -> $1A; reject others
+			if (re_search('[ᡍᡎ]ᡃ$', stem_raw)) stem_list = [stem_raw.slice(0, -1)+'ᡄ'];
+			else return [];
+		break; default: // O X G b L C
+			stem_list = [stem_raw];
 		}
 	}
-	else if (jc_form) {
-		if (jc_form == 1) {
-			// if (re_search ('[ᡅᡆᡉᠯ]$|(?<![ᡄᡆᡅ]ᡆ)ᡄ$', stem_raw)) {
-			if (re_search ('[ᡅᡆᡉᠯ]$|(^|[^ᡄᡆᡅ])ᡆᡄ$|(^|[^ᡆ])ᡄ$', stem_raw)) {
-				var stem_raw = re_sub ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
-//				var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
-				stem_list.push (stem_raw);
+	else if (jc_form) { // -j
+		switch (stem_raw.slice(-1)) {
+		case 'ᡄ': // A
+			if (re_search('^(ᡍᡄ|ᠰᡆ|ᡐᡆ|ᠴᡅ)ᡄ$', stem_raw)) { // ^(XA|sO|tO|čI)A$ :n
+				stem_list = jc_form == 1 ? [stem_raw+'ᡘ'] : [];
 			}
-		}
-		else if (re_search ('[ᠪᡍᡘᠷᠰᡈ]$|.[ᡄᡆᡅ]ᡆᡄ$', stem_raw)) {
-			stem_list.push (stem_raw);
+			else if (stem_raw.slice(-2, -1) == 'ᡆ') { // OA$ :d
+				stem_list = jc_form == 1 ? [] : [stem_raw];
+			}
+			else if (re_search('^ᡘᡅᠷᡆᡄᡄ$', stem_raw)) { // ^GIrOAA$ :g (A/X confused)
+				stem_list = jc_form == 1 ? [] : [stem_raw];
+			}
+			else stem_list = jc_form == 1 ? [stem_raw] : []; // :a
+		break; case 'ᠯ': case 'ᡅ': case 'ᡆ': // L I O
+			stem_list = jc_form == 1 ? [stem_raw] : [];
+		break; case 'ᠪ': // b
+			stem_list = jc_form == 1 ? [] : b2b(stem_raw);
+		break; case 'ᡘ': // G
+			stem_list = jc_form == 1 ? [] : g2g(stem_raw);
+		break; case 'ᡍ': // X
+			stem_list = jc_form == 1 ? [] : x2x(stem_raw);
+		break; default: // C
+			stem_list = jc_form == 1 ? [] : [stem_raw];
 		}
 	}
-	else if (re_search ('^[ᡏᡎ]|^.ᡃ$|^[ᡍᠯᡄᠰᠪᠷ](?![ᡄᡃᡅᡇᡆᡉ])|^ᡆᡄ|^ᡊᡄᡏ$|^ᠰᡅ$|^ᡕᡇ$|^ᠯᡆᡎᡃ$|^ᠷᡆᡄ$', suffix)) {
-		if (!(re_search ('[ᡖᡊᠪᠫᡎᡏᠰᠱᡐᡑᠴᡔᡕᠷᠹᡗᠼᠽᠿᡍᡘᠯᡁ]ᡄ$|^[ᡄᡅ]ᡄ$|[ᡅᡆᡉ]$', stem_raw))) { // javascript \b definition is strange
-//		if (!(re_search ('[ᡖᡊᠪᠫᡎᡏᠰᠱᡐᡑᠴᡔᡕᠷᠹᡗᠼᠽᠿᡍᡘᠯᡁ]ᡄ$|\\b[ᡄᡅ]ᡄ$|[ᡅᡆᡉ]$', stem_raw))) {
-			return lemma_list;
-		}
-		var search_u = 0;
-		if (re_search ('[ᠪᡘᡎᡊ]ᡆ$', stem_raw)) {
-			if (re_search ('[ᠪ]ᡆ$', stem_raw)) {
-				if (!(search_u)) {
-					var __left0__ = re_subn ('^(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
-//					var __left0__ = re_subn ('\\b(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw);
-					var stem_no_u = __left0__ [0];
-					var search_u = __left0__ [1];
-					if (search_u) {
-						stem_list.push (stem_raw);
-						stem_list.push (stem_no_u);
-						var suffix_xu_list = /*list*/ (['ᡘᡆ']);
-					}
-				}
-				if (!(search_u)) {
-					var __left0__ = re_subn ('^(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
-//					var __left0__ = re_subn ('\\b(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw);
-					var stem_no_u = __left0__ [0];
-					var search_u = __left0__ [1];
-					if (search_u) {
-						stem_list.push (stem_no_u);
-						var suffix_xu_list = /*list*/ (['ᡘᡆ']);
-					}
-				}
-				if (!(search_u)) {
-					var __left0__ = re_subn ('^(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
-//					var __left0__ = re_subn ('\\b(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw);
-					var stem_no_u = __left0__ [0];
-					var search_u = __left0__ [1];
-					if (search_u) {
-						stem_list.push (stem_no_u);
-						var suffix_xu_list = /*list*/ (['ᡍᡇ']);
-					}
+	else if (re_search ('^[ᡏᡎ]|^.ᡃ$|^[ᡍᠯᡄᠰᠪᠷ](?![ᡄᡃᡅᡇᡆᡉ])|^ᡆᡄ|^ᡊᡄᡏ$|^ᠰᡅ$|^ᡕᡇ$|^ᠯᡆᡎᡃ$|^ᠷᡆᡄ$', suffix)) { // -U
+		switch (stem_raw.slice(-1)) {
+		case 'ᡄ': case 'ᡅ': case 'ᡆ': // A I O
+			if (re_search('.[ᡄᡅᡆ]ᡄ$', stem_raw)) return []; // .[AIO]A$
+			else if (re_search('[ᡊᡑᠪᡎᡘᠯᠰᠷ]ᡆ$', stem_raw)) { // [ndbġGLsr]O$
+				switch (stem_raw.slice(-2, -1)) {
+				case 'ᡊ' : stem_list = no2ag(stem_raw); // n
+				break; case 'ᠪ' : stem_list = bo2b(stem_raw); // b
+				break; case 'ᡘ' : stem_list = ggo2g(stem_raw); // G
+				break; case 'ᡎ' : stem_list = go2x(stem_raw); // ġ
+				break; case 'ᡑ' : stem_list = [stem_raw, stem_raw.slice(0, -2)+'ᡆᡄ']; // d
+				break; default : stem_list = [stem_raw, stem_raw.slice(0, -1)]; // L C
 				}
 			}
-			if (!(search_u)) {
-				var __left0__ = re_subn ('^(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw); // javascript \b definition is strange
-//				var __left0__ = re_subn ('\\b(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw);
-				var stem_no_u = __left0__ [0];
-				var search_u = __left0__ [1];
-				if (search_u) {
-					stem_list.push (stem_no_u);
-					var suffix_xu_list = /*list*/ (['ᡘᡆ']);
-				}
-			}
-			if (!(search_u)) {
-				var __left0__ = re_subn ('^(ᡘᡅᠷᡆ)ᡎᡆ$', '\\1ᡍ', stem_raw); // javascript \b definition is strange
-//				var __left0__ = re_subn ('\\b(ᡘᡅᠷᡆ)ᡎᡆ$', '\\1ᡍ', stem_raw);
-				var stem_no_u = __left0__ [0];
-				var search_u = __left0__ [1];
-				if (search_u) {
-					stem_list.push (stem_no_u);
-					var suffix_xu_list = /*list*/ (['ᡍᡇ']);
-				}
-			}
-			if (!(search_u)) {
-				var __left0__ = re_subn ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡊᡆ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
-//				var __left0__ = re_subn ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡊᡆ$', '\\1ᡄᡘ', stem_raw);
-				var stem_no_u = __left0__ [0];
-				var search_u = __left0__ [1];
-				if (search_u) {
-					stem_list.push (stem_no_u);
-					var suffix_xu_list = /*list*/ (['ᡍᡇ']);
-				}
-			}
-		}
-		if (!(search_u)) {
-			stem_list.push (stem_raw);
-			var __left0__ = re_subn ('([ᠯᠰᡑᠷ])ᡆ$', '\\1', stem_raw);
-			var stem_no_u = __left0__ [0];
-			var search_u = __left0__ [1];
-			if (search_u) {
-				var stem_no_u = re_sub ('ᡑ$', 'ᡆᡄ', stem_no_u);
-				stem_list.push (stem_no_u);
-			}
+			else stem_list = [stem_raw]; // simple A I O
+		break; default : return [];
 		}
 	}
-	else if (suffix [0] == 'ᠪ') {
-		var search_u = 0;
-		if (!(search_u)) {
-			var __left0__ = re_subn ('^(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
-//			var __left0__ = re_subn ('\\b(ᡘᡆᡅᠪ)ᡆ$', '\\1', stem_raw);
-			var stem_no_u = __left0__ [0];
-			var search_u = __left0__ [1];
-			if (search_u) {
-				stem_list.push (stem_raw);
-				stem_list.push (stem_no_u);
-				var suffix_xu_list = /*list*/ (['ᡘᡆ']);
-			}
-		}
-		if (!(search_u)) {
-			var __left0__ = re_subn ('^(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
-//			var __left0__ = re_subn ('\\b(ᡅᡅᠪ|ᠴᡅᠪ|ᡘᡆᡅᠪ)ᠪ?ᡆ$', '\\1', stem_raw);
-			var stem_no_u = __left0__ [0];
-			var search_u = __left0__ [1];
-			if (search_u) {
-				stem_list.push (stem_no_u);
-				var suffix_xu_list = /*list*/ (['ᡘᡆ']);
-			}
-		}
-		if (!(search_u)) {
-			var __left0__ = re_subn ('^(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw); // javascript \b definition is strange
-//			var __left0__ = re_subn ('\\b(ᡄᡄᠪ)ᡆ$', '\\1', stem_raw);
-			var stem_no_u = __left0__ [0];
-			var search_u = __left0__ [1];
-			if (search_u) {
-				stem_list.push (stem_no_u);
-				var suffix_xu_list = /*list*/ (['ᡍᡇ']);
-			}
-		}
-		if (!(search_u)) {
-			var stem_raw = re_sub ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
-			stem_list.push (stem_raw);
+	else if (suffix [0] == 'ᠪ') { // -b
+		switch (stem_raw.slice(-1)) {
+		case 'ᡄ' : stem_list = a2ag(stem_raw); // A
+		break; case 'ᡆ' : stem_list = bo2b(stem_raw); // O // non-bO passes thru!
+		break; case 'ᡍ' : stem_list = x2x(stem_raw); // X
+		break; case 'ᡘ' : stem_list = g2g(stem_raw); // G
+		break; case 'ᠪ' : return []; // b
+		break; default : stem_list = [stem_raw]; // C L I
 		}
 	}
-	else if (suffix [0] == 'ᡍ' && suffix != 'ᡍᡇ') {
-		var __left0__ = re_subn ('^(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw); // javascript \b definition is strange
-//		var __left0__ = re_subn ('\\b(ᡄᡆᡅᡘ)ᡘᡆ$', '\\1', stem_raw);
-		var stem_no_u = __left0__ [0];
-		var search_u = __left0__ [1];
-		if (search_u) {
-			stem_list.push (stem_no_u);
-			var suffix_xu_list = /*list*/ (['ᡘᡆ']);
+	else if (suffix == 'ᡍᡇ') { // -XU
+		switch (stem_raw.slice(-1)) {
+		case 'ᡘ' : stem_list = stem_raw.slice(-2, -1) == 'ᡄ' ? ag2ag(stem_raw) : g2g(stem_raw); // G
+		break; case 'ᠪ' : stem_list = b2b(stem_raw); // b
+		break; case 'ᡍ' : stem_list = x2x(stem_raw); // X
+		break; default : stem_list = [stem_raw]; // C L I O A
 		}
-		else {
-			stem_list.push (stem_raw);
+	}
+	else if (suffix [0] == 'ᡍ') { // -X
+		switch (stem_raw.slice(-1)) {
+		case 'ᡆ': stem_list = ggo2g(stem_raw); // O
+		break; case 'ᠪ' : stem_list = b2b(stem_raw); // b
+		break; case 'ᡍ' : stem_list = x2x(stem_raw); // X
+		break; case 'ᡘ' : stem_list = ag2ag(stem_raw); // G
+		break; default : stem_list = [stem_raw]; // C L I A
 		}
 	}
 	else {
-		var stem_raw = re_sub ('^(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw); // javascript \b definition is strange
-//		var stem_raw = re_sub ('\\b(ᡍᡄ|ᠰᡆ|ᡐᡆ)ᡄ$', '\\1ᡄᡘ', stem_raw);
-		stem_list.push (stem_raw);
+		switch (stem_raw.slice(-1)) {
+		case 'ᡄ' : stem_list = a2ag(stem_raw); // A
+		break; case 'ᠪ' : stem_list = b2b(stem_raw); // b
+		break; case 'ᡍ' : stem_list = x2x(stem_raw); // X
+		break; case 'ᡘ' : stem_list = g2g(stem_raw); // G
+		break; default : stem_list = [stem_raw]; // C L I O
+		}
 	}
+	// console.log(suffix, stem_list);
 	var __iterable0__ = stem_list;
 	for (var __index0__ = 0; __index0__ < len (__iterable0__); __index0__++) {
 		var stem = __iterable0__ [__index0__];
