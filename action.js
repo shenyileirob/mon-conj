@@ -170,3 +170,11 @@ function conjugate_parad(lemma, cell, parad, if_chn)
 	}
 	return innerHTML;
 }
+function commit_deconj_oncut() {
+	get("input_wordform").value = window.getSelection();
+	refresh_LB_deconj_lemma()
+};
+function commit_conj_oncut() {
+	get("input_lemma").value = window.getSelection();
+	refresh_TEXT_conj_wordform()
+};

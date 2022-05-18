@@ -90,11 +90,11 @@
 				</tr>
 				<tr class="gmongol">
 					<td>
-						<div><input id="input_cell" class="gmongol w3-input w3-border" type="text" value="ᠪᡄᡅᡅᡎᡃ" placeholder="Cell" style="color:silver; padding: 0px 8px;" onkeyup="keybind(event, this)"></div>
-						<div class="table_text" style="color:silver;">ᠪᡄᡅᡅᡍᡇ<br>ᠪᡄᡅ<br>ᠪᡄᡅᡅᡊᡃ<br>ᠪᡄᡅᡅᠪᡄᠯ<br>ᠪᡄᡅᡅᡍᡄᠷ<br>ᠪᡄᡅᡅᡑᡄᡍ<br>ᠪᡄᡅᡅᡔᡅ</div>
+						<div><input id="input_cell" class="gmongol w3-input w3-border" type="text" value="ᠪᡄᡅᡅᡎᡃ" placeholder="Cell" style="color:silver; padding: 0px 8px;" onkeyup="keybind(event, this)" oncut="commit_deconj_oncut()"></div>
+						<div class="table_text" style="color:silver;" oncut="commit_deconj_oncut()">ᠪᡄᡅᡅᡍᡇ<br>ᠪᡄᡅ<br>ᠪᡄᡅᡅᡊᡃ<br>ᠪᡄᡅᡅᠪᡄᠯ<br>ᠪᡄᡅᡅᡍᡄᠷ<br>ᠪᡄᡅᡅᡑᡄᡍ<br>ᠪᡄᡅᡅᡔᡅ</div>
 					</td>
 					<td valign="bottom">
-						<div id="wordforms" class="table_text" valign="bottom">wordforms</div>
+						<div id="wordforms" class="table_text" valign="bottom" oncut="commit_deconj_oncut()">wordforms</div>
 					</td>
 				</tr>
 			</tbody>
@@ -126,7 +126,7 @@
 				</tr>
 				<tr>
 					<td>
-						<div id="lemmas" class="gmongol table_text" valign="bottom"><!--lemmas--></div>
+						<div id="lemmas" class="gmongol table_text" valign="bottom" oncut='commit_conj_oncut()'><!--lemmas--></div>
 <!-- 						<select id="lemmas" class="gmongol table_text w3-select w3-border"multiple="false" style="width:200px;">list items go here</select> -->
 					</td>
 				</tr>
