@@ -12,9 +12,10 @@ function localize_ui(lan){
 		get("header_conj").innerHTML = "屈折器";
 		get("header_deconj").innerHTML = "逆屈折器";
 		get("label_cb_chn").innerHTML = "中国";
-		get("label_cb_infer_gender").innerHTML = "推测阴阳性";
 		get("label_cb_dict").innerHTML = "启用词典";
+		get("label_cb_infer_gender").innerHTML = "推测阴阳性";
 		get("label_cb_bare_stem").innerHTML = "接受秃词干";
+		get("label_cb_confuse_teeth").innerHTML = "混淆字牙";
 		get("input_cell").placeholder = "目标形";
 		get("input_lemma").placeholder = "词典形";
 		get("input_wordform").placeholder = "屈折形";
@@ -27,9 +28,10 @@ function localize_ui(lan){
 		get("header_conj").innerHTML = "Conjugator";
 		get("header_deconj").innerHTML = "Deconjugator";
 		get("label_cb_chn").innerHTML = "CHN";
-		get("label_cb_infer_gender").innerHTML = "infer gender";
 		get("label_cb_dict").innerHTML = "use dictionary";
+		get("label_cb_infer_gender").innerHTML = "infer gender";
 		get("label_cb_bare_stem").innerHTML = "accept bare stems";
+		get("label_cb_confuse_teeth").innerHTML = "confuse teeth";
 		get("input_cell").placeholder = "Target";
 		get("input_lemma").placeholder = "Lemma";
 		get("input_wordform").placeholder = "Wordform";
@@ -66,8 +68,8 @@ function toggle_xlithint()
 function refresh_LB_deconj_lemma()
 {
 	console.log('refresh_LB_deconj_lemma');
-	var if_infer_stem_mf = !!get("if_infer_mf" ).checked;
 	var if_dict          = !!get("if_dict"     ).checked;
+	var if_infer_stem_mf = !!get("if_infer_mf" ).checked;
 	var if_bare_stem     = !!get("if_bare_stem").checked;
 	var if_confuse_teeth = !!get("if_confuse_teeth").checked;
 	var wordform = pinyin2graph(get("input_wordform").value);
