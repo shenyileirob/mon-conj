@@ -917,7 +917,9 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_confuse_teet
 	if (!(re_search ('[ᡄᡅᡆᡃᡇᠪᡘᡍᠯᠰᠷᡈ]$', stem_raw))) return []; // reject all except ending in [AIOɑUbGXLsrð]	
 	if (suffix == '') { // imp
 		switch (stem_raw.slice(-1)) {
-		case 'ᡄ': stem_list = a2ag(stem_raw); // A
+		case 'ᡄ': // A: a2ag; reject all ending in AA$ except xan
+			stem_list = a2ag(stem_raw);
+			if(stem_list[0].slice(-2) == 'ᡄᡄ') return []; // AA$
 		break; case 'ᡅ': // I: [AO]I$ -> $1II; pass others
 			stem_list = [re_sub ('(ᡄᡅ|ᡆᡅ)$', '\\1ᡅ', stem_raw)];
 		break; case 'ᡇ': // U: U$ -> O
