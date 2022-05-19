@@ -69,20 +69,21 @@ function refresh_LB_deconj_lemma()
 	var if_infer_stem_mf = !!get("if_infer_mf" ).checked;
 	var if_dict          = !!get("if_dict"     ).checked;
 	var if_bare_stem     = !!get("if_bare_stem").checked;
+	var if_confuse_teeth = !!get("if_confuse_teeth").checked;
 	var wordform = pinyin2graph(get("input_wordform").value);
 	var list_wordform;
 	
 	if(if_dict){
-		list_wordform = deconjugate (wordform, suffix_lists, 0, 1);
+		list_wordform = deconjugate (wordform, suffix_lists, 0, 1, if_confuse_teeth);
 		get("if_infer_mf" ).disabled = true;
 		get("if_bare_stem").disabled = true;
 		get("lemmas").innerHTML = '';
 		for (i = 0; i < list_wordform.length; i++) {
-			lookup_by_graph(list_wordform[i]); // innerHTML must be updated internally becase of asynchronism
+			lookup_by_graph(list_wordform[i], if_confuse_teeth); // innerHTML must be updated internally becase of asynchronism
 		}
 	}
 	else {
-		list_wordform = deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_bare_stem);
+		list_wordform = deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_bare_stem, if_confuse_teeth);
 		get("if_infer_mf" ).disabled = false;
 		get("if_bare_stem").disabled = false;
 		var tt = '';

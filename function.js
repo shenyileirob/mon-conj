@@ -823,7 +823,7 @@ function x2x(stem_raw) {
 	}
 	else return []; // reject
 }
-function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
+function deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_confuse_teeth=0) {
 	// console.log('param:', if_infer_stem_mf);
 	var lemma_list = [];
 
@@ -834,7 +834,10 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 	if (mf_suffix) {
 		var suffix_f = re_sub ('ᡘᡃ$', 'ᡘᡄ', suffix_f);
 		var suffix_f = re_sub ('([ᠪᡘ])ᡇ$', '\\1ᡆ', suffix_f);
+		if (if_confuse_teeth) suffix = confuse_ax(suffix, 1);
 	}
+	if (if_confuse_teeth) wordform = confuse_ax(wordform);
+	console.log("wordform", wordform, "suffix", suffix);
 	var __left0__ = re_subn ('^ᡔ', 'ᠴ', suffix);
 	var suffix_c = __left0__ [0];
 	var jc_suffix = __left0__ [1];
@@ -1015,17 +1018,18 @@ function deconjugate_suffix (wordform, suffix, if_infer_stem_mf) {
 			lemma_list.push (stem + suffix_xu);
 		}
 	}
-	// console.log(lemma_list);
+	if(lemma_list) console.log("lemma_list", lemma_list);
 	return lemma_list;
 };
-function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_bare_stem) {
+function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_bare_stem, if_confuse_teeth=0) {
+	console.log("deconjugate()", wordform, suffix_lists, if_infer_stem_mf, if_bare_stem, if_confuse_teeth)
 	var lemma_list = list ([]);
 	if (wordform != '') {
 		var __iterable0__ = suffix_lists [0];
-		if (if_bare_stem) {lemma_list = deconjugate_suffix (wordform, '', if_infer_stem_mf);}
+		if (if_bare_stem) {lemma_list = deconjugate_suffix (wordform, '', if_infer_stem_mf, if_confuse_teeth);}
 		for (var __index0__ = 0; __index0__ < len (__iterable0__); __index0__++) {
 			var suffix = __iterable0__ [__index0__];
-			var lemma_list = lemma_list.concat(deconjugate_suffix (wordform, suffix, if_infer_stem_mf));
+			var lemma_list = lemma_list.concat(deconjugate_suffix (wordform, suffix, if_infer_stem_mf, if_confuse_teeth));
 		}
 		var __iterable0__ = suffix_lists.slice(1);
 		for (var __index0__ = 0; __index0__ < len (__iterable0__); __index0__++) {
@@ -1037,7 +1041,7 @@ function deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_bare_stem) {
 				var __iterable2__ = suffix_list;
 				for (var __index2__ = 0; __index2__ < len (__iterable2__); __index2__++) {
 					var suffix = __iterable2__ [__index2__];
-					var lemma_list_temp = lemma_list_temp.concat(deconjugate_suffix (lemma, suffix, if_infer_stem_mf));
+					var lemma_list_temp = lemma_list_temp.concat(deconjugate_suffix (lemma, suffix, if_infer_stem_mf, if_confuse_teeth));
 				}
 			}
 			var lemma_list = lemma_list.concat(lemma_list_temp);
