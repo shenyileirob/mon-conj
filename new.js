@@ -1,133 +1,75 @@
 var db;
-var xhrmode = 1;
-loadDoc();
-function loadDoc() {
-	if(xhrmode){
-		console.log('111');
-		var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-			if (this.readyState == 4 && this.status == 200) {
-				console.log('444');
-				compile_dict(this);
-			}
-		};
-		console.log('222');
-		xhttp.open("GET", "dict.txt", true);
-		xhttp.send();
-		console.log('333');
-	}
-	else{
-		compile_dict(null);
-	}
+send_req_dict();
+function send_req_dict() {
+	var req_dict = new XMLHttpRequest();
+	req_dict.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			compile_dict(this);
+		}
+	};
+	req_dict.open("GET", "dict.txt", true);
+	req_dict.send();
 }
-function compile_dict(xhttp) {
-	console.log('555');
-	var i;
-
-	if(xhrmode)
-	{
-		var text_dict = xhttp.response;
-	}
-	else
-	{
-		var text_dict = 'aibaixu	æːbɪːx\r\naibalǰaxu	æːbɑ̆lʤɪx\r\naiburlaxu	æːbɑ̆rlɑ̆x\r\naixu	æːx\r\naigudxaxu	æːɡʊːtɡɑ̆x\r\naimaxu	æːmɑ̆x\r\naimaglaxu	æːmɑ̆ɡlɑ̆x\r\naimagčilaxu	æːmɑ̆ɡʧlɑ̆x\r\naimasxu	æːmsɑ̆x\r\naimurxu	æːmrɑ̆x\r\naimurlaxu	æːmɑ̆rlɑ̆x\r\nailadxaxu	æːltɡɑ̆x\r\nailadxu	æːldɑ̆x\r\nailuglaxu	æːlɑ̆ɡlɑ̆x\r\nailgaxu	æːlɡɑ̆x\r\nailsaxu	æːlsɑ̆x\r\nailsixu	æːlʃɪx\r\nailčilaxu	æːlʧlɑ̆x\r\naisuxu	æːsɑ̆x\r\naidaŋguilaxu	æːdɑ̆ŋɡʊɪlɑ̆x';
-	}
-	var entries = text_dict.split(/[\r\n]+/);
-	/*
-	console.log(text_dict);
-	console.log(entries);
-	*/
-	/*
-	var innerHTML = '';
-	console.log(entries[1]);
-	for (i = 0; i < entries.length; i++) {
-		innerHTML += "<span>" + entries[i] + "</span><br>";
-	}
-	console.log('666');
-	document.getElementById("lemmas").innerHTML = innerHTML;
-	console.log('777');
-	*/
-	
+function compile_dict(req_dict) {
 	//prefixes of implementation that we want to test
 	window.indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
-
 	//prefixes of window.IDB objects
-	window.IDBTransaction = window.IDBTransaction || 
-	window.webkitIDBTransaction || window.msIDBTransaction;
+	window.IDBTransaction = window.IDBTransaction || window.webkitIDBTransaction || window.msIDBTransaction;
 	window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange || window.msIDBKeyRange;
-
 	if (!window.indexedDB) {
-		window.alert("Your browser doesn't support a stable version of IndexedDB.")
+		window.alert("Your browser doesn't support a stable version of IndexedDB.");
+		return;
 	}
 
-
-	//var db;
-	//	console.log(window.indexedDB);
-	console.log('701');
 	try {
-		var request = window.indexedDB.deleteDatabase("newDatabase");
-	}
-	catch(err) {
-	}
+		var req_db = window.indexedDB.open("db_dict", 1);
+		console.log('777: openning of DB requested') // signalled only when open requested
+	} catch(err) {console.error(err)}
 
-	var request = window.indexedDB.open("newDatabase", 1);
-
-	request.onerror = function(event) {
-		console.log("error: ", request.error.name);
+	req_db.onerror = function(event) {
+		console.log("error: ", req_db.error.name);
 	};
 
-	request.onsuccess = function(event) {
-		db = request.result;
-		console.log("success: 709"+ db);
+	req_db.onsuccess = function(event) {
+		console.log("709: req_db.onsuccess");
+		db = req_db.result;
+		refresh_LB_deconj_lemma();
 	};
 
-	request.onupgradeneeded = function(event) {
-		console.log('710');
+	req_db.onupgradeneeded = function(event) {
+		console.log('710: req_db.onupgradeneeded');
 		db = event.target.result;
-		console.log('711');
-		var objectStore = db.createObjectStore("lexeme", {keyPath: "id", autoIncrement: true});
-		console.log(objectStore);
+		var entries = req_dict.response.split(/[\r\n]+/); // req_dict.response is the text of the dict file
+		
+		var objectStore = db.createObjectStore("mon_verb", {keyPath: "id", autoIncrement: true});
 		var titleIndex = objectStore.createIndex("by_graph", "graph", {unique: false});
-		console.log('712');
 
-		for (i = 0; i < entries.length; i++) {
+		for (var i = 0; i < entries.length-1; i++) { // entries.length-1 to strip the blank entry after the last newline
 			var items = entries[i].split("\t");
 			objectStore.add({ id: i, graph: xlit2graph(items[0]), xlit: items[0], phone: items[1] });
-			//console.log(i, xlit2graph(items[0]), items[0], items[1])
 		}
-		console.log(db);
-
-	// lookup_by_graph ('ᡄᡄᡅᡅᡏᡄᡍᠴᡅᠯᡄᡍᡇ')
-		console.log('714');
 	}
 }
 
-function lookup_by_graph (graph) {
-	console.log(db);
-	console.log(graph);
-	//console.log(objectStore);
+function lookup_by_graph (graph) { // async request for appending lemma by lemma
+	console.log("lookup_by_graph", graph);
 	try {
-		var tx = db.transaction(["lexeme"], "readonly");
-	} catch(err) {}
-	console.log(tx);
-	var store = tx.objectStore("lexeme");
-	var index = store.index("by_graph");
+		var tx = db.transaction(["mon_verb"], "readonly");
+	} catch(err) {console.error(err)}
+	var req_query = tx.objectStore("mon_verb").index("by_graph").openCursor(IDBKeyRange.only(graph));
 
-	var request = index.openCursor(IDBKeyRange.only(graph));
-	console.log('715');
-	innerHTML = '';
-	request.onsuccess = function() {
-		var cursor = request.result;
+	req_query.onsuccess = function() {
+		var cursor = req_query.result;
 		if (cursor) {
 			// Called for each matching record.
-			innerHTML += cursor.value.graph + ' '
-				+ "<span class='IPA'>(" + "<span class='xlit'>" + cursor.value.xlit + "</span>" + ' /'
+			document.getElementById("lemmas").innerHTML += cursor.value.graph + ' '
+				+ "<span class='IPA'>(" + "<a  target='_blank' rel='noopener noreferrer' href='"
+				+ "http://hkuri.cneas.tohoku.ac.jp/p01/mongol/list?groupId=12&keyword="
+				+ xlit2unicode(cursor.value.xlit) + "'>" + "<span class='xlit'>"
+				+ cursor.value.xlit + "</span></a>" + ' /'
 				+ cursor.value.phone + "/)</span>" + '<br>';
 			cursor.continue();
-		} else { }
-		console.log('716:', innerHTML);
-		document.getElementById("lemmas").innerHTML = innerHTML;
-		//return innerHTML;
+		}
 	};
 
 }

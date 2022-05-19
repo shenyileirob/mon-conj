@@ -6,10 +6,8 @@ function get(id){
 get("sidenav").style.display = "table";
 get("content").style.display = "table";
 function localize_ui(lan){
-	console.log('checked:', lan);
 	switch (lan) {
 	case "zh":
-		console.log('branch:', 'zh');
 		get("label_cb_xlithint").innerHTML = "帮助";
 		get("header_conj").innerHTML = "屈折器";
 		get("header_deconj").innerHTML = "逆屈折器";
@@ -25,7 +23,6 @@ function localize_ui(lan){
 		get("input_wordform_pinyin").placeholder = "屈折形（拼音）";
 		break;
 	default:
-		console.log('branch:', 'default');
 		get("label_cb_xlithint").innerHTML = "Help";
 		get("header_conj").innerHTML = "Conjugator";
 		get("header_deconj").innerHTML = "Deconjugator";
@@ -43,18 +40,15 @@ function localize_ui(lan){
 	}
 }
 localize_ui('en');
-var parad = ['ᠪᡄᡅᡅᡍᡇ‌', 'ᠪᡄᡅ', 'ᠪᡄᡅᡅᡊᡃ', 'ᠪᡄᡅᡅᠪᡄᠯ', 'ᠪᡄᡅᡅᡍᡄᠷ', 'ᠪᡄᡅᡅᡑᡄᡍ', 'ᠪᡄᡅᡅᡔᡅ'];
+var parad = ['ᠪᡄᡅᡅᡍᡇ', 'ᠪᡄᡅ', 'ᠪᡄᡅᡅᡊᡃ', 'ᠪᡄᡅᡅᠪᡄᠯ', 'ᠪᡄᡅᡅᡍᡄᠷ', 'ᠪᡄᡅᡅᡑᡄᡍ', 'ᠪᡄᡅᡅᡔᡅ'];
 var suffix_lists = [
-	['ᡄ', 'ᡄᡘᡍᡄᡄ', 'ᡏᡄᡄ', 'ᡍᠰᡄᡄ', 'ᡊᡄᠷᡄᡄ', 'ᠯᡄᠷᡄᡄ', 'ᡏᡄᡄᡔᡅᡄ', 'ᡏᡄᡔᡅᡄ', 'ᡎᡄᡆᡄ', 'ᡍᡑᡆᡄ', 'ᠷᡆᡄ', 'ᠪᡄ', 'ᠯᡎᡃ', 'ᡄᡘᡎᡆᡑᡄ', 'ᡍᡆᡅᡅᠴᡄ', 'ᡏᡄᡍᠴᡄ', 'ᡅᡃ', 'ᡍᡆᡅᡃ', 'ᡊᡃ', 'ᡍᡆᡊᡃ', 'ᡎᡃ', 'ᠯᡆᡎᡃ', 'ᡄᡘᡎᡃ', 'ᡏᡃ', 'ᠯᡃ', 'ᡑᡄᠯᡃ', 'ᡍᡆᠯᡃ', 'ᠷᡃ', 'ᠪᡄᡅ', 'ᠰᡆᡎᡄᡅ', 'ᡑᡆᡎᡄᡅ', 'ᠯᡄᡅ', 'ᡎᡄᠰᡄᡅ', 'ᠰᡅᡑᡄᡅ', 'ᡎᡆᠰᡅᡑᡄᡅ', 'ᠯᡑᡄᡅ', 'ᡔᡄᡅ', 'ᡎᡆᡔᡄᡅ', 'ᡎᡄᠷᡄᡅ', 'ᡍᡆᡅ', 'ᡔᡆᡍᡆᡅ', 'ᡏᡆᡅ', 'ᡎᡄᡑᡆᡅ', 'ᡎᡄᠴᡅ', 'ᡏᡄᡅᡅᠴᡅ', 'ᡍᠴᡅ', 'ᡔᡅ', 'ᡍᡇ‌', 'ᡏᡇ‌', 'ᠰᡇ‌', 'ᠪᡄᠰᡇ‌', 'ᠪᡄᠴᡇ‌', 'ᡕᡄᠴᡇ‌', 'ᡔᡇ‌', 'ᡕᡇ‌', 'ᡍ', 'ᡑᡄᡍ', 'ᡊᡄᡏ', 'ᠪᡄᠯ', 'ᡍᡆᡊᡄᠷ', 'ᡍᡄᠷ', 'ᡍᠰᡄᡎᡄᠷ', 'ᡏᡄᠷ', 'ᡍᡆᠯᡄᠷ', 'ᠯᡑᡄ', 'ᠰᡅ', 'ᠯ', ''],
-	['ᡔᡄᡊᡄᡍᡇ‌', 'ᡎᡄᡑᡄᡍᡄᡍᡇ‌', 'ᠴᡅᡍᡄᡍᡇ‌', 'ᠪᡘᡅᡍᡇ‌', 'ᠰᡘᡅᡘᡆ', 'ᠴᡅᡍᡇ‌'],
-	['ᠯᡎᡄᡍᡇ‌', 'ᡎᡆᠯᡍᡇ‌'],
-	['ᡑᡄᡍᡇ‌', 'ᡍᡑᡄᡍᡇ‌', 'ᠯᠴᡄᡍᡇ‌', 'ᡎᡄᡍᡇ‌', 'ᠴᡄᡎᡄᡍᡇ‌', 'ᡔᡄᡎᡄᡍᡇ‌', 'ᠯᡎᡄᡍᡇ‌', 'ᠯᡑᡆᡍᡇ‌', 'ᡎᡆᠯᡍᡇ‌']
+	['ᡄ', 'ᡄᡘᡍᡄᡄ', 'ᡏᡄᡄ', 'ᡍᠰᡄᡄ', 'ᡊᡄᠷᡄᡄ', 'ᠯᡄᠷᡄᡄ', 'ᡏᡄᡄᡔᡅᡄ', 'ᡏᡄᡔᡅᡄ', 'ᡎᡄᡆᡄ', 'ᡍᡑᡆᡄ', 'ᠷᡆᡄ', 'ᠪᡄ', 'ᠯᡎᡃ', 'ᡄᡘᡎᡆᡑᡄ', 'ᡍᡆᡅᡅᠴᡄ', 'ᡏᡄᡍᠴᡄ', 'ᡅᡃ', 'ᡍᡆᡅᡃ', 'ᡊᡃ', 'ᡍᡆᡊᡃ', 'ᡎᡃ', 'ᠯᡆᡎᡃ', 'ᡄᡘᡎᡃ', 'ᡏᡃ', 'ᠯᡃ', 'ᡑᡄᠯᡃ', 'ᡍᡆᠯᡃ', 'ᠷᡃ', 'ᠪᡄᡅ', 'ᠰᡆᡎᡄᡅ', 'ᡑᡆᡎᡄᡅ', 'ᠯᡄᡅ', 'ᡎᡄᠰᡄᡅ', 'ᠰᡅᡑᡄᡅ', 'ᡎᡆᠰᡅᡑᡄᡅ', 'ᠯᡑᡄᡅ', 'ᡔᡄᡅ', 'ᡎᡆᡔᡄᡅ', 'ᡎᡄᠷᡄᡅ', 'ᡍᡆᡅ', 'ᡔᡆᡍᡆᡅ', 'ᡏᡆᡅ', 'ᡎᡄᡑᡆᡅ', 'ᡎᡄᠴᡅ', 'ᡏᡄᡅᡅᠴᡅ', 'ᡍᠴᡅ', 'ᡔᡅ', 'ᡍᡇ', 'ᡏᡇ', 'ᠰᡇ', 'ᠪᡄᠰᡇ', 'ᠪᡄᠴᡇ', 'ᡕᡄᠴᡇ', 'ᡔᡇ', 'ᡕᡇ', 'ᡍ', 'ᡑᡄᡍ', 'ᡊᡄᡏ', 'ᠪᡄᠯ', 'ᡍᡆᡊᡄᠷ', 'ᡍᡄᠷ', 'ᡍᠰᡄᡎᡄᠷ', 'ᡏᡄᠷ', 'ᡍᡆᠯᡄᠷ', 'ᠯᡑᡄ', 'ᠰᡅ', 'ᠯ'],
+	['ᡔᡄᡊᡄᡍᡇ', 'ᡎᡄᡑᡄᡍᡄᡍᡇ', 'ᠴᡅᡍᡄᡍᡇ', 'ᠪᡘᡅᡍᡇ', 'ᠰᡘᡅᡘᡆ', 'ᠴᡅᡍᡇ'],
+	['ᠯᡎᡄᡍᡇ', 'ᡎᡆᠯᡍᡇ'],
+	['ᡑᡄᡍᡇ', 'ᡍᡑᡄᡍᡇ', 'ᠯᠴᡄᡍᡇ', 'ᡎᡄᡍᡇ', 'ᠴᡄᡎᡄᡍᡇ', 'ᡔᡄᡎᡄᡍᡇ', 'ᠯᡎᡄᡍᡇ', 'ᠯᡑᡆᡍᡇ', 'ᡎᡆᠯᡍᡇ']
 ];
 refresh_TEXT_conj_wordform();
-// console.log(['qwertyuiop', 'asdfghjkl']);
-// console.log('finally:',set([1, 2, 3, 4, 3, 3, 4, 2, 1]));
-refresh_LB_deconj_lemma();
-get("if_dict").checked = 1; // putting this before the previous line would cause the lemma to miss init when the dict is not ready
+get("if_dict").checked = 1;
 get("if_infer_mf").disabled= true;
 get("if_bare_stem").disabled= true;
 
@@ -72,41 +66,34 @@ function toggle_xlithint()
 function refresh_LB_deconj_lemma()
 {
 	console.log('refresh_LB_deconj_lemma');
+	var if_infer_stem_mf = !!get("if_infer_mf" ).checked;
+	var if_dict          = !!get("if_dict"     ).checked;
+	var if_bare_stem     = !!get("if_bare_stem").checked;
 	var wordform = pinyin2graph(get("input_wordform").value);
-	var if_dict = !!get("if_dict").checked;
-	var if_infer_stem_mf = !!get("if_infer_mf").checked;
-	var if_bare_stem = !!get("if_bare_stem").checked;
-	if(if_dict){
-		if_infer_stem_mf = 0;
-		if_bare_stem = 1;
-	}
-	var list_wordform = deconjugate (wordform, suffix_lists , if_infer_stem_mf, if_dict, if_bare_stem);
-	console.log(if_infer_stem_mf, if_dict, if_bare_stem);
-	console.log(list_wordform);
+	var list_wordform;
 	
- 	var innerHTML = '';
 	if(if_dict){
-		get("if_infer_mf").disabled= true;
-		get("if_bare_stem").disabled= true;
+		list_wordform = deconjugate (wordform, suffix_lists, 0, 1);
+		get("if_infer_mf" ).disabled = true;
+		get("if_bare_stem").disabled = true;
+		get("lemmas").innerHTML = '';
 		for (i = 0; i < list_wordform.length; i++) {
 			lookup_by_graph(list_wordform[i]); // innerHTML must be updated internally becase of asynchronism
 		}
 	}
 	else {
-		get("if_infer_mf").disabled= false;
-		get("if_bare_stem").disabled= false;
-	/*	for (i=0; i<list_wordform.length; i++) {
-			innerHTML = innerHTML + '<option>' + list_wordform[i] +'</option>';
-		} */
+		list_wordform = deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_bare_stem);
+		get("if_infer_mf" ).disabled = false;
+		get("if_bare_stem").disabled = false;
+		var tt = '';
 		if (list_wordform.length){
-			innerHTML = '<span>' + list_wordform[0] + '</span>';
+			tt = '<span>' + list_wordform[0] + '</span>';
 			for (i=1; i<list_wordform.length; i++) {
-				innerHTML = innerHTML + '<br><span>' + list_wordform[i] + '</span>';
+				tt = tt + '<br><span>' + list_wordform[i] + '</span>';
 			}	
 		}
+		get("lemmas").innerHTML = tt;
 	}
-	// console.log(innerHTML);
-	get("lemmas").innerHTML = innerHTML;
 }
 function keybind(event, object)
 {
@@ -183,3 +170,11 @@ function conjugate_parad(lemma, cell, parad, if_chn)
 	}
 	return innerHTML;
 }
+function commit_deconj_oncut() {
+	get("input_wordform").value = window.getSelection();
+	refresh_LB_deconj_lemma()
+};
+function commit_conj_oncut() {
+	get("input_lemma").value = window.getSelection();
+	refresh_TEXT_conj_wordform()
+};
