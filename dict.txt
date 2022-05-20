@@ -593,6 +593,7 @@ egeǰiglexü	əɡʤiɡləx
 egereüdexü	əːruːdəx
 egerexü	əːrəx
 egirexü	əɡrəx
+egüxü	uːx
 egülesixü	uːlʃix
 egületüxü	uːltəx
 egülgertüxü	uːlɡərtəx
@@ -2007,6 +2008,7 @@ nargixu	nærɡɪx
 nargilduxu	nærɡɪldɑx
 narmaixu	nɑrmɪːx
 narmaganaxu	nɑrɑmɡɑnɑx
+narmalǰaxu	nɑrmɑlʤɪx
 neigemlexü	niːɡəmləx
 neigemčilexü	niːɡəmʧləx
 neigelexü	niːɡləx
@@ -4061,6 +4063,7 @@ xorgolaxu	xɔrɡɔlɔx
 xorgodaxu	xɔrɡɔdɔx
 xorgočaxu	xɔrɡɔʧɪx
 xorgočagaxu	xɔrɡɔʧɔːx
+xorgusulaxu	xɔrɡʊːslɑx
 xormoilaxu	xɔrmœːlɔx
 xormoidaxu	xɔrmœːdɔx
 xorsixu	xɔrʃɪx
@@ -4873,6 +4876,7 @@ gurdaixu	ɡʊrdɪːx
 gurčiginaxu	ɡʊrʧɪɡnɑx
 gurǰaixu	ɡʊrʤɪːx
 gurǰalǰaxu	ɡʊrʤɪlʤɪx
+guwailaxu	ɡʊælɑx
 guwaglaxu	ɡʊɑɡlɑx
 guwalaxu	ɡʊɑlɑx
 guwadaxu	ɡʊɑdɑx
@@ -4974,6 +4978,7 @@ maiǰiginaxu	mæːʤɪɡnɑx
 maiǰilǰaxu	mæːʤɪlʤɪx
 mairaxu	mæːrɑx
 mairagalaxu	mæːrɡɑlɑx
+manantuxu	mɑnɑntɑx
 manaxu	mɑnɑx
 manaraxu	mɑnrɑx
 manaragulxu	mɑnrʊːlɑx
@@ -5383,6 +5388,7 @@ saŋxilxu	sæŋxlɑx
 saŋgaxu	sɑŋɡɑx
 saŋgasxixü	sɑŋɡɑsxiːx
 saŋguixu	sɑŋɡæːx
+saŋsalaxu	sɑŋslɑx
 saŋdaguraxu	sɑndʊːrɑx
 sabaxu	sɑbɑx
 sabaganaxu	sɑbɡɑnɑx
@@ -5742,6 +5748,7 @@ siberitüxü	ʃibərtəx
 sibögelexü	ʃoboɡlox
 sibögedexü	ʃoboɡdox
 sibögerexü	ʃoboɡrox
+sibxaituxu	ʃɑbxæːtɑx
 sibxaxu	ʃɑbxɑx
 sibxatuxu	ʃɑbxtɑx
 sibxadaxu	ʃɑbxdɑx
@@ -5890,6 +5897,7 @@ siǰaraxu	ʃɪʤrɑx
 siǰiŋtüxü	ʃiʤiŋtəx
 siǰiginexü	ʃiʤiɡnəx
 siǰimnexü	ʃiʤimnəx
+siǰimlexü	ʃiʤimləx
 siraxu	ʃɑrɑx
 siramdaglaxu	ʃɑrɑmdɑɡlɑx
 siralaxu	ʃɑrlɑx
@@ -5999,6 +6007,7 @@ soyoxu	sɔjɪx
 soyogalaxu	sɔjɔːlɔx
 soyogalagulxu	sɔjɔːlʊːlɑx
 soyogadaxu	sɔjɔːdɔx
+soyogaraxu	sɔjɔːrɔx
 soyolǰixu	sɔjɪlʤɪx~sʊjɪlʤɪx
 soyolǰigulxu	sɔjɪlʤʊːlɑx~sʊjɪlʤʊːlɑx
 soyorxaxu	sɔjɪrxɔx
