@@ -43,21 +43,28 @@ function compile_dict(req_dict) {
 		
 		var objectStore = db.createObjectStore("mon_verb", {keyPath: "id", autoIncrement: true});
 		var titleIndex = objectStore.createIndex("by_graph", "graph", {unique: false});
+		var titleIndex = objectStore.createIndex("by_graph_ax", "graph_ax", {unique: false});
 
 		for (var i = 0; i < entries.length-1; i++) { // entries.length-1 to strip the blank entry after the last newline
 			var items = entries[i].split("\t");
-			objectStore.add({ id: i, graph: xlit2graph(items[0]), xlit: items[0], phone: items[1] });
+			objectStore.add({ id: i, graph: xlit2graph(items[0]), graph_ax: confuse_ax(xlit2graph(items[0])), xlit: items[0], phone: items[1] });
 		}
 	}
 }
-
-function lookup_by_graph (graph) { // async request for appending lemma by lemma
-	console.log("lookup_by_graph", graph);
+function confuse_ax(s, if_suffix=0) {
+	if(if_suffix) return s.replace(/ᡍ(?=[^ᡃ])/g, "ᡄᡄ");
+	else return s.slice(0, 1)+s.slice(1).replace(/ᡍ(?=[^ᡃ])/g, "ᡄᡄ");
+}
+function lookup_by_graph (graph, if_confuse_teeth=0) { // async request for appending lemma by lemma
 	try {
 		var tx = db.transaction(["mon_verb"], "readonly");
 	} catch(err) {console.error(err)}
-	var req_query = tx.objectStore("mon_verb").index("by_graph").openCursor(IDBKeyRange.only(graph));
+	var index_name = if_confuse_teeth ? "by_graph_ax" : "by_graph";
+	graph = if_confuse_teeth ? confuse_ax(graph) : graph;
+	console.log("lookup_by_graph", if_confuse_teeth, graph);
+	var req_query = tx.objectStore("mon_verb").index(index_name).openCursor(IDBKeyRange.only(graph));
 
+	console.log("index_name", index_name, "graph", graph);
 	req_query.onsuccess = function() {
 		var cursor = req_query.result;
 		if (cursor) {
@@ -69,6 +76,7 @@ function lookup_by_graph (graph) { // async request for appending lemma by lemma
 				+ cursor.value.xlit + "</span></a>" + ' /'
 				+ cursor.value.phone + "/)</span>" + '<br>';
 			cursor.continue();
+			console.log("id", cursor.value.id);
 		}
 	};
 

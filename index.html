@@ -11,7 +11,7 @@
 <noscript><h1 id="info_enable_js">Please enable Javascript.<br>请启用Javascript。</h1></noscript>
 
 <div id='sidenav' class='sidenav' style="display:none;">
-<form><label id="label_cb_xlithint" for='cb_xlithint'>Help</label><input type="checkbox" id="cb_xlithint" value="1" onclick="toggle_xlithint()"></form>
+<form><label id="label_cb_xlithint" for='cb_xlithint'>Help</label><input tabindex="1" type="checkbox" id="cb_xlithint" value="1" onclick="toggle_xlithint()"></form>
 	<table id='tb_xlithint' style='user-select:none; display:none;'>
 		<tr class='xlittb'><td class='xlitmongol'>ᠠ</td><td class='code_nav'>a</td></tr>
 		<tr class='xlittb'><td class='xlitmongol'>ᠡ</td><td class='code_nav'>e</td></tr>
@@ -59,13 +59,13 @@
 
 <div id="content" class="w3-container w3-white" style="max-width:600px;margin:auto;display:none;">
 	<form style="margin:auto;text-align: center;">
-		<input type="radio" id="cb_lan_en" name="radio_lan" onclick="localize_ui('en')" checked="checked">
+		<input tabindex="2" type="radio" id="cb_lan_en" name="radio_lan" onclick="localize_ui('en')" checked="checked">
 		<label id="label_cb_lan_en" for="cb_lan_en">EN</label>
 		<span></span>
-		<input type="radio" id="cb_lan_zh" name="radio_lan" onclick="localize_ui('zh')" >
+		<input tabindex="2" type="radio" id="cb_lan_zh" name="radio_lan" onclick="localize_ui('zh')" >
 		<label id="label_cb_lan_zh" for="cb_lan_zh">汉</label>
 		<span></span>
-		<input type="radio" id="cb_lan_mn" name="radio_lan" onclick="localize_ui('mn')" disabled="disabled">
+		<input tabindex="2" type="radio" id="cb_lan_mn" name="radio_lan" onclick="localize_ui('mn')" disabled="disabled">
 		<label id="label_cb_lan_mn" for="cb_lan_mn"><span class="gmongol" style="font-size:16px;">ᡏᡆᡄᡘᡎᡆᠯ</span></label>
 	</form>
 	<div class="w3-container w3-white w3-cell w3-twothird" style="padding-left:0px;padding-right:32px;">
@@ -74,23 +74,23 @@
 			<tbody>
 				<tr>
 					<td>
-						<input id="input_cell_pinyin" class="w3-input w3-border code" type="text" value="baiga" placeholder="Cell in pinyin" onkeyup="keybind(event, this)">
+						<input tabindex="4" id="input_cell_pinyin" class="w3-input w3-border code" type="text" value="baiga" placeholder="Cell in pinyin" onkeyup="keybind(event, this)">
 					</td>
 					<td>
-						<input id="input_lemma_pinyin" class="w3-input w3-border code" type="text" value="jibhu" placeholder="Lemma in pinyin" onkeyup="keybind(event, this)">
+						<input tabindex="6" id="input_lemma_pinyin" class="w3-input w3-border code" type="text" value="jibhu" placeholder="Lemma in pinyin" onkeyup="keybind(event, this)">
 					</td> 
 				</tr>
 				<tr>
 					<td>
-						<form><input type="checkbox" id="cb_chn" value="1" checked onclick="refresh_TEXT_conj_wordform()"><label id="label_cb_chn" for="cb_chn">CN</label></form>
+						<form><input tabindex="3" type="checkbox" id="cb_chn" value="1" checked onclick="refresh_TEXT_conj_wordform()"><label id="label_cb_chn" for="cb_chn">CN</label></form>
 					</td>
 					<td>
-						<input id="input_lemma" class="gmongol w3-input w3-border" type="text" value="ᡅᡅᠪᡘᡆ" placeholder="Lemma" onkeyup="keybind(event, this)">
+						<input tabindex="7" id="input_lemma" class="gmongol w3-input w3-border" type="text" value="ᡅᡅᠪᡘᡆ" placeholder="Lemma" onkeyup="keybind(event, this)">
 					</td> 
 				</tr>
 				<tr class="gmongol">
 					<td>
-						<div><input id="input_cell" class="gmongol w3-input w3-border" type="text" value="ᠪᡄᡅᡅᡎᡃ" placeholder="Cell" style="color:silver; padding: 0px 8px;" onkeyup="keybind(event, this)" oncut="commit_deconj_oncut()"></div>
+						<div><input tabindex="5" id="input_cell" class="gmongol w3-input w3-border" type="text" value="ᠪᡄᡅᡅᡎᡃ" placeholder="Cell" style="color:silver; padding: 0px 8px;" onkeyup="keybind(event, this)" oncut="commit_deconj_oncut()"></div>
 						<div class="table_text" style="color:silver;" oncut="commit_deconj_oncut()">ᠪᡄᡅᡅᡍᡇ<br>ᠪᡄᡅ<br>ᠪᡄᡅᡅᡊᡃ<br>ᠪᡄᡅᡅᠪᡄᠯ<br>ᠪᡄᡅᡅᡍᡄᠷ<br>ᠪᡄᡅᡅᡑᡄᡍ<br>ᠪᡄᡅᡅᡔᡅ</div>
 					</td>
 					<td valign="bottom">
@@ -121,6 +121,7 @@
 							<form><input type="checkbox" id="if_dict" value="1" onclick="refresh_LB_deconj_lemma()"><label id="label_cb_dict" for="if_dict">use dictionary</label></form>
 							<form><input type="checkbox" id="if_infer_mf" value="1" checked disabled onclick="refresh_LB_deconj_lemma()"><label id="label_cb_infer_gender" for="if_infer_mf">infer gender</label></form>
 							<form><input type="checkbox" id="if_bare_stem" value="1" disabled onclick="refresh_LB_deconj_lemma()"><label id="label_cb_bare_stem" for="if_bare_stem">accept bare stems</label></form>
+							<form><input type="checkbox" id="if_confuse_teeth" value="1" onclick="refresh_LB_deconj_lemma()"><label id="label_cb_confuse_teeth" for="if_confuse_teeth">confuse teeth</label></form>
 						</div>
 					</td> 
 				</tr>
