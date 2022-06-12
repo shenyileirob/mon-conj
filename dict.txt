@@ -379,8 +379,7 @@ adalidxu	ædɪltɑx
 adarautuxu	ɑdrʊːtɑx
 adaraxu	ɑdrɑx
 adaramalaxu	ɑdɑrmɑːlɑx
-adarlaxu	ɑdɑːrlɑx
-adarlaxu	ɑdɑrlɑx
+adarlaxu	ɑdɑːrlɑx; ɑdɑrlɑx
 adislaxu	ædɪslɑx
 adistidlaxu	ædɪstɪdlɑx
 adugulaxu	ɑdʊːlɑx
@@ -566,8 +565,7 @@ egčerexü	əɡʧrəx
 egenexü	əːnəx
 egenegsixü	əːnəɡʃix
 egebürdexü	əːbərdəx
-egexü	əɡəx
-egexü	əːx
+egexü	əɡəx; əːx
 egeglexü	əːɡləx
 egegexü	əːx
 egegerxü	əːrəx
@@ -3541,8 +3539,7 @@ xaǰabalǰaxu	xɑʤbɑlʤɪx
 xaǰaxu	xɑʤɪx
 xaǰaganaxu	xɑʤɡɑnɑx
 xaǰagarlaxu	xɑʤɑːrlɑx
-xaǰagardaxu	xɑʤɡɑrdɑx
-xaǰagardaxu	xɑʤɑːrdɑx
+xaǰagardaxu	xɑʤɡɑrdɑx; xɑʤɑːrdɑx
 xaǰagulaxu	xɑʤʊːlɑx
 xaǰagulxu	xɑʤʊːlɑx
 xaǰalaxu	xɑʤlɑx
@@ -4263,8 +4260,7 @@ xöbxeixü	xobxoix
 xöbxexü	xobxox
 xöbxegenexü	xobxoɡnox
 xöbxelǰexü	xobxolʤix
-xöbxixü	xobxiːx
-xöbxixü	xobxox
+xöbxixü	xobxiːx; xobxox
 xöbxü	xobox
 xöbsöixü	xobsoix
 xöbsögenexü	xobsoɡnox
@@ -5136,8 +5132,7 @@ mitaraxu	mɪtrɑx
 midaixu	mɪdɪːx
 midalǰaxu	mɪdɑlʤɪx
 miyalaxu	mɪɑlɑx
-miraxu	mɪrɑx
-miraxu	mɪrɑːx
+miraxu	mɪrɑx; mɪrɑːx
 miralǰaxu	mɪrɑlʤɪx
 miriyaxu	mɪrɑːx
 miruuslaxu	mɪrʊːslɑx
@@ -5195,8 +5190,7 @@ muguidlaxu	mʊɡʊɪdlɑx
 mugǰiixu	mʊɡʤɪːx
 mulguxu	mʊlɡɑx
 mulgulxu	mʊlɡɑlɑx
-mulguraxu	mʊlɡɑrɑx
-mulguraxu	mʊlɡʊːrɑx
+mulguraxu	mʊlɡɑrɑx; mʊlɡʊːrɑx
 multulxu	mʊltlɑx
 multuraxu	mʊltrɑx
 musiixu	mʊʃɪːx
@@ -5392,8 +5386,7 @@ saŋsalaxu	sɑŋslɑx
 saŋdaguraxu	sɑndʊːrɑx
 sabaxu	sɑbɑx
 sabaganaxu	sɑbɡɑnɑx
-sabagadaxu	sɑbɡɑdɑx
-sabagadaxu	sɑbɑːdɑx
+sabagadaxu	sɑbɡɑdɑx; sɑbɑːdɑx
 sabalaxu	sɑblɑx
 sabadaxu	sɑbdɑx
 sabačixu	sɑbʧɪx
@@ -7776,8 +7769,7 @@ dugulagalaxu	dʊːlɡɑlɑx
 dugulxu	dʊːlɑx
 dugulgaxu	dʊːlɡɑx
 duguldaxu	dʊːldɑx
-duguraxu	dʊːrɑx
-duguraxu	dʊɡrɑx
+duguraxu	dʊːrɑx; dʊɡrɑx
 duguriglaxu	dʊɡrɑɡlɑx
 dugxixu	dʊɡxiːx
 dugtuilaxu	dʊɡtɪːlɑx
@@ -9079,8 +9071,7 @@ yaxirdaxu	jæxɪrdɑx
 yagaxixu	jɑːx
 yagaraudaxu	jɑːrʊːdɑx
 yagarabčilaxu	jɑːrɑbʧlɑx
-yagaraxu	jɑɡɑːrɑx
-yagaraxu	jɑːrɑx
+yagaraxu	jɑɡɑːrɑx; jɑːrɑx
 yagaragulxu	jɑːrʊːlɑx
 yagiraxu	jæɡrɑx
 yaglaxu	jɑɡlɑx
