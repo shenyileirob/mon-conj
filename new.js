@@ -73,8 +73,9 @@ function lookup_by_graph (graph, if_confuse_teeth=0) { // async request for appe
 				+ "<span class='IPA'>(" + "<a  target='_blank' rel='noopener noreferrer' href='"
 				+ "http://hkuri.cneas.tohoku.ac.jp/p01/mongol/list?groupId=12&keyword="
 				+ xlit2unicode(cursor.value.xlit) + "'>" + "<span class='xlit'>"
-				+ cursor.value.xlit + "</span></a>" + ' /'
-				+ cursor.value.phone + "/)</span>" + '<br>';
+				+ cursor.value.xlit + "</span></a>"
+				+ (cursor.value.phone ? ' /' + cursor.value.phone + "/" : "")
+				+ ")</span>" + '<br>';
 			cursor.continue();
 			console.log("id", cursor.value.id);
 		}
