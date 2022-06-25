@@ -8,7 +8,7 @@ get("content").style.display = "table";
 function localize_ui(lan){
 	switch (lan) {
 	case "zh":
-		get("label_cb_xlithint").innerHTML = "帮助";
+		get("label_cb_xlithint").innerHTML = "提示";
 		get("header_conj").innerHTML = "屈折器";
 		get("header_deconj").innerHTML = "逆屈折器";
 		get("label_cb_chn").innerHTML = "中国";
@@ -24,7 +24,7 @@ function localize_ui(lan){
 		get("input_wordform_pinyin").placeholder = "屈折形（拼音）";
 		break;
 	default:
-		get("label_cb_xlithint").innerHTML = "Help";
+		get("label_cb_xlithint").innerHTML = "Hint";
 		get("header_conj").innerHTML = "Conjugator";
 		get("header_deconj").innerHTML = "Deconjugator";
 		get("label_cb_chn").innerHTML = "CHN";
