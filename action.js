@@ -8,9 +8,10 @@ get("content").style.display = "table";
 function localize_ui(lan){
 	switch (lan) {
 	case "zh":
+		document.title = 'mon-conj——胡都木蒙古文活用/逆活用器';
 		get("label_cb_xlithint").innerHTML = "提示";
-		get("header_conj").innerHTML = "屈折器";
-		get("header_deconj").innerHTML = "逆屈折器";
+		get("header_conj").innerHTML = "活用器";
+		get("header_deconj").innerHTML = "逆活用器";
 		get("label_cb_chn").innerHTML = "中国";
 		get("label_cb_dict").innerHTML = "启用词典";
 		get("label_cb_infer_gender").innerHTML = "推测阴阳性";
@@ -18,12 +19,13 @@ function localize_ui(lan){
 		get("label_cb_confuse_teeth").innerHTML = "混淆字牙";
 		get("input_cell").placeholder = "目标形";
 		get("input_lemma").placeholder = "词典形";
-		get("input_wordform").placeholder = "屈折形";
+		get("input_wordform").placeholder = "活用形";
 		get("input_cell_pinyin").placeholder = "目标形（拼音）";
 		get("input_lemma_pinyin").placeholder = "词典形（拼音）";
-		get("input_wordform_pinyin").placeholder = "屈折形（拼音）";
+		get("input_wordform_pinyin").placeholder = "活用形（拼音）";
 		break;
 	default:
+		document.title = 'mon-conj: A Conjugator/Deconjugator for Hudum Mongolian';
 		get("label_cb_xlithint").innerHTML = "Hint";
 		get("header_conj").innerHTML = "Conjugator";
 		get("header_deconj").innerHTML = "Deconjugator";
@@ -76,18 +78,22 @@ function refresh_LB_deconj_lemma()
 	var list_wordform;
 	
 	if(if_dict){
-		list_wordform = deconjugate (wordform, suffix_lists, 0, 1, if_confuse_teeth);
-		get("if_infer_mf" ).disabled = true;
-		get("if_bare_stem").disabled = true;
+		list_wordform = deconjugate (wordform, suffix_lists, 0, 1, 1);
+		get("if_infer_mf"     ).disabled = true;
+		get("if_bare_stem"    ).disabled = true;
+		get("if_confuse_teeth").disabled = true;
+		get("options_if_not_dict").style.display = "none";
 		get("lemmas").innerHTML = '';
 		for (i = 0; i < list_wordform.length; i++) {
-			lookup_by_graph(list_wordform[i], if_confuse_teeth); // innerHTML must be updated internally becase of asynchronism
+			lookup_by_graph(list_wordform[i], 1); // innerHTML must be updated internally becase of asynchronism
 		}
 	}
 	else {
 		list_wordform = deconjugate (wordform, suffix_lists, if_infer_stem_mf, if_bare_stem, if_confuse_teeth);
-		get("if_infer_mf" ).disabled = false;
-		get("if_bare_stem").disabled = false;
+		get("if_infer_mf"     ).disabled = false;
+		get("if_bare_stem"    ).disabled = false;
+		get("if_confuse_teeth").disabled = false;
+		get("options_if_not_dict").style.display = "block";
 		var tt = '';
 		if (list_wordform.length){
 			tt = '<span>' + list_wordform[0] + '</span>';
