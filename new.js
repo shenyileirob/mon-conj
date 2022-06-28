@@ -55,6 +55,9 @@ function confuse_ax(s, if_suffix=0) {
 	if(if_suffix) return s.replace(/ᡍ(?=[^ᡃ])/g, "ᡄᡄ");
 	else return s.slice(0, 1)+s.slice(1).replace(/ᡍ(?=[^ᡃ])/g, "ᡄᡄ");
 }
+function hlink(innerHTML, href) {
+	return "<a target='_blank' rel='noopener noreferrer' href='" + href + "'>" + innerHTML + "</a>"
+}
 function lookup_by_graph (graph, if_confuse_teeth=0) { // async request for appending lemma by lemma
 	try {
 		var tx = db.transaction(["mon_verb"], "readonly");
@@ -69,13 +72,13 @@ function lookup_by_graph (graph, if_confuse_teeth=0) { // async request for appe
 		var cursor = req_query.result;
 		if (cursor) {
 			// Called for each matching record.
-			document.getElementById("lemmas").innerHTML += cursor.value.graph + ' '
-				+ "<span class='IPA'>(" + "<a  target='_blank' rel='noopener noreferrer' href='"
-				+ "http://hkuri.cneas.tohoku.ac.jp/p01/mongol/list?groupId=12&keyword="
-				+ xlit2unicode(cursor.value.xlit) + "'>" + "<span class='xlit'>"
-				+ cursor.value.xlit + "</span></a>"
-				+ (cursor.value.phone ? ' /' + cursor.value.phone + "/" : "")
-				+ ")</span>" + '<br>';
+			document.getElementById("lemmas").innerHTML += cursor.value.graph + " <span class='IPA'>("
+				+ "<span class='xlit'>"+cursor.value.xlit+"</span>"
+				+ (!cursor.value.phone ? '' : ' /'+hlink(cursor.value.phone,
+					"http://hkuri.cneas.tohoku.ac.jp/p01/mongol/list?groupId=12&keyword="+xlit2unicode(cursor.value.xlit) )+"/")
+				+ (!cursor.value.cyr ? '' : ' '+hlink(cursor.value.cyr,
+					"https://mongoltoli.mn/search.php?opt=2&word="+xlit2unicode(cursor.value.xlit) ))
+				+ ")</span><br>";
 			cursor.continue();
 			console.log("id", cursor.value.id);
 		}

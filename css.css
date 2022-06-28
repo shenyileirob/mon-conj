@@ -5,6 +5,17 @@
 		local('MWG3_demo'), 
 		url('https://shenyileirob.github.io/hanshi/MWG3_demo.ttf') format('opentype');
 }
+a {
+    text-decoration: none;
+    color: #0645ad;
+    /* background: none; */
+}
+a:hover, a:focus {
+    text-decoration: underline;
+}
+a:active {
+    color: #faa700;
+}
 .IPA
 {
 	font-family: 'Segoe UI';
