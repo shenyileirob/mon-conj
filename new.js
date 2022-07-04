@@ -1,32 +1,26 @@
 var db;
 var if_compiling = 0;
-function compile_dict(req_dict) {
-	// console.log('#102: compile_dict');
-	var entries = req_dict.response.split(/[\r\n]+/); // req_dict.response is the text of the dict file
-	
+function compile_dict(text_dict) {
+	console.log("Dictionary downloaded. Compiling dictionary; please wait... Retry?");
+	var entries = text_dict.split(/[\r\n]+/);
 	var os = db.transaction(["mon_verb"], "readwrite").objectStore("mon_verb");
-
 	for (var i = 0; i < entries.length-1; i++) { // entries.length-1 to strip the blank entry after the last newline
 		var items = entries[i].split("\t");
 		os.add({ id: i, graph: xlit2graph(items[0]), graph_ax: confuse_ax(xlit2graph(items[0])), xlit: items[0], phone: items[1] });
 	}
-	refresh_LB_deconj_lemma();
 	console.log("Dictionary compiled. Reload?");
-	// console.log('#102# compile_dict');
+	refresh_LB_deconj_lemma();
 }
-function send_req_dict(compile_dict) {
+function send_req_dict() {
 	var req_dict = new XMLHttpRequest();
 	req_dict.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			// console.log('#101: req_dict.onreadystatechange');
-			console.log("Dictionary downloaded. Compiling dictionary; please wait... Retry?");
-			compile_dict(this);
-			// console.log('#101# req_dict.onreadystatechange');
+			compile_dict(this.response); // req_dict.response is the text of the dict file
 		}
 	};
-	console.log("Downloading dictionary; please wait... Retry?");
 	req_dict.open("GET", "dict.txt", true);
 	req_dict.send();
+	console.log("Downloading dictionary; please wait... Retry?");
 }
 function open_db() {
 	//prefixes of implementation that we want to test
@@ -56,7 +50,7 @@ function open_db() {
 		os.createIndex("by_graph", "graph", {unique: false});
 		os.createIndex("by_graph_ax", "graph_ax", {unique: false});
 		if_compiling = 1;
-		send_req_dict(compile_dict);
+		send_req_dict();
 		console.log('#1# req_open_db.onupgradeneeded');
 	}
 	
@@ -68,8 +62,8 @@ function open_db() {
 			alert("A new version of this page is ready. Please reload or close this tab! | 本页面有新版本。请重载或关闭本标签页！");
 		};
 		if (!if_compiling) {
-			refresh_LB_deconj_lemma();
 			console.log("Dictionary loaded last time.");
+			refresh_LB_deconj_lemma();
 		}
 		console.log("#2# req_open_db.onsuccess");
 	};
