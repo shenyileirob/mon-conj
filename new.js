@@ -3,13 +3,19 @@ var if_compiling = 0;
 function compile_dict(text_dict) {
 	console.log("Dictionary downloaded. Compiling dictionary; please wait... Retry?");
 	var entries = text_dict.split(/[\r\n]+/);
-	var os = db.transaction(["mon_verb"], "readwrite").objectStore("mon_verb");
+	var tx = db.transaction(["mon_verb"], "readwrite");
+	var os = tx.objectStore("mon_verb");
 	for (var i = 0; i < entries.length-1; i++) { // entries.length-1 to strip the blank entry after the last newline
 		var items = entries[i].split("\t");
 		os.add({ id: i, graph: xlit2graph(items[0]), graph_ax: confuse_ax(xlit2graph(items[0])), xlit: items[0], phone: items[1] });
 	}
-	console.log("Dictionary compiled. Reload?");
-	refresh_LB_deconj_lemma();
+	tx.oncomplete = function(event) {
+		console.log("Dictionary compiled. Reload?");
+		refresh_LB_deconj_lemma();
+	};
+	tx.onerror = function(event) {
+		console.log("Failed to compile the dictionary. Retry?");
+	};
 }
 function send_req_dict() {
 	var req_dict = new XMLHttpRequest();
@@ -49,14 +55,20 @@ function open_db() {
 		os = db.createObjectStore("mon_verb", {keyPath: "id", autoIncrement: true});
 		os.createIndex("by_graph", "graph", {unique: false});
 		os.createIndex("by_graph_ax", "graph_ax", {unique: false});
-		if_compiling = 1;
-		send_req_dict();
+		os.transaction.oncomplete = function(event) {
+			if_compiling = 1;
+			send_req_dict();
+		};
 		console.log('#1# req_open_db.onupgradeneeded');
 	}
 	
 	req_open_db.onsuccess = function(event) {
 		console.log("#2: req_open_db.onsuccess");
 		db = event.target.result; // get db
+		db.onerror = function(event) {
+			// Generic error handler for all errors targeted at this database's requests!
+			alert("Database error: " + event.target.errorCode);
+		};
 		db.onversionchange = event => { // new version requested, or deleted, in another tab
 			db.close();
 			alert("A new version of this page is ready. Please reload or close this tab! | 本页面有新版本。请重载或关闭本标签页！");
@@ -88,20 +100,20 @@ function lookup_by_graph (graph, if_confuse_teeth=0) { // async request for appe
 	graph = if_confuse_teeth ? confuse_ax(graph) : graph;
 	// console.log("lookup_by_graph:", "if_confuse_teeth=", if_confuse_teeth, "index_name=", index_name, "graph=", graph);
 	var req_query = tx.objectStore("mon_verb").index(index_name).openCursor(IDBKeyRange.only(graph));
-
 	req_query.onsuccess = function() {
 		var cursor = req_query.result;
 		if (cursor) {
 			// Called for each matching record.
-			document.getElementById("lemmas").innerHTML += cursor.value.graph + " <span class='IPA'>("
-				+ "<span class='xlit'>"+cursor.value.xlit+"</span>"
-				+ (!cursor.value.phone ? '' : ' /'+hlink(cursor.value.phone,
-					"http://hkuri.cneas.tohoku.ac.jp/p01/mongol/list?groupId=12&keyword="+xlit2unicode(cursor.value.xlit) )+"/")
-				+ (!cursor.value.cyr ? '' : ' '+hlink(cursor.value.cyr,
-					"https://mongoltoli.mn/search.php?opt=2&word="+xlit2unicode(cursor.value.xlit) ))
+			var entry = cursor.value;
+			document.getElementById("lemmas").innerHTML += entry.graph + " <span class='IPA'>("
+				+ "<span class='xlit'>"+entry.xlit+"</span>"
+				+ (!entry.phone ? '' : ' /'+hlink(entry.phone,
+					"http://hkuri.cneas.tohoku.ac.jp/p01/mongol/list?groupId=12&keyword="+xlit2unicode(entry.xlit) )+"/")
+				+ (!entry.cyr ? '' : ' '+hlink(entry.cyr,
+					"https://mongoltoli.mn/search.php?opt=2&word="+xlit2unicode(entry.xlit) ))
 				+ ")</span><br>";
 			cursor.continue();
-			// console.log("id", cursor.value.id);
+			// console.log("id", entry.id);
 		}
 	};
 }
